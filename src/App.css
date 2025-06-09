@@ -1,3 +1,17 @@
+
+*{
+  font-family: 'Avenir', sans-serif;                                   
+}
+
+/* index.css or global */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
 .marginal {
   width: 86%;
   max-width: 1500px;
@@ -7,3 +21,93 @@
 .nav-shadow{
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
+.textstartgey {
+  position: relative;
+  font-size: 300px;
+  text-transform: capitalize;
+  color: transparent;
+  -webkit-text-stroke: 2px #000000 !important;
+  margin-bottom: 5%;
+  cursor: pointer;
+}
+
+/* Gradient fill animation overlay for desktop */
+.textstartgey::before {
+  content: attr(data-fill-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: linear-gradient(to right, #0080b6, #70bc48);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 0 transparent;
+  overflow: hidden;
+  transition: width 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+  pointer-events: none;
+}
+
+.text-container:hover .textstartgey::before {
+  width: 100%;
+  height: 100%; /* keep height same as desktop */
+}
+
+
+/* ---------------- MOBILE STYLES ---------------- */
+@media (max-width: 768px) {
+  .text-container {
+    display: flex;
+    justify-content: flex-end; /* align text on right */
+  }
+
+  .textstartgey {
+    font-size: 150px; /* smaller font on mobile */
+    writing-mode: vertical-rl; /* vertical text on right side */
+    text-orientation: upright; /* keep letters upright */
+    -webkit-text-stroke-width: 1.5px !important;
+    margin-bottom: 0;
+    white-space: nowrap;
+  }
+
+  /* Override gradient fill for vertical text */
+  .textstartgey::before {
+    content: attr(data-fill-text);
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 0; /* start with zero height */
+    background: linear-gradient(to bottom, #0080b6, #70bc48);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 0 transparent;
+    overflow: hidden;
+    transition: height 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    pointer-events: none;
+  }
+
+  .text-container:hover .textstartgey::before {
+    height: 100%; /* fill letters vertically */
+  }
+}
+
+
+.backbone1{
+  height: 10vh;
+  width: 10vh;
+  margin-bottom: 1vh;
+}
+.backbone2{
+  height: 10vh;
+  width: 12vh;
+  margin-bottom: 1vh;
+}
+.backbone3{
+  height: 8vh;
+  width: 15vh;
+  margin-bottom: 1vh;
+}
+
