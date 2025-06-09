@@ -1,42 +1,51 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
+import { motion } from 'framer-motion';
+
+const capitalButtons = [
+    { label: 'Financial Capital', path: '/financial_capital', img: '/BusinessOverview/CapitalAllocation/Financial-Circle.png' },
+    { label: 'Manufactured Capital', path: '/manufactured_capital', img: '/BusinessOverview/CapitalAllocation/Manufactured-Circle.png' },
+    { label: 'Intellectual Capital', path: '/intellectual_capital', img: '/BusinessOverview/CapitalAllocation/Intellectual-Circle.png' },
+    { label: 'Human Capital', path: '/human_capital', img: '/BusinessOverview/CapitalAllocation/Human-Circle.png' },
+    { label: 'Social & Relationship Capital', path: '/social_and_relationship_capital', img: '/BusinessOverview/CapitalAllocation/Social and relationship-Circle.png' },
+    { label: 'Natural Capital', path: '/natural_capital', img: '/BusinessOverview/CapitalAllocation/Natural-Circle.png' },
+];
 
 const CapitalAllocation = () => {
+    const navigate = useNavigate();
+
     return (
-        <div className="bg-[url('BusinessOverview/CapitalAllocation
-    /23-Page-IMG.png')] bg-no-repeat bg-cover h-screen w-full">
-            <div className='marginal'>
-                <div className='pb-20'>
-                    <div className=''>
-                        <h1 className='text-2xl sm:text-2xl lg:text-5xl font-medium pb-6 sm:pb-2'>
-                            BALCO’s growth project
-                        </h1>
+        <div className="bg-[url('/BusinessOverview/CapitalAllocation/Page-40-Img.png')] bg-no-repeat bg-cover bg-center h-screen w-full">
+            <div className="marginal flex flex-col justify-end h-full px-6 pb-6 sm:pb-10">
+                {/* Heading */}
+                <div className="max-w-[650px] mb-6 sm:mb-10">
+                    <h1 className="text-[#ee9022] text-2xl sm:text-3xl lg:text-5xl font-extrabold drop-shadow-lg leading-tight">
+                        Strengthening Business Foundations with Effective Capital Allocation
+                    </h1>
+                </div>
 
-                        {/* Content Row */}
-                        <div className='w-full lg:w-[80vw] flex flex-col lg:flex-row gap-6'>
-                            {/* Text Block */}
-                            <div className=' flex-1'>
-                                <h2 className='text-lg sm:text-2xl text-[#a37b5b] pb-6 sm:pb-10'>
-                                    With a clear vision of reaching 1 million tonne per annum aluminium production, we are shaping a sustainable future, driving progress and empowering the nation’s growth.
-                                </h2>
-                                <h3 className='text-base sm:text-lg text-[#333]'>
-                                    With an emphasis on encouraging indigenous production and the usage of aluminium within the country, we
-                                    aim to meet the increasing demand for aluminium across industries and support the country’s goal of self-sufficiency in important sectors such as infrastructure, energy and manufacturing.
-                                </h3>
-                            </div>
-
-                            {/* Did You Know Image */}
-                            <div className=' w-full lg:w-[300px] flex items-center'>
-                                <img src="BusinessOverview/CapitalAllocation
-                            /Did-You-IMG.png" alt="Did You Know" className='w-full h-auto' />
-                            </div>
+                {/* Capital Circles */}
+                <div className="flex flex-wrap gap-4 sm:gap-6">
+                    {capitalButtons.map((item, index) => (
+                        <div key={index} className="flex flex-col items-center w-[80px] sm:w-[100px]">
+                            <motion.button
+                                whileHover={{ scale: 1.1 }}
+                                whileTap={{ scale: 0.95 }}
+                                onHoverStart={() => console.log(`Hovering: ${item.label}`)}
+                                onClick={() => navigate(item.path)}
+                                className="w-[60px] h-[60px] sm:w-[80px] sm:h-[80px] rounded-full bg-white shadow-md overflow-hidden transition-transform duration-300"
+                            >
+                                <img
+                                    src={item.img}
+                                    alt={item.label}
+                                    className="w-full h-full object-cover"
+                                />
+                            </motion.button>
+                            <span className="text-[10px] sm:text-xs text-center text-white mt-2 font-bold leading-tight">
+                                {item.label}
+                            </span>
                         </div>
-                        <div className='mt-10'>
-                            <h1 className='text-3xl text-[#0064a8] font-extrabold'>USD 1.4 Billion</h1>
-                            <h2>Estimated capex for expansion</h2>
-                            <img src="BusinessOverview/CapitalAllocation
-                        /Page-22-Infographic.png" alt="" className='w-[20vw] mt-5' />
-                        </div>
-                    </div>
+                    ))}
                 </div>
             </div>
         </div>

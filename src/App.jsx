@@ -23,6 +23,7 @@ import PuttingECG from './Pages/BusinessOverview/PuttingESG'
 import ESGBlueprint from './Pages/BusinessOverview/ESGBlueprint'
 import VSF from './Pages/BusinessOverview/VSF'
 import CapitalAllocation from './Pages/BusinessOverview/CapitalAllocation'
+import FinancialCapital from './Pages/BusinessOverview/FinancialCapital'
 
 function App() {
   return (
@@ -52,6 +53,7 @@ function App() {
             <Route path='/our_ecg_blueprint' element={<ESGBlueprint />} />
             <Route path='/vsf_and_vsap' element={<VSF />} />
             <Route path='/our_vision' element={<CapitalAllocation />} />
+            <Route path='/financial_capital' element={<FinancialCapital />} />
           </Routes>
         </main>
         {/* Footer stays at the bottom */}
