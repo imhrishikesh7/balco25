@@ -7,17 +7,22 @@ const menuData = [
         title: 'Know BALCO',
         subtitle: 'Get to know us better',
         items: [
-            'About',
-            'Leadership',
-            'Milestones',
-            'Sustainability',
-            'Vision & Mission',
-            'CSR Initiatives'],
+            'About Us',
+            'Empowering Progress while Shaping the Future',
+            'A year of progress',
+            'Strengthening India’s industrial backbone',
+            'Meeting demand across borders',
+            'BALCO Chronicles',
+            'Our diverse product range',
+            'Chairman’s communique',
+            'Letter from CEO ',
+            'CFO’s message',
+        ],
     },
     {
         title: 'Business Overview',
         subtitle: 'How we operate',
-        items: ['Products', 'Operations', 'Innovation', 'Research', 'Mining', 'Smelting', 'Environment'],
+        items: ['BALCO’s growth project ', 'How we create value', 'Materiality Matters', 'Engaging with our stakeholders ', 'Risk-proofing our journey', 'Putting ECG at the core', 'Our ECG blueprint', 'VSF and VSAP', 'Our Vision', 'Financial capital ', 'Manufactured capital', 'Intellectual capital', 'Human capital', 'Social and Relationship Capital', 'Natural capital','Awards and Accolades', 'Certifications', 'Profiles of Board of Directors'],
     },
     {
         title: 'Statutory Reports',
@@ -36,7 +41,7 @@ export default function BalancedMegaMenu() {
     const [selected, setSelected] = useState(menuData[0]);
 
     return (
-        <div className="relative z-50 font-sans">
+        <div className="sticky top-0 z-50 font-sans bg-[#f3f4f6]">
             {/* Top Navbar */}
             <div className="mx-auto max-w-[99%] mt-1 bg-[#f3f4f6] border border-gray-300 text-gray-800 nav-shadow rounded-xl px-6 py-6 flex justify-between items-center">
                 <div className="text-xl font-bold tracking-tight w-70">
@@ -107,14 +112,16 @@ export default function BalancedMegaMenu() {
                                     <p className="text-sm text-gray-500 mb-6">{selected.subtitle}</p>
                                     <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
                                         {selected.items.map((item, idx) => (
-                                           <Link
-                                           to={item.toLowerCase().replace(/\s+/g, '_')}
-                                           key={idx}
-                                           className="bg-white hover:bg-blue-50 p-4 rounded-lg border border-gray-200 hover:border-blue-300 transition text-sm text-gray-800"
-                                         >
-                                           {item}
-                                         </Link>
-                                         
+                                            <Link
+                                                to={item.toLowerCase().replace(/\s+/g, '_')}
+                                                key={idx}
+                                                onClick={() => setMenuOpen(false)}
+                                                className="bg-white hover:bg-blue-50 p-4 rounded-lg border border-gray-200 hover:border-blue-300 transition text-sm text-gray-800"
+                                            >
+                                                {item}
+                                            </Link>
+
+
                                         ))}
                                     </div>
                                 </motion.div>

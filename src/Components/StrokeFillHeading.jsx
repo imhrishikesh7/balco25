@@ -4,87 +4,81 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 gsap.registerPlugin(ScrollTrigger);
 
-const StrokeFillHeading = ({ text = 'Bharat Aluminium', className = '' }) => {
-  const svgRef = useRef(null);
+const StrokeFillHeading = ({ text, className = '' }) => {
+  const containerRef = useRef(null);
+  const fillRef = useRef(null);
 
   useEffect(() => {
-    const strokeText = svgRef.current.querySelector('.stroke');
-    const fillText = svgRef.current.querySelector('.fill');
+    const ctx = gsap.context(() => {
+      const fill = fillRef.current;
 
-    // Stroke draw animation
-    gsap.fromTo(strokeText, {
-      strokeDasharray: 1000,
-      strokeDashoffset: 1000,
-      opacity: 0.3,
-    }, {
-      strokeDashoffset: 0,
-      opacity: 1,
-      duration: 1.2,
-      ease: 'power3.out',
-      scrollTrigger: {
-        trigger: svgRef.current,
-        start: 'top 80%',
-      },
-    });
+      // Animate fill entrance
+      const tl = gsap.timeline({
+        scrollTrigger: {
+          trigger: containerRef.current,
+          start: 'top 80%',
+          toggleActions: 'play none none reverse',
+        },
+      });
 
-    // Fill animation with transform and delay
-    gsap.fromTo(fillText, {
-      opacity: 0,
-      x: 30,
-      y: 10,
-      skewX: 10,
-      rotateY: 30,
-    }, {
-      opacity: 1,
-      x: 0,
-      y: 0,
-      skewX: 0,
-      rotateY: 0,
-      duration: 1,
-      ease: 'expo.out',
-      delay: 0.2,
-      scrollTrigger: {
-        trigger: svgRef.current,
-        start: 'top 80%',
-      },
-    });
+      tl.fromTo(fill, {
+        opacity: 0,
+        y: 30,
+        x: 10,
+        rotateX: 40,
+        skewX: 15,
+      }, {
+        opacity: 1,
+        y: 0,
+        x: 0,
+        rotateX: 0,
+        skewX: 0,
+        duration: 1.2,
+        ease: 'expo.out',
+      });
+
+      // Scroll parallax
+      gsap.to(fill, {
+        scrollTrigger: {
+          trigger: containerRef.current,
+          start: 'top 90%',
+          end: 'bottom top',
+          scrub: true,
+        },
+        y: -40,
+        rotateY: 10,
+      });
+    }, containerRef);
+
+    return () => ctx.revert();
   }, []);
 
   return (
-    <div className={`w-full flex justify-center ${className}`}>
-      <svg
-        ref={svgRef}
-        viewBox="0 0 1200 200"
-        preserveAspectRatio="xMinYMid meet"
-        className="w-full h-[200px]"
+    <div ref={containerRef} className={`relative inline-block ${className}`}>
+      {/* Stroke text (fake using CSS) */}
+      <h2
+        className="text-transparent stroke-only text-5xl md:text-7xl font-bold absolute top-0 left-0 z-10"
       >
-        {/* Stroke outline text */}
-        <text
-          className="stroke"
-          x="0"
-          y="150"
-          fontSize="120"
-          fontFamily="Arial, sans-serif"
-          stroke="#00b3ff"
-          fill="none"
-          strokeWidth="2"
-        >
-          {text}
-        </text>
+        {text}
+      </h2>
 
-        {/* Fill animated text */}
-        <text
-          className="fill"
-          x="0"
-          y="150"
-          fontSize="120"
-          fontFamily="Arial, sans-serif"
-          fill="white"
-          opacity="0"
-        >
-          {text}
-        </text>
-      </svg>
+      {/* Fill Layer */}
+      <h2
+        ref={fillRef}
+        className="text-white text-5xl md:text-7xl font-bold relative z-0"
+      >
+        {text}
+      </h2>
+
+      {/* Custom stroke-only style */}
+      <style>
+        {`
+          .stroke-only {
+            -webkit-text-stroke: 2px #00aabb;
+            color: transparent;
+          }
+        `}
+      </style>
     </div>
   );
 };

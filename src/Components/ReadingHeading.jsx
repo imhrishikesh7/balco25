@@ -1,4 +1,3 @@
-// ReadingHeading.jsx
 import React, { useEffect, useRef } from 'react';
 import SplitType from 'split-type';
 import gsap from 'gsap';
@@ -14,16 +13,28 @@ const ReadingHeading = ({ text, className = '' }) => {
       types: 'chars',
     });
 
-    gsap.set(split.chars, {
-      y: '100%',
-      opacity: 0,
+    const chars = headingRef.current.querySelectorAll('.char');
+
+    // Wrap each character in a span to control vertical mask
+    chars.forEach((char) => {
+      const wrapper = document.createElement('span');
+      wrapper.style.display = 'inline-block';
+      wrapper.style.overflow = 'hidden';
+      wrapper.style.paddingBottom = '4px'
+    //   wrapper.style.border = '3px solid black'
+      wrapper.style.verticalAlign = 'bottom';
+
+      char.parentNode.replaceChild(wrapper, char);
+      wrapper.appendChild(char);
     });
 
-    gsap.to(split.chars, {
+    // Animate each char from below
+    gsap.set(chars, { y: '100%' });
+
+    gsap.to(chars, {
       y: '0%',
-      opacity: 1,
-      duration: 0.7,
-      ease: 'power4.out',
+      duration: 0.5,
+      ease: 'power3.out',
       stagger: 0.05,
       scrollTrigger: {
         trigger: headingRef.current,
@@ -40,7 +51,12 @@ const ReadingHeading = ({ text, className = '' }) => {
   return (
     <h2
       ref={headingRef}
-      className={`text-3xl md:text-5xl font-bold text-black ${className}`}
+      className={`text-4xl md:text-7xl  font-[900] ${className}`}
+    //   style={{
+    //     backgroundImage: 'linear-gradient(to right, #1168b3, #00aabb)',
+    //     WebkitBackgroundClip: 'text',
+    //     WebkitTextFillColor: 'transparent',
+    //   }}
     >
       {text}
     </h2>
