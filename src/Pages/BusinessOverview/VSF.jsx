@@ -26,14 +26,14 @@ const VSF = () => {
                                 <img
                                     src="BusinessOverview/VSF/Page-38-Img.png"
                                     alt="Page-38-Img"
-                                    className='min-w-[900px] md:min-w-[1200px] lg:min-w-[1400px] rounded-2xl'
+                                    className='min-w-[900px] md:min-w-auto rounded-2xl'
                                 />
                             </div>
                             <div className="overflow-x-auto mt-30">
                                 <img
                                     src="BusinessOverview/VSF/Page-39-Img.png"
                                     alt="Page-38-Img"
-                                    className='min-w-[900px] md:min-w-[1200px] lg:min-w-[1400px] rounded-2xl'
+                                    className='mmin-w-[900px] md:min-w-auto rounded-2xl'
                                 />
                             </div>
                             <div className='mt-30'>
@@ -67,7 +67,7 @@ const VSF = () => {
                                 <img
                                     src="BusinessOverview/VSF/Page-39-Img-1.png"
                                     alt="Page-38-Img"
-                                    className='min-w-[900px] md:min-w-[1200px] lg:min-w-[1400px] rounded-2xl'
+                                    className='min-w-[900px] md:min-w-auto rounded-2xl'
                                 />
                             </div>
                         </div>

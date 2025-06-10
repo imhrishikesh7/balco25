@@ -61,6 +61,54 @@ const cards = [
     },
 ];
 
+
+const CardContent = ({ card }) => (
+    <div className="bg-[#1a3866] text-white gap-6 rounded-xl p-3 sm:p-6 flex flex-col sm:flex-row items-stretch justify-center shadow-2xl mx-2 my-4">
+        {/* Image */}
+        <div className="w-full md:w-1/2 md:h-[440px] mb-4 sm:mb-0">
+            <img
+                src={card.img}
+                alt={card.title}
+                className="rounded-xl w-full h-full object-cover"
+            />
+        </div>
+
+        {/* Text Content */}
+        <div className="w-full sm:w-1/2 space-y-4">
+            <div className="flex items-center gap-2">
+                {/* Logo Circle */}
+                <div className="w-10 h-10 rounded-full bg-[#8adb3a] flex items-center justify-center">
+                    <img src="/icons/finance.png" alt="logo" className="w-4 h-4" />
+                </div>
+
+                {/* Title Label */}
+                <div className="inline-block bg-[#8adb3a] text-[#012231] font-bold text-sm py-1 px-2 rounded-md uppercase tracking-widest">
+                    {card.title}
+                </div>
+            </div>
+
+            <p className="text-sm sm:text-base leading-relaxed text-white">
+                {card.description}
+            </p>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 text-[#01a7e1] font-extrabold text-2xl md:text-[4vh]">
+                {card.stats.map((stat, i) => (
+                    <div key={i} className="bg-[#1a3866] p-1 rounded-xl">
+                        {stat.value}{" "}
+                        <span className="text-[#a6ecfc] text-2xl md:text-[3vh] font-semibold">
+                            {stat.unit}
+                        </span>
+                        <p className="text-lg md:text-[2vh] text-white font-medium">
+                            {stat.label}
+                        </p>
+                        <div className="w-[50px] bg-gradient-to-r from-[#ee8846] to-transparent my-3 h-[1.5px]"></div>
+                    </div>
+                ))}
+            </div>
+        </div>
+    </div>
+);
+
 const FullCardCarousel = () => {
     const settings = {
         dots: true,
@@ -72,62 +120,27 @@ const FullCardCarousel = () => {
         centerPadding: "10%",
         arrows: true,
         adaptiveHeight: true,
-        // customPaging: i => (<div className="dot">{i + 1}</div>), // optional custom dots
     };
 
     return (
         <div className="w-full py-10">
-            <Slider {...settings}>
-                {cards.map((card, index) => (
-                    <div key={index}>
-                        <div className="bg-[#1a3866] text-white gap-10 rounded-xl p-6 sm:p-10 flex flex-col sm:flex-row items-stretch justify-center shadow-2xl mx-4 ">
-                            {/* Image */}
-                            <div className="w-full md:w-1/2 md:h-[440px] mb-4 sm:mb-0">
-                                <img
-                                    src={card.img}
-                                    alt={card.title}
-                                    className="rounded-xl w-full h-full object-cover"
-                                />
-                            </div>
-
-                            {/* Text Content */}
-                            <div className="w-full sm:w-1/2 space-y-4">
-                                <div className="flex items-center">
-                                    {/* Logo Circle */}
-                                    <div className="w-13 h-13 rounded-full bg-[#8adb3a] flex items-center justify-center">
-                                        <img src="/icons/finance.png" alt="logo" className="w-4 h-4" />
-                                    </div>
-
-                                    {/* Title Label */}
-                                    <div className="inline-block bg-[#8adb3a] text-[#012231] font-bold text-sm px-4 py-1 rounded-md uppercase tracking-widest">
-                                        {card.title}
-                                    </div>
-                                </div>
-
-
-                                <p className="text-sm sm:text-base leading-relaxed text-white">
-                                    {card.description}
-                                </p>
-
-                                <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 text-[#01a7e1] font-extrabold text-2xl md:text-4xl">
-                                    {card.stats.map((stat, i) => (
-                                        <div key={i} className="bg-[#1a3866] p-4 rounded-xl">
-                                            {stat.value}{" "}
-                                            <span className="text-[#a6ecfc] text-2xl font-semibold">
-                                                {stat.unit}
-                                            </span>
-                                            <p className="text-lg text-white font-medium">
-                                                {stat.label}
-                                            </p>
-                                            <div className="w-[50px] bg-gradient-to-r from-[#ee8846] to-transparent my-3 h-[1.5px]"></div>
-                                        </div>
-                                    ))}
-                                </div>
-                            </div>
+            {/* Carousel for large screens */}
+            <div className="hidden lg:block">
+                <Slider {...settings}>
+                    {cards.map((card, index) => (
+                        <div key={index}>
+                            <CardContent card={card} />
                         </div>
-                    </div>
+                    ))}
+                </Slider>
+            </div>
+
+            {/* Static vertical cards for small/medium screens */}
+            <div className="block lg:hidden px-4">
+                {cards.map((card, index) => (
+                    <CardContent card={card} key={index} />
                 ))}
-            </Slider>
+            </div>
         </div>
     );
 };

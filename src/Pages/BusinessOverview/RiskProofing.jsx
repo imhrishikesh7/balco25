@@ -32,7 +32,7 @@ const RiskProofing = () => {
                         <img
                             src="BusinessOverview/RiskProofing/Page-32-IMG.png"
                             alt=""
-                            className='min-w-[900px] md:min-w-[1200px] lg:min-w-[1400px] mt-8'
+                            className='min-w-[900px] md:min-w-auto mt-8'
                         />
                     </div>
                     <div className='mt-10'>
@@ -98,7 +98,7 @@ const RiskProofing = () => {
                         ))}
                     </div>
                     <div className='mt-20'>
-                        <img src="public/BusinessOverview/RiskProofing/Page-IMG-33.png" alt="" />
+                        <img src="public/BusinessOverview/RiskProofing/Page-IMG-33.png" alt="" className='min-w-[900px] md:min-w-auto'/>
                     </div>
                 </div>
             </div>

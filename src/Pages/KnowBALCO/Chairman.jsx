@@ -13,7 +13,7 @@ const Chairman = () => {
           {/* Image */}
           <div className='w-full lg:w-[40%] flex items-center justify-center max-h-[400px] lg:max-h-[70vh]'>
             <img
-              src="public/Chairman/Chairman.png"
+              src="public/Chairman/MR.-S-K-R.png"
               alt="chairman"
               className='w-full h-full object-contain lg:object-cover'
             />

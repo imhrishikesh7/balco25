@@ -11,9 +11,9 @@ const CFO = () => {
                 {/* Chairman Section */}
                 <div className='flex flex-col lg:flex-row rounded-2xl overflow-hidden'>
                     {/* Image */}
-                    <div className='w-full lg:w-[40%] flex items-center justify-center max-h-[400px] lg:max-h-[70vh]'>
+                    <div className='bg-[#27bdbf] w-full lg:w-[40%] flex items-center justify-center max-h-[400px] lg:max-h-[70vh]'>
                         <img
-                            src="KnowBALCO/CFO/CFO.png"
+                            src="KnowBALCO/CFO/Amit-Gupta.png"
                             alt="chairman"
                             className='w-full h-full object-contain lg:object-cover'
                         />
@@ -42,7 +42,8 @@ const CFO = () => {
                         },
                         {
                             heading: 'Financial Wizards at Work',
-                            text: `During the year under review, we prioritised financial prudence along with strategic growth initiatives. We focused on financial discipline, cost control, and efficient cash flow management. This helped us manage input cost volatility and strengthen our balance sheet. Key steps included consolidating OEMs, common procurement, and sourcing linkage coal efficiently. We also achieved a significant milestone with a 20% revenue growth, reaching H 15,808 crore. The company’s operational profitability was strong, with EBITDA reaching H 4,534 crore, delivering an EBITDA margin of 29%. Ultimately, BALCO’s PAT for FY25 stood at H 2,969 crore, reflecting a solid year of financial performance. Our emphasis on financial discipline has laid the groundwork for an enhanced credit rating to CRISIL AA (Stable), and increasing business valuation. These efforts represent our commitment to delivering long-term value to our stakeholders.`
+                            text: `During the year under review, we prioritised financial prudence along with strategic growth initiatives. We focused on financial discipline, cost control, and efficient cash flow management. This helped us manage input cost volatility and strengthen our balance sheet. Key steps included consolidating OEMs, common procurement, and sourcing linkage coal efficiently.
+                            We also achieved a significant milestone with a 20% revenue growth, reaching H 15,808 crore. The company’s operational profitability was strong, with EBITDA reaching H 4,534 crore, delivering an EBITDA margin of 29%. Ultimately, BALCO’s PAT for FY25 stood at H 2,969 crore, reflecting a solid year of financial performance. Our emphasis on financial discipline has laid the groundwork for an enhanced credit rating to CRISIL AA (Stable), and increasing business valuation. These efforts represent our commitment to delivering long-term value to our stakeholders.`
                         },
                         {
                             heading: 'Growth is in the Numbers',
@@ -50,16 +51,38 @@ const CFO = () => {
                         },
                         {
                             heading: 'Unlocking Fiscal Alchemy',
-                            text: `Evolving with time Our partnership with Serentica Entities highlights our commitment to sustainable energy solutions. We’ve also improved operations through double grid connectivity, utilization of cost-effective coal, and smart procurement strategies. Digitalisation plays a pivotal role in ensuring seamless business operations. We have implemented advanced tools such as Coal, Ash and Finished Goods Control Tower, Technological Fleet Optimisation System and AI-enabled crack detection to improve decisionmaking and enhance cost efficiency. These advancements, coupled with process improvements such as anode design enhancements and transition from HFO (Heavy Furnace Oil) to LSHS (Low Sulphur Heavy Stock), have reduced costs while maintaining compliance with emission norms.`
+                            text: [
+                                {
+                                    subheading: '1. Evolving with Time',
+                                    content: `Our partnership with Serentica Entities highlights our commitment to sustainable energy solutions. We’ve also improved operations through double grid connectivity, utilization of cost-effective coal, and smart procurement strategies. Digitalisation plays a pivotal role in ensuring seamless business operations. We have implemented advanced tools such as Coal, Ash and Finished Goods Control Tower, Technological Fleet Optimisation System and AI-enabled crack detection to improve decisionmaking and enhance cost efficiency. These advancements, coupled with process improvements such as anode design enhancements and transition from HFO (Heavy Furnace Oil) to LSHS (Low Sulphur Heavy Stock), have reduced costs while maintaining compliance with emission norms.`
+                                },
+                                {
+                                    subheading: '2. Digitalisation and Smart Ops',
+                                    content: `We ensure a balanced approach to capital allocation. Investments in modernisation, including the complete graphitisation of traditional potlines, upgradation of the hot rolling mill and the introduction of copper-insert collector bars, mark a decisive step in enhancing our competitive edge within this dynamic landscape. Simultaneously, our sustainability initiatives, including 100% ash utilisation and the use of Electric Light Motor Vehicles and buses, uphold our responsibility towards our planet.`
+                                },
+                                {
+                                    subheading: '3. Process Enhancements',
+                                    content: `BALCO has already prepared a roadmap for the next three to five years. Firstly, we aim to reach 1 MTPA hot metal production, maximizing domestic alumina sourcing and transitioning to 100% valueadded product sales domestically via online and ex-works channels. Next, we will focus on operationalising the Barra Coal Block, targeting a potential output of 4 MTPA. Finally, we will maintain a robust balance sheet through strategic debt reduction initiatives. To achieve these objectives, we will leverage data integration, budgeting and forecasting tools to enhance financial efficiency and build stakeholder confidence.`
+                                }
+                            ]
                         },
                         {
                             heading: 'Prepared for Tomorrow',
-                            text: `Our organisation has unlocked robust financial performance due to the tireless efforts of our exceptionally efficient team, and I am truly grateful to them. I would also like to thank our strong governance team for expert guidance, enabling the Company to emerge stronger with each challenge. Finally, I convey my deepest appreciation to our stakeholders for their unswerving support. I am optimistic of the future that lies ahead of us. By leveraging financial discipline, targeted investments and advanced digital tools, we are building a future-ready organisation. I am confident that these concerted efforts will drive long-term value and further strengthen your trust in BALCO’s journey.`
+                            text: `Our organisation has unlocked robust financial performance due to the tireless efforts of our exceptionally efficient team, and I am truly grateful to them. I would also like to thank our strong governance team for expert guidance, enabling the Company to emerge stronger with each challenge. Finally, I convey my deepest appreciation to our stakeholders for their unswerving support. I am optimistic of the future that lies ahead of us. By leveraging financial discipline, targeted investments and advanced digital tools, we are building a future-ready organisation. I am confident that these concerted efforts will drive long-term value and further strengthen your trust in BALCO’s journey`
                         }
                     ].map(({ heading, text }, i) => (
                         <div key={i}>
                             <h1 className='text-2xl sm:text-3xl text-[#016b71] font-bold pb-3'>{heading}</h1>
-                            <p className='text-base sm:text-lg text-justify'>{text}</p>
+                            {Array.isArray(text) ? (
+                                text.map((item, idx) => (
+                                    <div key={idx} className="space-y-2 mb-6">
+                                        <h3 className="text-lg sm:text-xl font-semibold text-black">{item.subheading}</h3>
+                                        <p className="text-base sm:text-lg text-justify">{item.content}</p>
+                                    </div>
+                                ))
+                            ) : (
+                                <p className='text-base sm:text-lg text-justify'>{text}</p>
+                            )}
                         </div>
                     ))}
 

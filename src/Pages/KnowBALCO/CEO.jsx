@@ -11,11 +11,11 @@ const CEO = () => {
                 {/* Chairman Section */}
                 <div className='flex flex-col lg:flex-row rounded-2xl overflow-hidden'>
                     {/* Image */}
-                    <div className='w-full lg:w-[40%] flex items-center justify-center max-h-[400px] lg:max-h-[70vh]'>
+                    <div className='bg-[#acd4f1] w-full lg:w-[40%] flex items-center justify-center max-h-[400px] lg:max-h-[70vh]'>
                         <img
-                            src="public/CEO/CEO.png"
+                            src="public/CEO/Rajesh-Kumar.png"
                             alt="chairman"
-                            className='w-full h-full object-contain lg:object-cover'
+                            className='w-full h-full object-contain lg:object-contain'
                         />
                     </div>
 

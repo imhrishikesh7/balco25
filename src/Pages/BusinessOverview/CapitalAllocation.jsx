@@ -31,9 +31,9 @@ const CapitalAllocation = () => {
                             <motion.button
                                 whileHover={{ scale: 1.1 }}
                                 whileTap={{ scale: 0.95 }}
-                                onHoverStart={() => console.log(`Hovering: ${item.label}`)}
+                                transition={{ type: 'spring', stiffness: 500, damping: 20 }}
                                 onClick={() => navigate(item.path)}
-                                className="w-[60px] h-[60px] sm:w-[80px] sm:h-[80px] rounded-full bg-white shadow-md overflow-hidden transition-transform duration-300"
+                                className="w-[60px] h-[60px] sm:w-[80px] sm:h-[80px] rounded-full bg-white shadow-md overflow-hidden will-change-transform"
                             >
                                 <img
                                     src={item.img}
@@ -41,6 +41,7 @@ const CapitalAllocation = () => {
                                     className="w-full h-full object-cover"
                                 />
                             </motion.button>
+
                             <span className="text-[10px] sm:text-xs text-center text-white mt-2 font-bold leading-tight">
                                 {item.label}
                             </span>

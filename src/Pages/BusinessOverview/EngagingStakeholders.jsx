@@ -30,35 +30,35 @@ const EngagingStakeholders = () => {
                         <img
                             src="BusinessOverview/EngagingStakeholders/Page-IMG-28.png"
                             alt=""
-                            className='min-w-[900px] md:min-w-[1200px] lg:min-w-[1400px] rounded-2xl mt-8'
+                            className='min-w-[900px] md:min-w-auto rounded-2xl mt-8'
                         />
                     </div>
                     <div className="overflow-x-auto mt-5">
                         <img
                             src="BusinessOverview/EngagingStakeholders/Page-28-IMG.png"
                             alt=""
-                            className='min-w-[900px] md:min-w-[1200px] lg:min-w-[1400px] rounded-2xl mt-18'
+                            className=' md:min-w-auto rounded-2xl mt-18'
                         />
-                    </div>c
+                    </div>
                     <div className="overflow-x-auto mt-5">
                         <img
                             src="BusinessOverview/EngagingStakeholders/Page-IMG-29.png"
                             alt=""
-                            className='min-w-[900px] md:min-w-[1200px] lg:min-w-[1400px] rounded-2xl mt-18'
+                            className='min-w-[900px] md:min-w-auto rounded-2xl mt-18'
                         />
                     </div>
                     <div className="overflow-x-auto mt-5">
                         <img
                             src="BusinessOverview/EngagingStakeholders/Page-IMG-30.png"
                             alt=""
-                            className='min-w-[900px] md:min-w-[1200px] lg:min-w-[1400px] rounded-2xl mt-18'
+                            className='min-w-[900px] md:min-w-auto rounded-2xl mt-18'
                         />
                     </div>
                     <div className="overflow-x-auto mt-5">
                         <img
                             src="BusinessOverview/EngagingStakeholders/Page-IMG-31.png"
                             alt=""
-                            className='min-w-[900px] md:min-w-[1200px] lg:min-w-[1400px] rounded-2xl mt-18'
+                            className='md:min-w-auto rounded-2xl mt-18'
                         />
                     </div>
                 </div>
