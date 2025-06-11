@@ -1,13 +1,12 @@
 import React from 'react'
 import { motion } from "framer-motion";
 import PointerMarkers from '../../Components/MapPointers';
-import CircleGraph from '../../Components/CircleGraph';
 
 const Border = () => {
 
     return (
         <div>
-            <div className="h-[100vh] bg-[url('public/BorderDemand/Map.png')] bg-cover bg-center">
+            <div className="h-[100vh] bg-[url('BorderDemand/Page-11-Image-1.png')] bg-cover bg-center">
                 <div className='marginal'>
                     <div className='pb-20'>
                         <div>
@@ -25,7 +24,7 @@ const Border = () => {
                         </div>
                     </div>
                     <div className="absolute bottom-8 right-6 z-20">
-                    <CircleGraph />
+                    
                 </div>
                 </div>
                 <PointerMarkers />

@@ -293,12 +293,22 @@ const ManufacturedCapital = () => {
 
                     {/* Energy Section - Made responsive */}
                     <div className='flex flex-col lg:flex-row gap-8 lg:gap-40 border-b-1 mt-10'>
-                        <div className='flex items-center justify-center lg:justify-start'>
-                            <img src="BusinessOverview/ManufacturedCapital/Page-53-Img.png" alt="" className='w-full max-w-[400px] lg:max-w-none' />
+                        <div className='flex items-center justify-center lg:justify-start w-full lg:w-1/2'>
+                            <img
+                                src="BusinessOverview/ManufacturedCapital/Page-53-Img.png"
+                                alt=""
+                                className='w-full max-w-[400px] lg:max-w-none object-cover aspect-square lg:aspect-auto lg:h-[400px]'
+                            />
                         </div>
-                        <div className='flex-1'>
-                            <h1 className='text-lg md:text-xl font-bold mb-6 md:mb-10 mt-6 md:mt-10 text-[#835c3e]'>BALCO Y-o-Y specific power consumption roadmap</h1>
-                            <img src="BusinessOverview/ManufacturedCapital/Page-53-Img-1.png" alt="" className='mb-10 w-full h-auto' />
+                        <div className='flex-1 w-full lg:w-1/2'>
+                            <h1 className='text-lg md:text-xl font-bold mb-6 md:mb-10 mt-6 md:mt-5 text-[#835c3e]'>
+                                BALCO Y-o-Y specific power consumption roadmap
+                            </h1>
+                            <img
+                                src="BusinessOverview/ManufacturedCapital/Page-53-Img-1.png"
+                                alt=""
+                                className='mb-10 w-full h-[400px] object-contain'
+                            />
                         </div>
                     </div>
 
@@ -384,6 +394,34 @@ const ManufacturedCapital = () => {
                                 structure. Wire rods benefit from Tibal (Ti, B, Al) Rod for superior performance.
                             </p>
                         </div>
+                    </div>
+                </div>
+                <div className='flex flex-col md:flex-row mt-10 md:mt-20 gap-8 md:gap-20 lg:gap-40 '>
+                    <div className='flex flex-col items-center md:items-start '>
+                        <img src="BusinessOverview/ManufacturedCapital/Page-58-Img.png" alt="" className='w-full max-w-[300px] md:max-w-none' />
+                    </div>
+                    <div className='flex justify-center md:justify-start'>
+                        <img src="BusinessOverview/ManufacturedCapital/Page-58-Img-2.png" alt="" className='w-full max-w-[400px] md:max-w-none' />
+                    </div>
+                    <div>
+                        <img src="BusinessOverview/ManufacturedCapital/Page-58-Img-3.png" alt="" />
+                    </div>
+                </div>
+                <div>
+                    <h1 className='text-lg md:text-2xl font-bold mb-5 mt-10'>Strategic Investments</h1>
+                    <p className='text-base md:text-xl'>To enhance operational efficiency, we have undertaken various initiatives and projects which align with the strategic goals of the
+                        Company, modernise the operational infrastructure and minimise waste to prioritise long term growth. The project that are currently
+                        in process are as follows:</p>
+                    <div className='flex flex-col md:flex-row mt-10 md:mt-10 gap-8 md:gap-4 lg:gap-6 '>
+                        <div className='flex flex-col items-center md:items-start '>
+                            <img src="BusinessOverview/ManufacturedCapital/Page-59-Img..png" alt="" className='w-full max-w-[300px] md:max-w-none' />
+                        </div>
+                        <div className='flex justify-center md:justify-start'>
+                            <img src="BusinessOverview/ManufacturedCapital/Page-59-Img.png" alt="" className='w-full max-w-[400px] md:max-w-none' />
+                        </div>
+                    </div>
+                    <div className='border border-[#835c3e] p-4 rounded-2xl mt-10'>
+                        <p className='text-base md:text-xl'>Highest Ever Ash Utilization in Cement Plant: 152.9 KT of fly ash dispatched to Cement Plants of sustainable ash utilization (Last Best 87.58 KT in FY22).</p>
                     </div>
                 </div>
             </div>

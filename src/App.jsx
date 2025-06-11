@@ -25,6 +25,11 @@ import VSF from './Pages/BusinessOverview/VSF'
 import CapitalAllocation from './Pages/BusinessOverview/CapitalAllocation'
 import FinancialCapital from './Pages/BusinessOverview/FinancialCapital'
 import ManufacturedCapital from './Pages/BusinessOverview/ManufacturedCapital'
+import IntellectualCapital from './Pages/BusinessOverview/IntellectualCapital'
+import HumanCapital from './Pages/BusinessOverview/HumanCapital'
+import Awards from './Pages/BusinessOverview/Awards'
+import Certificates from './Pages/BusinessOverview/Certificates'
+import BOD from './Pages/BusinessOverview/BOD'
 
 function App() {
   return (
@@ -56,6 +61,11 @@ function App() {
             <Route path='/our_vision' element={<CapitalAllocation />} />
             <Route path='/financial_capital_' element={<FinancialCapital />} />
             <Route path='/manufactured_capital' element={<ManufacturedCapital />} />
+            <Route path='/intellectual_capital' element={<IntellectualCapital />} />
+            <Route path='/human_capital' element={<HumanCapital />} />
+            <Route path='/awards_and_accolades' element={<Awards />} />
+            <Route path='/certifications' element={<Certificates />} />
+            <Route path='/profiles_of_board_of_directors' element={<BOD />} />
           </Routes>
         </main>
         {/* Footer stays at the bottom */}

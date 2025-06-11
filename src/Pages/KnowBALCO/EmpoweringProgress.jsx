@@ -8,9 +8,9 @@ const EmpoweringProgress = () => {
       <div className="w-full  relative bg-white flex justify-end items-center pr-6 sm:pr-10">
         {/* Background Image */}
         <img
-          src="public/EmpoweringProcess/Cover-Balco.png"
+          src="EmpoweringProcess/Cover-Balco.png"
           alt="Empowering Progress"
-          className="absolute inset-0 w-full h-full object-cover z-0"
+          className="absolute inset-0 w-full h-full object-contain z-0"
         />
 
         {/* Text Content on top of image, right centered */}
@@ -30,7 +30,7 @@ const EmpoweringProgress = () => {
 
       {/* Right Text Section with Sticky Inner Text */}
       <div className="w-full lg:w-[60%] bg-[#f3eae3] h-screen overflow-y-auto relative">
-        <div className="sticky top-24 z-20 px-6 sm:px-10 py-10 bg-[#f3eae3]">
+        <div className="sticky  z-20 px-6 sm:px-10 py-10 bg-[#f3eae3]">
           {/* 👆 top-24 = to keep space below navbar (adjust if your navbar is taller or shorter) */}
           <h2 className="text-[#0071ce] text-lg sm:text-xl font-bold mb-4 leading-relaxed">
             As India marches confidently towards becoming a global superpower by 2050, infrastructure development is poised to play a significant role. We, at BALCO, understand the key role that aluminium plays in powering the nation’s industrial evolution. Capitalising on this opportunity, we are focused on delivering value through innovative manufacturing technologies and solutions.
