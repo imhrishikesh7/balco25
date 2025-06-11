@@ -8,7 +8,7 @@ const EmpoweringProgress = () => {
       <div className="w-full  relative bg-white flex justify-end items-center pr-6 sm:pr-10">
         {/* Background Image */}
         <img
-          src="EmpoweringProcess/Cover-Balco.png"
+          src="EmpoweringProcess/Cover-Balco.webp"
           alt="Empowering Progress"
           className="absolute inset-0 w-full h-full object-contain z-0"
         />

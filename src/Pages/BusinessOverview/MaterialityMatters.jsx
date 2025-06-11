@@ -32,14 +32,14 @@ const MaterialityMatters = () => {
                     {/* Scrollable Image */}
                     <div className="mt-20 mb-30">
                         <img
-                            src="public/BusinessOverview/MaterialityMatters/Page-26-IMG.png"
+                            src="public/BusinessOverview/MaterialityMatters/Page-26-IMG.webp"
                             alt=""
                             className='min-w-[900px] md:min-w-auto rounded-2xl'
                         />
                     </div>
                     <div className="overflow-x-auto mt-5">
                         <img
-                            src="BusinessOverview/MaterialityMatters/Page-IMG-26.png"
+                            src="BusinessOverview/MaterialityMatters/Page-IMG-26.webp"
                             alt=""
                             className='min-w-[900px] md:min-w-auto rounded-2xl'
                         />
@@ -51,7 +51,7 @@ const MaterialityMatters = () => {
                     </div>
                     <div className="overflow-x-auto mt-10">
                         <img
-                            src="BusinessOverview/MaterialityMatters/Page-IMG-27.png"
+                            src="BusinessOverview/MaterialityMatters/Page-IMG-27.webp"
                             alt=""
                             className='min-w-[900px] md:min-w-auto rounded-2xl'
                         />

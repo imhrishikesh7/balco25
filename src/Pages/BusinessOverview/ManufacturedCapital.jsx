@@ -5,14 +5,14 @@ const ManufacturedCapital = () => {
     return (
         <div>
             {/* Background Section */}
-            <div className="bg-[url('BusinessOverview/ManufacturedCapital/Page-46-Img-1.png')] bg-cover bg-no-repeat bg-center w-full min-h-screen">
+            <div className="bg-[url('BusinessOverview/ManufacturedCapital/Page-46-Img-1.webp')] bg-cover bg-no-repeat bg-center w-full min-h-screen">
                 <div className="marginal px-6 sm:px-12 py-10 flex items-center">
                     <div className="flex flex-col lg:flex-row justify-start items-end gap-10 w-full">
 
                         {/* Left Side - Icon + Description */}
                         <div className="max-w-md text-white space-y-4">
                             <img
-                                src="BusinessOverview/ManufacturedCapital/Manufactured-Circle.png"
+                                src="BusinessOverview/ManufacturedCapital/Manufactured-Circle.webp"
                                 alt="Manufactured Icon"
                                 className="w-[100px] h-[100px] sm:w-[120px] sm:h-[120px]"
                             />
@@ -40,7 +40,7 @@ const ManufacturedCapital = () => {
                                         whileHover={{ scale: 1.1 }}
                                         whileTap={{ scale: 0.95 }}
                                         transition={{ type: 'tween', duration: 0.2, ease: 'easeOut' }}
-                                        src="BusinessOverview/ManufacturedCapital/8.png"
+                                        src="BusinessOverview/ManufacturedCapital/8.webp"
                                         alt="SDG 8"
                                         className="w-[50px] h-[50px] md:w-[60px] md:h-[60px]"
                                     />
@@ -48,7 +48,7 @@ const ManufacturedCapital = () => {
                                         whileHover={{ scale: 1.1 }}
                                         whileTap={{ scale: 0.95 }}
                                         transition={{ type: 'tween', duration: 0.2, ease: 'easeOut' }}
-                                        src="BusinessOverview/ManufacturedCapital/9.png"
+                                        src="BusinessOverview/ManufacturedCapital/9.webp"
                                         alt="SDG 9"
                                         className="w-[50px] h-[50px] md:w-[60px] md:h-[60px]"
                                     />
@@ -56,7 +56,7 @@ const ManufacturedCapital = () => {
                                         whileHover={{ scale: 1.1 }}
                                         whileTap={{ scale: 0.95 }}
                                         transition={{ type: 'tween', duration: 0.2, ease: 'easeOut' }}
-                                        src="BusinessOverview/ManufacturedCapital/12.png"
+                                        src="BusinessOverview/ManufacturedCapital/12.webp"
                                         alt="SDG 12"
                                         className="w-[50px] h-[50px] md:w-[60px] md:h-[60px]"
                                     />
@@ -64,7 +64,7 @@ const ManufacturedCapital = () => {
                                         whileHover={{ scale: 1.1 }}
                                         whileTap={{ scale: 0.95 }}
                                         transition={{ type: 'tween', duration: 0.2, ease: 'easeOut' }}
-                                        src="BusinessOverview/ManufacturedCapital/13.png"
+                                        src="BusinessOverview/ManufacturedCapital/13.webp"
                                         alt="SDG 13"
                                         className="w-[50px] h-[50px] md:w-[60px] md:h-[60px]"
                                     />
@@ -72,7 +72,7 @@ const ManufacturedCapital = () => {
                                         whileHover={{ scale: 1.1 }}
                                         whileTap={{ scale: 0.95 }}
                                         transition={{ type: 'tween', duration: 0.2, ease: 'easeOut' }}
-                                        src="BusinessOverview/ManufacturedCapital/16.png"
+                                        src="BusinessOverview/ManufacturedCapital/16.webp"
                                         alt="SDG 16"
                                         className="w-[50px] h-[50px] md:w-[60px] md:h-[60px]"
                                     />
@@ -87,10 +87,10 @@ const ManufacturedCapital = () => {
             {/* Manufactured Highlights Section */}
             <div className='marginal px-4 sm:px-6'>
                 <div className="overflow-x-auto">
-                    <img src="BusinessOverview/ManufacturedCapital/Page-47-Img.png" alt="" className='min-w-[900px] md:min-w-[1200px] lg:min-w-[1400px] mt-2' />
+                    <img src="BusinessOverview/ManufacturedCapital/Page-47-Img.webp" alt="" className='min-w-[900px] md:min-w-[1200px] lg:min-w-[1400px] mt-2' />
                 </div>
                 <div className='mt-10 md:mt-20'>
-                    <img src="BusinessOverview/ManufacturedCapital/Page-47-Img-1.png" alt="" className='w-full h-auto' />
+                    <img src="BusinessOverview/ManufacturedCapital/Page-47-Img-1.webp" alt="" className='w-full h-auto' />
                 </div>
 
                 {/* Manufacturing Excellence Section - Responsive */}
@@ -140,7 +140,7 @@ const ManufacturedCapital = () => {
                         <div className='flex-1 flex flex-col lg:flex-row gap-4 items-center'>
                             <div className='flex justify-center w-full lg:w-auto'>
                                 <img
-                                    src="BusinessOverview/ManufacturedCapital/Page-48-Img.png"
+                                    src="BusinessOverview/ManufacturedCapital/Page-48-Img.webp"
                                     alt=""
                                     className='w-full max-w-[300px] lg:w-[20vw] h-auto object-cover rounded-lg'
                                 />
@@ -168,7 +168,7 @@ const ManufacturedCapital = () => {
 
                         <div className='flex-1 flex justify-center lg:justify-end items-center mt-4 lg:mt-8 p-4 lg:p-10'>
                             <img
-                                src="BusinessOverview/ManufacturedCapital/Page-48-Img-1.png"
+                                src="BusinessOverview/ManufacturedCapital/Page-48-Img-1.webp"
                                 alt=""
                                 className='w-full max-w-[300px] lg:w-[20vw] h-auto object-cover rounded-lg'
                             />
@@ -179,7 +179,7 @@ const ManufacturedCapital = () => {
                 <div className='flex flex-col lg:flex-row mt-8 gap-4 lg:gap-8 lg:items-stretch'>
                     {/* First Image - Wider */}
                     <div className='flex-[1.5] order-1 lg:order-1'>
-                        <img src="BusinessOverview/ManufacturedCapital/Page-48-Img-2.png" alt="" className="w-full h-full object-contain mt-4 lg:mt-2" />
+                        <img src="BusinessOverview/ManufacturedCapital/Page-48-Img-2.webp" alt="" className="w-full h-full object-contain mt-4 lg:mt-2" />
                     </div>
 
                     {/* Text Content Section - Middle */}
@@ -203,27 +203,27 @@ const ManufacturedCapital = () => {
 
                     {/* Third Image */}
                     <div className='flex-1 order-3 lg:order-3'>
-                        <img src="BusinessOverview/ManufacturedCapital/Page-48-Img-3.png" alt="" className="w-full h-full object-cover mt-4 lg:mt-2" />
+                        <img src="BusinessOverview/ManufacturedCapital/Page-48-Img-3.webp" alt="" className="w-full h-full object-cover mt-4 lg:mt-2" />
                     </div>
                 </div>
 
                 {/* Responsive Section - Made responsive */}
                 <div className='flex flex-col md:flex-row mt-10 md:mt-20 gap-8 md:gap-20 lg:gap-40 border-b-1 pb-10'>
                     <div className='flex flex-col items-center md:items-start'>
-                        <img src="BusinessOverview/ManufacturedCapital/Page-50-Img.png" alt="" className='w-full max-w-[300px] md:max-w-none' />
+                        <img src="BusinessOverview/ManufacturedCapital/Page-50-Img.webp" alt="" className='w-full max-w-[300px] md:max-w-none' />
                         <h2 className='text-base md:text-lg font-medium mt-6 md:mt-10 text-center md:text-left md:ml-5'>
                             <span className='text-[#835c3e] text-2xl md:text-4xl font-bold'>3,696</span><br />
                             Individuals rewarded for their contributions
                         </h2>
                     </div>
                     <div className='flex justify-center md:justify-start'>
-                        <img src="BusinessOverview/ManufacturedCapital/Page-50-Img-1.png" alt="" className='w-full max-w-[400px] md:max-w-none' />
+                        <img src="BusinessOverview/ManufacturedCapital/Page-50-Img-1.webp" alt="" className='w-full max-w-[400px] md:max-w-none' />
                     </div>
                 </div>
 
                 <div className='mt-10'>
                     <h1 className='text-lg md:text-xl font-bold mb-5'>Advanced logistics </h1>
-                    <img src="BusinessOverview/ManufacturedCapital/Page-50-Img-2.png" alt="" className='w-full h-auto' />
+                    <img src="BusinessOverview/ManufacturedCapital/Page-50-Img-2.webp" alt="" className='w-full h-auto' />
                     <h1 className='text-lg md:text-xl font-bold mb-5 mt-10'>Asset Management</h1>
                     <p className='text-base md:text-lg'>BALCO adopts a structured approach to asset optimisation,
                         focusing on enhancing asset longevity, improving throughput
@@ -246,13 +246,13 @@ const ManufacturedCapital = () => {
                         Looking ahead, BALCO plans to leverage digitalisation-driven manpower optimisation during the installation of its new smelter.
                         This strategic initiative is expected to enhance production per person by 32%, further strengthening operational efficiency and
                         workforce productivity.</p>
-                    <img src="BusinessOverview/ManufacturedCapital/Page-51-Img.png" alt="" className='w-full h-auto' />
+                    <img src="BusinessOverview/ManufacturedCapital/Page-51-Img.webp" alt="" className='w-full h-auto' />
                 </div>
 
                 <div className='flex flex-col lg:flex-row gap-5'>
                     {/* Image comes first on mobile, text second */}
                     <div className='flex-1 order-1 lg:order-2 flex items-center justify-center lg:ml-10'>
-                        <img src="BusinessOverview/ManufacturedCapital/Page-51-Img-2.png" alt="" className="w-full max-w-[400px] lg:max-w-none h-auto mt-4 lg:mt-10" />
+                        <img src="BusinessOverview/ManufacturedCapital/Page-51-Img-2.webp" alt="" className="w-full max-w-[400px] lg:max-w-none h-auto mt-4 lg:mt-10" />
                     </div>
                     <div className='flex-2 order-2 lg:order-1 mt-8'>
                         <h1 className='text-[#000000] text-xl md:text-2xl font-bold mt-8'>Digitalisation steps to improve technological
@@ -270,15 +270,15 @@ const ManufacturedCapital = () => {
                             ensuring the confidentiality, integrity and availability of the data/
                             information at all times.
                         </p>
-                        <img src="BusinessOverview/ManufacturedCapital/Page-51-Img-3.png" alt="" className='w-full h-auto' />
+                        <img src="BusinessOverview/ManufacturedCapital/Page-51-Img-3.webp" alt="" className='w-full h-auto' />
                     </div>
                 </div>
 
                 <div className='mt-10'>
                     <h1 className='text-lg md:text-xl font-bold mb-5 mt-10'>TSF management </h1>
                     <p className='text-base md:text-lg mb-10'>The safe and responsible management of TSF (Tailing Storage Facility) is at the core of our operational philosophy. We uphold the highest standards of care in the design, construction, operation and the closure of this infrastructure. Additionally, By continually improving the management of our facilities by developing and incorporating best practices which includes:</p>
-                    <img src="BusinessOverview/ManufacturedCapital/Page-52-Img.png" alt="" className='mb-20 w-full h-auto' />
-                    <img src="BusinessOverview/ManufacturedCapital/Page-52-Img-1.png" alt="" className='mb-10 w-full h-auto' />
+                    <img src="BusinessOverview/ManufacturedCapital/Page-52-Img.webp" alt="" className='mb-20 w-full h-auto' />
+                    <img src="BusinessOverview/ManufacturedCapital/Page-52-Img-1.webp" alt="" className='mb-10 w-full h-auto' />
                 </div>
 
                 <div className='mt-10'>
@@ -295,7 +295,7 @@ const ManufacturedCapital = () => {
                     <div className='flex flex-col lg:flex-row gap-8 lg:gap-40 border-b-1 mt-10'>
                         <div className='flex items-center justify-center lg:justify-start w-full lg:w-1/2'>
                             <img
-                                src="BusinessOverview/ManufacturedCapital/Page-53-Img.png"
+                                src="BusinessOverview/ManufacturedCapital/Page-53-Img.webp"
                                 alt=""
                                 className='w-full max-w-[400px] lg:max-w-none object-cover aspect-square lg:aspect-auto lg:h-[400px]'
                             />
@@ -305,7 +305,7 @@ const ManufacturedCapital = () => {
                                 BALCO Y-o-Y specific power consumption roadmap
                             </h1>
                             <img
-                                src="BusinessOverview/ManufacturedCapital/Page-53-Img-1.png"
+                                src="BusinessOverview/ManufacturedCapital/Page-53-Img-1.webp"
                                 alt=""
                                 className='mb-10 w-full h-[400px] object-contain'
                             />
@@ -315,7 +315,7 @@ const ManufacturedCapital = () => {
                     {/* Power Section - Made responsive */}
                     <div className='flex flex-col lg:flex-row mt-10 md:mt-20 gap-6 pb-10'>
                         <div className='flex flex-col justify-around space-y-6'>
-                            <img src="BusinessOverview/ManufacturedCapital/Page-54-Img.png" alt="" className='w-full h-auto' />
+                            <img src="BusinessOverview/ManufacturedCapital/Page-54-Img.webp" alt="" className='w-full h-auto' />
                             <div className='border-b border-r border-[#835c3f] rounded-2xl p-4'>
                                 <h1 className='text-lg md:text-xl font-bold mb-5'>Power and energy milestones</h1>
                                 <p className='text-base md:text-lg'>We believe in achieving operational excellence,
@@ -328,12 +328,12 @@ const ManufacturedCapital = () => {
                             </div>
                         </div>
                         <div className='flex justify-center lg:justify-start'>
-                            <img src="BusinessOverview/ManufacturedCapital/Page-54-Img-1.png" alt="" className='rounded-3xl w-full max-w-[500px] lg:max-w-none h-auto' />
+                            <img src="BusinessOverview/ManufacturedCapital/Page-54-Img-1.webp" alt="" className='rounded-3xl w-full max-w-[500px] lg:max-w-none h-auto' />
                         </div>
                     </div>
 
                     <div className='mt-10'>
-                        <img src="BusinessOverview/ManufacturedCapital/Page-55-Img.png" alt="" className='w-full h-auto' />
+                        <img src="BusinessOverview/ManufacturedCapital/Page-55-Img.webp" alt="" className='w-full h-auto' />
                     </div>
 
                     <div>
@@ -341,11 +341,11 @@ const ManufacturedCapital = () => {
                             <h1 className='text-lg md:text-xl font-bold mb-5 mt-10'>Ensuring operational excellence at every step</h1>
                             <p className='text-base md:text-lg'>BALCO continues to drive operational efficiency and sustainability through strategic investments, technological advancements and process optimisations. Our approach focuses on maximising power generation efficiency, optimising resource utilisation and leveraging digital tools for real-time monitoring and predictive maintenance.</p>
                             <h1 className='text-lg md:text-xl font-bold mb-5 mt-10'>Operational process improvement</h1>
-                            <img src="BusinessOverview/ManufacturedCapital/Page-56-Img.png" alt="" className='w-full h-auto' />
+                            <img src="BusinessOverview/ManufacturedCapital/Page-56-Img.webp" alt="" className='w-full h-auto' />
                             <p className='text-base md:text-lg mb-10 mt-5'>Throughout the year, we advanced our goals of sustainability and continuous improvement by implementing several key initiatives:</p>
-                            <img src="BusinessOverview/ManufacturedCapital/Page-56-Img-1.png" alt="" className='w-full h-auto' />
+                            <img src="BusinessOverview/ManufacturedCapital/Page-56-Img-1.webp" alt="" className='w-full h-auto' />
                             <h1 className='text-lg md:text-xl font-bold mb-5 mt-10'>Initiatives for FY 2025 to enhance operations</h1>
-                            <img src="BusinessOverview/ManufacturedCapital/Page-56-Img-2.png" alt="" className='w-full h-auto' />
+                            <img src="BusinessOverview/ManufacturedCapital/Page-56-Img-2.webp" alt="" className='w-full h-auto' />
                         </div>
                     </div>
 
@@ -372,17 +372,17 @@ const ManufacturedCapital = () => {
                         {/* Quality Images - Made responsive */}
                         <div className='flex flex-col md:flex-row gap-6 mt-10'>
                             <div className='flex items-center justify-center'>
-                                <img src="BusinessOverview/ManufacturedCapital/Page-57-Img-1.png" alt="" className='w-full max-w-[400px] md:max-w-none h-auto' />
+                                <img src="BusinessOverview/ManufacturedCapital/Page-57-Img-1.webp" alt="" className='w-full max-w-[400px] md:max-w-none h-auto' />
                             </div>
                             <div className='flex items-center justify-center'>
-                                <img src="BusinessOverview/ManufacturedCapital/Page-57-Img.png" alt="" className='mb-6 md:mb-10 w-full max-w-[400px] md:max-w-none h-auto' />
+                                <img src="BusinessOverview/ManufacturedCapital/Page-57-Img.webp" alt="" className='mb-6 md:mb-10 w-full max-w-[400px] md:max-w-none h-auto' />
                             </div>
                         </div>
                     </div>
                     <div className='flex flex-col lg:flex-row gap-5 mt-10'>
                         {/* Image comes first on mobile, text second */}
                         <div className='flex-1 order-1 lg:order-2 flex items-center'>
-                            <img src="BusinessOverview/ManufacturedCapital/Page-58-Img.-3png.png" alt="" className="w-full h-auto" />
+                            <img src="BusinessOverview/ManufacturedCapital/Page-58-Img.-3png.webp" alt="" className="w-full h-auto" />
                         </div>
                         <div className='flex-2 order-2 lg:order-1'>
                             <h1 className='text-[#000000] text-2xl font-bold'>Quality control process</h1>
@@ -398,13 +398,13 @@ const ManufacturedCapital = () => {
                 </div>
                 <div className='flex flex-col md:flex-row mt-10 md:mt-20 gap-8 md:gap-20 lg:gap-40 '>
                     <div className='flex flex-col items-center md:items-start '>
-                        <img src="BusinessOverview/ManufacturedCapital/Page-58-Img.png" alt="" className='w-full max-w-[300px] md:max-w-none' />
+                        <img src="BusinessOverview/ManufacturedCapital/Page-58-Img.webp" alt="" className='w-full max-w-[300px] md:max-w-none' />
                     </div>
                     <div className='flex justify-center md:justify-start'>
-                        <img src="BusinessOverview/ManufacturedCapital/Page-58-Img-2.png" alt="" className='w-full max-w-[400px] md:max-w-none' />
+                        <img src="BusinessOverview/ManufacturedCapital/Page-58-Img-2.webp" alt="" className='w-full max-w-[400px] md:max-w-none' />
                     </div>
                     <div>
-                        <img src="BusinessOverview/ManufacturedCapital/Page-58-Img-3.png" alt="" />
+                        <img src="BusinessOverview/ManufacturedCapital/Page-58-Img-3.webp" alt="" />
                     </div>
                 </div>
                 <div>
@@ -414,10 +414,10 @@ const ManufacturedCapital = () => {
                         in process are as follows:</p>
                     <div className='flex flex-col md:flex-row mt-10 md:mt-10 gap-8 md:gap-4 lg:gap-6 '>
                         <div className='flex flex-col items-center md:items-start '>
-                            <img src="BusinessOverview/ManufacturedCapital/Page-59-Img..png" alt="" className='w-full max-w-[300px] md:max-w-none' />
+                            <img src="BusinessOverview/ManufacturedCapital/Page-59-Img..webp" alt="" className='w-full max-w-[300px] md:max-w-none' />
                         </div>
                         <div className='flex justify-center md:justify-start'>
-                            <img src="BusinessOverview/ManufacturedCapital/Page-59-Img.png" alt="" className='w-full max-w-[400px] md:max-w-none' />
+                            <img src="BusinessOverview/ManufacturedCapital/Page-59-Img.webp" alt="" className='w-full max-w-[400px] md:max-w-none' />
                         </div>
                     </div>
                     <div className='border border-[#835c3e] p-4 rounded-2xl mt-10'>

@@ -7,7 +7,7 @@ const pointers = [
     revenue: "Revenue",
     top: "20%",
     left: "40%",
-    flag: "public/BorderDemand/Croatia.png",
+    flag: "public/BorderDemand/Croatia.webp",
     data: "₹370.20 crore",
   },
   {
@@ -15,7 +15,7 @@ const pointers = [
     revenue: "Revenue",
     top: "33%",
     left: "58%",
-    flag: "public/BorderDemand/India.png",
+    flag: "public/BorderDemand/India.webp",
     data: "₹14,835.30 crore",
   },
   {
@@ -23,7 +23,7 @@ const pointers = [
     revenue: "Revenue",
     top: "25%",
     left: "46%",
-    flag: "public/BorderDemand/Turkey.png",
+    flag: "public/BorderDemand/Turkey.webp",
     data: "₹210.75 crore",
   },
   {
@@ -31,7 +31,7 @@ const pointers = [
     revenue: "Revenue",
     top: "30%",
     left: "60%",
-    flag: "public/BorderDemand/Nepal.png",
+    flag: "public/BorderDemand/Nepal.webp",
     data: "₹95.10 crore",
   },
   {
@@ -39,7 +39,7 @@ const pointers = [
     revenue: "Revenue",
     top: "26%",
     left: "72%",
-    flag: "public/BorderDemand/Japan.png",
+    flag: "public/BorderDemand/Japan.webp",
     data: "₹600.00 crore",
   },
   {
@@ -47,7 +47,7 @@ const pointers = [
     revenue: "Revenue",
     top: "23%",
     left: "70%",
-    flag: "public/BorderDemand/Korea.png",
+    flag: "public/BorderDemand/Korea.webp",
     data: "₹480.60 crore",
   },
   {
@@ -55,7 +55,7 @@ const pointers = [
     revenue: "Revenue",
     top: "33%",
     left: "60%",
-    flag: "public/BorderDemand/Bangladesh.png",
+    flag: "public/BorderDemand/Bangladesh.webp",
     data: "₹310.20 crore",
   },
   {
@@ -63,7 +63,7 @@ const pointers = [
     revenue: "Revenue",
     top: "25%",
     left: "40%",
-    flag: "public/BorderDemand/Montenogro.png",
+    flag: "public/BorderDemand/Montenogro.webp",
     data: "₹180.00 crore",
   },
   {
@@ -71,15 +71,15 @@ const pointers = [
     revenue: "Revenue",
     top: "22%",
     left: "42%",
-    flag: "public/BorderDemand/Italy.png",
+    flag: "public/BorderDemand/Italy.webp",
     data: "₹500.40 crore",
   },
   {
     name: "Tanzania",
     revenue: "Revenue",
     top: "49%",
-    left: "48`%",
-    flag: "public/BorderDemand/Tanzania.png",
+    left: "48%",
+    flag: "public/BorderDemand/Tanzania.webp",
     data: "₹120.90 crore",
   },
   {
@@ -87,7 +87,7 @@ const pointers = [
     revenue: "Revenue",
     top: "36%",
     left: "18%",
-    flag: "public/BorderDemand/Mexico.png",
+    flag: "public/BorderDemand/Mexico.webp",
     data: "₹240.00 crore",
   },
 ];

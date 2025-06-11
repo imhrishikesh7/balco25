@@ -5,14 +5,14 @@ const FinancialCapital = () => {
     return (
         <div>
             {/* Background Section */}
-            <div className="bg-[url('BusinessOverview/IntellectualCapital/Page-60-Img-1..png')] bg-cover bg-no-repeat bg-center w-full min-h-screen">
+            <div className="bg-[url('BusinessOverview/IntellectualCapital/Page-60-Img-1..webp')] bg-cover bg-no-repeat bg-center w-full min-h-screen">
                 <div className="marginal px-6 sm:px-12 py-10 flex items-center">
                     <div className="flex flex-col lg:flex-row justify-start items-end gap-6 lg:gap-10 w-full">
 
                         {/* Left Side - Icon + Description */}
                         <div className="max-w-md text-white space-y-4">
                             <img
-                                src="BusinessOverview/IntellectualCapital/Intellectual-Circle.png"
+                                src="BusinessOverview/IntellectualCapital/Intellectual-Circle.webp"
                                 alt="Financial Icon"
                                 className="w-[100px] h-[100px] sm:w-[120px] sm:h-[120px]"
                             />
@@ -44,7 +44,7 @@ const FinancialCapital = () => {
                                         whileHover={{ scale: 1.1 }}
                                         whileTap={{ scale: 0.95 }}
                                         transition={{ type: 'tween', duration: 0.2, ease: 'easeOut' }}
-                                        src="/BusinessOverview/FinancialCapital/8.png"
+                                        src="/BusinessOverview/FinancialCapital/8.webp"
                                         alt="SDG 8"
                                         className="w-[60px] h-[60px]"
                                     />
@@ -52,7 +52,7 @@ const FinancialCapital = () => {
                                         whileHover={{ scale: 1.1 }}
                                         whileTap={{ scale: 0.95 }}
                                         transition={{ type: 'tween', duration: 0.2, ease: 'easeOut' }}
-                                        src="/BusinessOverview/FinancialCapital/12.png"
+                                        src="/BusinessOverview/FinancialCapital/12.webp"
                                         alt="SDG 12"
                                         className="w-[60px] h-[60px]"
                                     />
@@ -84,7 +84,7 @@ const FinancialCapital = () => {
                     </div>
                     <div className='w-full lg:w-1/2 order-1 lg:order-2'>
                         <img
-                            src="BusinessOverview/IntellectualCapital/Page-62-Img..png"
+                            src="BusinessOverview/IntellectualCapital/Page-62-Img..webp"
                             alt=""
                             className="w-full h-auto rounded-lg p-10"
                         />
@@ -94,7 +94,7 @@ const FinancialCapital = () => {
                 <div className='flex flex-col lg:flex-row gap-8 lg:gap-12 items-center py-8'>
                     <div className='w-full lg:w-3/5 order-1'>
                         <img
-                            src="BusinessOverview/IntellectualCapital/Page-62-Img-1.png"
+                            src="BusinessOverview/IntellectualCapital/Page-62-Img-1.webp"
                             alt=""
                             className="w-full h-auto rounded-lg"
                         />
@@ -115,7 +115,7 @@ const FinancialCapital = () => {
                 <div className='flex flex-col lg:flex-row gap-8 lg:gap-12 items-center py-8 border-b'>
                     <div className='w-full lg:w-3/5 order-2'>
                         <img
-                            src="BusinessOverview/IntellectualCapital/Page-63-Img.png"
+                            src="BusinessOverview/IntellectualCapital/Page-63-Img.webp"
                             alt=""
                             className="w-full h-auto rounded-lg shadow-md"
                         />
@@ -135,7 +135,7 @@ const FinancialCapital = () => {
                 <div className='flex flex-col lg:flex-row gap-6 items-start py-6'>
                     <div className='w-full lg:w-2/5 self-stretch'>
                         <img
-                            src="BusinessOverview/IntellectualCapital/Page-63-Img-1.png"
+                            src="BusinessOverview/IntellectualCapital/Page-63-Img-1.webp"
                             alt=""
                             className="w-full h-full max-h-[600px] object-contain rounded-lg"
                         />
@@ -160,7 +160,7 @@ const FinancialCapital = () => {
                     {/* Full width top image */}
                     <div className='w-full mb-10 lg:mb-16'>
                         <img
-                            src="BusinessOverview/IntellectualCapital/Page-64-Img-.png"
+                            src="BusinessOverview/IntellectualCapital/Page-64-Img-.webp"
                             alt="Main Technology"
                             className="w-full h-auto max-h-[600px] object-contain rounded-lg"
                         />
@@ -170,7 +170,7 @@ const FinancialCapital = () => {
                     <div className='grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8'>
                         <div className='space-y-4'>
                             <img
-                                src="BusinessOverview/IntellectualCapital/Page-64-Img-1.png"
+                                src="BusinessOverview/IntellectualCapital/Page-64-Img-1.webp"
                                 alt="AR/VR Training"
                                 className="w-full h-auto max-h-[300px] object-contain rounded-lg"
                             />
@@ -181,7 +181,7 @@ const FinancialCapital = () => {
 
                         <div className='space-y-4'>
                             <img
-                                src="BusinessOverview/IntellectualCapital/Page-64-Img-2.png"
+                                src="BusinessOverview/IntellectualCapital/Page-64-Img-2.webp"
                                 alt="Refractory Management"
                                 className="w-full h-auto max-h-[300px] object-contain rounded-lg"
                             />
@@ -232,7 +232,7 @@ const FinancialCapital = () => {
                             {/* Image - comes second on mobile */}
                             <div className='w-full lg:w-2/5 flex justify-center items-start'>
                                 <img
-                                    src="BusinessOverview/IntellectualCapital/Page-64-Img-3.png"
+                                    src="BusinessOverview/IntellectualCapital/Page-64-Img-3.webp"
                                     alt="Digital Transformation"
                                     className='w-full h-auto max-w-[600px] lg:max-w-none object-contain rounded-lg shadow-sm'
                                 />
@@ -362,7 +362,7 @@ const FinancialCapital = () => {
                                 </div>
                                 <div>
                                     <div className="p-6 rounded-lg ">
-                                        <img src="BusinessOverview/IntellectualCapital/Page-65-Img.png" alt="" />
+                                        <img src="BusinessOverview/IntellectualCapital/Page-65-Img.webp" alt="" />
                                         <h1>Ash control Tower</h1>
                                     </div>
                                 </div>
@@ -372,7 +372,7 @@ const FinancialCapital = () => {
                     <div className='flex flex-col lg:flex-row gap-8 lg:gap-12 items-center py-8 border-b'>
                         <div className='w-full lg:w-3/5 order-2'>
                             <img
-                                src="BusinessOverview/IntellectualCapital/Page-66-Img.png"
+                                src="BusinessOverview/IntellectualCapital/Page-66-Img.webp"
                                 alt=""
                                 className="w-full h-auto rounded-lg shadow-md"
                             />
@@ -388,12 +388,12 @@ const FinancialCapital = () => {
                         </div>
                     </div>
                     <div className='mt-10'>
-                        <img src="BusinessOverview/IntellectualCapital/Page-66-Img-1.png" alt="" className='mb-20' />
-                        <img src="BusinessOverview/IntellectualCapital/Page-66-Img-2.png" alt="" />
+                        <img src="BusinessOverview/IntellectualCapital/Page-66-Img-1.webp" alt="" className='mb-20' />
+                        <img src="BusinessOverview/IntellectualCapital/Page-66-Img-2.webp" alt="" />
                     </div>
                     <div className='mt-10'>
                         <h1 className='text-[#9b92c6] text-2xl lg:text-3xl font-bold mb-4 lg:mb-6'>Optimising legal activities with Roznama tool </h1>
-                        <img src="BusinessOverview/IntellectualCapital/Page-67-img.png" alt="" />
+                        <img src="BusinessOverview/IntellectualCapital/Page-67-img.webp" alt="" />
 
                         <div className='flex flex-col lg:flex-row gap-6 lg:gap-8 items-start py-6 border-b mt-10'>
                             {/* Text Content - Always comes first in DOM */}
@@ -420,7 +420,7 @@ const FinancialCapital = () => {
                             {/* Image - Comes second in DOM but appears on right */}
                             <div className='w-full lg:w-3/5'>
                                 <img
-                                    src="BusinessOverview/IntellectualCapital/Page-67-img-1.png"
+                                    src="BusinessOverview/IntellectualCapital/Page-67-img-1.webp"
                                     alt="IT Infrastructure"
                                     className="w-full h-auto max-h-[600px] lg:max-h-[500px] object-contain "
                                 />
@@ -434,7 +434,7 @@ const FinancialCapital = () => {
                                 </div>
                                 <div className="h-64 md:h-72 w-full overflow-hidden">
                                     <img
-                                        src="BusinessOverview/IntellectualCapital/Page-67-img-2.png"
+                                        src="BusinessOverview/IntellectualCapital/Page-67-img-2.webp"
                                         alt="Infrastructure"
                                         className="w-full h-full object-contain"
                                     />
@@ -453,7 +453,7 @@ const FinancialCapital = () => {
                                 </div>
                                 <div className="h-64 md:h-72 w-full overflow-hidden">
                                     <img
-                                        src="BusinessOverview/IntellectualCapital/Page-67-img-3.png"
+                                        src="BusinessOverview/IntellectualCapital/Page-67-img-3.webp"
                                         alt="SAP"
                                         className="w-full h-full object-contain"
                                     />
@@ -472,7 +472,7 @@ const FinancialCapital = () => {
                                 </div>
                                 <div className="h-64 md:h-72 w-full overflow-hidden">
                                     <img
-                                        src="BusinessOverview/IntellectualCapital/Page-67-img-4.png"
+                                        src="BusinessOverview/IntellectualCapital/Page-67-img-4.webp"
                                         alt="Cybersecurity"
                                         className="w-full h-full object-contain"
                                     />
@@ -494,14 +494,14 @@ const FinancialCapital = () => {
                             <div className="flex flex-col md:flex-row gap-4 w-full mt-10">
                                 <div className="w-full md:w-1/2 h-[800px]">
                                     <img
-                                        src="BusinessOverview/IntellectualCapital/Page-68-img.png"
+                                        src="BusinessOverview/IntellectualCapital/Page-68-img.webp"
                                         alt="First Image"
                                         className="w-full h-full object-cover"
                                     />
                                 </div>
                                 <div className="w-full md:w-1/2 h-[800px] overflow-hidden">
                                     <img
-                                        src="BusinessOverview/IntellectualCapital/Page-69-img.png"
+                                        src="BusinessOverview/IntellectualCapital/Page-69-img.webp"
                                         alt="Second Image"
                                         className="w-full h-full object-cover object-center" // crops from top
                                     />

@@ -8,7 +8,7 @@ const Footer = () => {
         {/* Left: Company Logo */}
         <div className="flex items-center gap-2 bg-white p-2 rounded">
           <a href="https://www.tataconsumer.com/"> <img
-            src="/outlook.png" // Replace with your path
+            src="/outlook.webp" // Replace with your path
             alt="Company Logo"
             className="w-60  object-contain"
           /></a>
@@ -24,7 +24,7 @@ const Footer = () => {
         <div className="flex items-center gap-2">
           <span className="text-sm text-gray-200">Crafted by</span>
           <a href="https://kalolwala.com/" target="_blank"><img
-            src="/k&a logo.svg" // Replace with your path
+            src="/k&a logo.webp" // Replace with your path
             alt="Developer Logo"
             className="w-8 h-8 object-contain"
           /></a>

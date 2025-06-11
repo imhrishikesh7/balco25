@@ -5,14 +5,14 @@ const FinancialCapital = () => {
     return (
         <div>
             {/* Background Section */}
-            <div className="bg-[url('BusinessOverview/HumanCapital/Page-70-img-1.png')] bg-cover bg-no-repeat bg-center w-full min-h-screen">
+            <div className="bg-[url('BusinessOverview/HumanCapital/Page-70-img-1.webp')] bg-cover bg-no-repeat bg-center w-full min-h-screen">
                 <div className="marginal px-6 sm:px-12 py-10 flex items-center">
                     <div className="flex flex-col lg:flex-row justify-start items-end gap-6 lg:gap-10 w-full">
 
                         {/* Left Side - Icon + Description */}
                         <div className="max-w-md text-white space-y-4">
                             <img
-                                src="BusinessOverview/HumanCapital/Human-Circle.png"
+                                src="BusinessOverview/HumanCapital/Human-Circle.webp"
                                 alt="Financial Icon"
                                 className="w-[100px] h-[100px] sm:w-[120px] sm:h-[120px]"
                             />
@@ -56,12 +56,12 @@ const FinancialCapital = () => {
                                 {/* Responsive Grid: 3 columns on mobile, auto layout on lg screens */}
                                 <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:flex lg:gap-4">
                                     {[
-                                        "BusinessOverview/HumanCapital/3.png",
-                                        "BusinessOverview/HumanCapital/5.png",
-                                        "/BusinessOverview/FinancialCapital/8.png",
-                                        "BusinessOverview/HumanCapital/10.png",
-                                        "BusinessOverview/HumanCapital/15.png",
-                                        "BusinessOverview/HumanCapital/16.png",
+                                        "BusinessOverview/HumanCapital/3.webp",
+                                        "BusinessOverview/HumanCapital/5.webp",
+                                        "/BusinessOverview/FinancialCapital/8.webp",
+                                        "BusinessOverview/HumanCapital/10.webp",
+                                        "BusinessOverview/HumanCapital/15.webp",
+                                        "BusinessOverview/HumanCapital/16.webp",
                                     ].map((src, idx) => (
                                         <motion.img
                                             key={idx}
@@ -84,12 +84,12 @@ const FinancialCapital = () => {
             <div className='marginal px-6 sm:px-12'>
                 <div>
                     <h1 className='text-[#01a7e1] text-2xl lg:text-3xl font-bold mb-4 lg:mb-6'>Our people</h1>
-                    <img src="BusinessOverview/HumanCapital/Page-72.png" alt="" />
+                    <img src="BusinessOverview/HumanCapital/Page-72.webp" alt="" />
                 </div>
                 <div className='flex flex-col lg:flex-row gap-8 lg:gap-12 items-center py-8'>
                     <div className='w-full lg:w-2/5 order-2'>
                         <img
-                            src="BusinessOverview/HumanCapital/Page-72-Image-2.png"
+                            src="BusinessOverview/HumanCapital/Page-72-Image-2.webp"
                             alt=""
                             className="w-full h-auto rounded-lg"
                         />
@@ -117,7 +117,7 @@ const FinancialCapital = () => {
                             </div>
                             <div className='w-full lg:w-2/5 order-1 flex justify-center items-start'>
                                 <img
-                                    src="BusinessOverview/HumanCapital/Page-73-Image.png"
+                                    src="BusinessOverview/HumanCapital/Page-73-Image.webp"
                                     alt="Digital Transformation"
                                     className='w-full h-auto max-w-[600px] lg:max-w-none object-contain rounded-lg shadow-sm'
                                 />
@@ -128,7 +128,7 @@ const FinancialCapital = () => {
                         <div>
                             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                                 <div>
-                                    <div className="rounded-2xl bg-[url('BusinessOverview/HumanCapital/Page-73-Image-1.png')] bg-cover bg-no-repeat bg-center w-full h-full">
+                                    <div className="rounded-2xl bg-[url('BusinessOverview/HumanCapital/Page-73-Image-1.webp')] bg-cover bg-no-repeat bg-center w-full h-full">
                                         <p className='text-white text-2xl p-6 font-bold text-center'>Recognising the need for diversity
                                             and equal opportunities, we continue
                                             to drive inclusive hiring practices. In
@@ -179,7 +179,7 @@ const FinancialCapital = () => {
                     <div className='flex flex-col lg:flex-row gap-8 lg:gap-12 items-center py-8'>
                         <div className='w-full lg:w-2/5 order-2'>
                             <img
-                                src="BusinessOverview/HumanCapital/Page-74-Image.png"
+                                src="BusinessOverview/HumanCapital/Page-74-Image.webp"
                                 alt=""
                                 className="w-full h-auto rounded-lg shadow-md"
                             />
@@ -340,7 +340,7 @@ const FinancialCapital = () => {
                         </div>
                         <div className="w-full lg:w-3/5 flex items-center">
                             <img
-                                src="/BusinessOverview/HumanCapital/Page-75-Image.png"
+                                src="/BusinessOverview/HumanCapital/Page-75-Image.webp"
                                 alt="Work Integrated Learning Programme"
                                 className="w-full h-auto rounded-lg object-cover"
                             />
@@ -360,7 +360,7 @@ const FinancialCapital = () => {
                                 </div>
                                 <div className="h-64 md:h-72 w-full overflow-hidden">
                                     <img
-                                        src="BusinessOverview/HumanCapital/Page-75-Image-1.png"
+                                        src="BusinessOverview/HumanCapital/Page-75-Image-1.webp"
                                         alt="Infrastructure"
                                         className="w-full h-full object-contain"
                                     />
@@ -380,7 +380,7 @@ const FinancialCapital = () => {
                                 </div>
                                 <div className="h-64 md:h-72 w-full overflow-hidden">
                                     <img
-                                        src="BusinessOverview/HumanCapital/Page-75-Image-2.png"
+                                        src="BusinessOverview/HumanCapital/Page-75-Image-2.webp"
                                         alt="SAP"
                                         className="w-full h-full object-contain"
                                     />
@@ -400,7 +400,7 @@ const FinancialCapital = () => {
                                 </div>
                                 <div className="h-64 md:h-72 w-full overflow-hidden">
                                     <img
-                                        src="BusinessOverview/HumanCapital/Page-75-Image-3.png"
+                                        src="BusinessOverview/HumanCapital/Page-75-Image-3.webp"
                                         alt="Cybersecurity"
                                         className="w-full h-full object-contain"
                                     />
@@ -425,17 +425,17 @@ const FinancialCapital = () => {
                         {/* Mobile scrollable image row */}
                         <div className="mt-10 block lg:hidden overflow-x-auto">
                             <div className="flex gap-4 w-max">
-                                <img src="BusinessOverview/HumanCapital/Page-76-Image1.png" alt="" className="w-64 flex-shrink-0" />
-                                <img src="BusinessOverview/HumanCapital/Page-76-Image2.png" alt="" className="w-64 flex-shrink-0" />
-                                <img src="BusinessOverview/HumanCapital/Page-76-Image3.png" alt="" className="w-64 flex-shrink-0" />
+                                <img src="BusinessOverview/HumanCapital/Page-76-Image1.webp" alt="" className="w-64 flex-shrink-0" />
+                                <img src="BusinessOverview/HumanCapital/Page-76-Image2.webp" alt="" className="w-64 flex-shrink-0" />
+                                <img src="BusinessOverview/HumanCapital/Page-76-Image3.webp" alt="" className="w-64 flex-shrink-0" />
                             </div>
                         </div>
 
                         {/* Desktop static stacked images */}
                         <div className="hidden lg:block mt-10">
-                            <img src="BusinessOverview/HumanCapital/Page-76-Image1.png" alt="" className="mb-10" />
-                            <img src="BusinessOverview/HumanCapital/Page-76-Image2.png" alt="" className="mb-10" />
-                            <img src="BusinessOverview/HumanCapital/Page-76-Image3.png" alt="" className="pb-10 border-b" />
+                            <img src="BusinessOverview/HumanCapital/Page-76-Image1.webp" alt="" className="mb-10" />
+                            <img src="BusinessOverview/HumanCapital/Page-76-Image2.webp" alt="" className="mb-10" />
+                            <img src="BusinessOverview/HumanCapital/Page-76-Image3.webp" alt="" className="pb-10 border-b" />
                         </div>
 
                         {/* Employee Well Being */}
@@ -445,13 +445,13 @@ const FinancialCapital = () => {
                             {/* Mobile scrollable */}
                             <div className='block lg:hidden overflow-x-auto'>
                                 <div className="w-max">
-                                    <img src="BusinessOverview/HumanCapital/Page-76-Image4.png" alt="" className="w-80" />
+                                    <img src="BusinessOverview/HumanCapital/Page-76-Image4.webp" alt="" className="w-80" />
                                 </div>
                             </div>
 
                             {/* Desktop static */}
                             <div className='hidden lg:block'>
-                                <img src="BusinessOverview/HumanCapital/Page-76-Image4.png" alt="" />
+                                <img src="BusinessOverview/HumanCapital/Page-76-Image4.webp" alt="" />
                             </div>
                         </div>
                         <div className='mt-10 border-b pb-10'>
@@ -460,17 +460,17 @@ const FinancialCapital = () => {
                             </h2>
                             <div className='block lg:hidden overflow-x-auto'>
                                 <div className="w-max">
-                                    <img src="BusinessOverview/HumanCapital/Page-78-Image.png" alt="" className="w-96" />
+                                    <img src="BusinessOverview/HumanCapital/Page-78-Image.webp" alt="" className="w-96" />
                                 </div>
                             </div>
                             <div className='hidden lg:block'>
-                                <img src="BusinessOverview/HumanCapital/Page-78-Image.png" alt="" />
+                                <img src="BusinessOverview/HumanCapital/Page-78-Image.webp" alt="" />
                             </div>
                         </div>
                         <div className='flex flex-col lg:flex-row gap-8 lg:gap-12 items-start py-8'>
                             <div className='w-full lg:w-2/5 order-2 flex justify-center'>
                                 <img
-                                    src="BusinessOverview/HumanCapital/Page-78-Image (2).png"
+                                    src="BusinessOverview/HumanCapital/Page-78-Image (2).webp"
                                     alt=""
                                     className="w-[20vw] rounded-lg shadow-md"
                                 />
@@ -497,14 +497,14 @@ const FinancialCapital = () => {
                                 Key initiatives in FY 2025 included:
                             </h2>
                             <div>
-                                <img src="BusinessOverview/HumanCapital/Page-79-Image.png" alt="" className='mb-10' />
-                                <img src="BusinessOverview/HumanCapital/Page-79-Image-2.png" alt="" className='mb-10' />
+                                <img src="BusinessOverview/HumanCapital/Page-79-Image.webp" alt="" className='mb-10' />
+                                <img src="BusinessOverview/HumanCapital/Page-79-Image-2.webp" alt="" className='mb-10' />
                             </div>
                         </div>
                         <div className='flex flex-col lg:flex-row gap-8 lg:gap-12 items-center py-8'>
                             <div className='w-full lg:w-2/5 order-2'>
                                 <img
-                                    src="BusinessOverview/HumanCapital/Page-80-Image.png"
+                                    src="BusinessOverview/HumanCapital/Page-80-Image.webp"
                                     alt=""
                                     className="w-full h-auto rounded-lg mt-10"
                                 />
@@ -543,7 +543,7 @@ const FinancialCapital = () => {
                             </div>
                         </div>
                         <div>
-                            <img src="BusinessOverview/HumanCapital/Page-80-Image-2.png" alt="" />
+                            <img src="BusinessOverview/HumanCapital/Page-80-Image-2.webp" alt="" />
                         </div>
                         <div className='mt-10'>
                             <h2 className='text-black text-xl lg:text-2xl font-bold mb-4 lg:mb-6'>
@@ -564,7 +564,7 @@ const FinancialCapital = () => {
                     <div className='flex flex-col lg:flex-row gap-8 lg:gap-12 items-start py-8'>
                         <div className='w-full lg:w-2/5 order-2'>
                             <img
-                                src="BusinessOverview/HumanCapital/Page-81-Image-1.png"
+                                src="BusinessOverview/HumanCapital/Page-81-Image-1.webp"
                                 alt=""
                                 className="w-full h-auto rounded-lg "
                             />
@@ -595,7 +595,7 @@ const FinancialCapital = () => {
                                     Certifications
                                 </h2>
                                 <img
-                                    src="BusinessOverview/HumanCapital/Page-81-Image-.png"
+                                    src="BusinessOverview/HumanCapital/Page-81-Image-.webp"
                                     alt=""
                                     className='w-[35vw] mx-auto'
                                 />
@@ -605,7 +605,7 @@ const FinancialCapital = () => {
                     <div className='flex flex-col lg:flex-row gap-8 lg:gap-12 items-start py-8'>
                         <div className='w-full lg:w-2/5 order-2 flex justify-center'>
                             <img
-                                src="BusinessOverview/HumanCapital/Page-81-Image-2.png"
+                                src="BusinessOverview/HumanCapital/Page-81-Image-2.webp"
                                 alt=""
                                 className="w-[30vw]"
                             />

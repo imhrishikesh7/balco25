@@ -13,7 +13,7 @@ const CFO = () => {
                     {/* Image */}
                     <div className='bg-[#27bdbf] w-full lg:w-[40%] flex items-center justify-center max-h-[400px] lg:max-h-[70vh]'>
                         <img
-                            src="KnowBALCO/CFO/Amit-Gupta.png"
+                            src="KnowBALCO/CFO/Amit-Gupta.webp"
                             alt="chairman"
                             className='w-full h-full object-contain lg:object-cover'
                         />

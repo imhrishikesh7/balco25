@@ -62,7 +62,7 @@ const Message = () => {
 
   const cards = [
     {
-      image: "/Chairman/MR.-S-K-R.png",
+      image: "/Chairman/MR.-S-K-R.webp",
       alt: "chairman",
       bgImage: "bg-[#a27b5b]",
       bgText: "bg-[#e3d1c2]",
@@ -73,7 +73,7 @@ const Message = () => {
       title: "Chairman’s communique"
     },
     {
-      image: "/CEO/Rajesh-Kumar.png",
+      image: "/CEO/Rajesh-Kumar.webp",
       alt: "CEO",
       bgImage: "bg-[#acd4f1]",
       bgText: "bg-[#1a3866]",
@@ -85,7 +85,7 @@ const Message = () => {
 
     },
     {
-      image: "KnowBALCO/CFO/Amit-Gupta.png",
+      image: "KnowBALCO/CFO/Amit-Gupta.webp",
       alt: "CFO",
       bgImage: "bg-[#27bdbf]",
       bgText: "bg-[#016b71]",

@@ -13,7 +13,7 @@ const CEO = () => {
                     {/* Image */}
                     <div className='bg-[#acd4f1] w-full lg:w-[40%] flex items-center justify-center max-h-[400px] lg:max-h-[70vh]'>
                         <img
-                            src="public/CEO/Rajesh-Kumar.png"
+                            src="public/CEO/Rajesh-Kumar.webp"
                             alt="chairman"
                             className='w-full h-full object-contain lg:object-contain'
                         />

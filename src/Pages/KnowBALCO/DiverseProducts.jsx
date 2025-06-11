@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 const cards = [
     {
-        img: "DiverseProducts/Wire-rods.png",
+        img: "DiverseProducts/Wire-rods.webp",
         title: "WIRE RODS",
         description:
             "BALCO is one of the leading wire rod manufacturers in the world. Our mills are fully equipped with in-line degassing and filtration systems to ensure good internal metal quality and cleanliness.",
@@ -16,7 +16,7 @@ const cards = [
         ],
     },
     {
-        img: "DiverseProducts/Ingots.png",
+        img: "DiverseProducts/Ingots.webp",
         title: "INGOTS ",
         description:
             "Our growth trajectory is fueled by innovation, capacity expansion, and customer-centric strategies.",
@@ -25,7 +25,7 @@ const cards = [
         ],
     },
     {
-        img: "DiverseProducts/Rolled-Products.png",
+        img: "DiverseProducts/Rolled-Products.webp",
         title: "ROLLED PRODUCTS ",
         description:
             "Committed to green operations, reduced emissions, and eco-friendly initiatives.",
@@ -34,7 +34,7 @@ const cards = [
         ],
     },
     {
-        img: "DiverseProducts/Promary Foundry.png",
+        img: "DiverseProducts/Promary Foundry.webp",
         title: "PRIMARY FOUNDRY ALLOY ",
         description:
             "Driving with cutting-edge R&D, smart tech, and digital transformation.",
@@ -43,7 +43,7 @@ const cards = [
         ],
     },
     {
-        img: "DiverseProducts/AlSi_Ingot.png",
+        img: "DiverseProducts/AlSi_Ingot.webp",
         title: "AlSi T-INGOT",
         description:
             "Supporting education, health, and livelihood programs across the nation.",
@@ -55,35 +55,35 @@ const cards = [
         title: "INDUSTRIES WE SERVE",
         extraImages: [
             {
-                src: "DiverseProducts/Ship-Building.png",
+                src: "DiverseProducts/Ship-Building.webp",
                 title: "Ship Building",
             },
             {
-                src: "DiverseProducts/Medical-Equipment.png",
+                src: "DiverseProducts/Medical-Equipment.webp",
                 title: "Medical Equipment",
             },
             {
-                src: "DiverseProducts/Food-Packaging.png",
+                src: "DiverseProducts/Food-Packaging.webp",
                 title: "Food Packaging",
             },
             {
-                src: "DiverseProducts/Automobile.png",
+                src: "DiverseProducts/Automobile.webp",
                 title: "Automobile",
             },
             {
-                src: "DiverseProducts/Building-Construction.png",
+                src: "DiverseProducts/Building-Construction.webp",
                 title: "Building Construction",
             },
             {
-                src: "DiverseProducts/Power-Infrastructure.png",
+                src: "DiverseProducts/Power-Infrastructure.webp",
                 title: "Power Infrastructure",
             },
             {
-                src: "DiverseProducts/Defence.png",
+                src: "DiverseProducts/Defence.webp",
                 title: "Defence",
             },
             {
-                src: "DiverseProducts/Electronic.png",
+                src: "DiverseProducts/Electronic.webp",
                 title: "Electronic",
             },
         ],

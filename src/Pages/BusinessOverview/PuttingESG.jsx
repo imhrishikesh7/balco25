@@ -41,17 +41,17 @@ const PuttingESG = () => {
                         {/* Right Side Image */}
                         <div className="w-full lg:w-[45%] overflow-x-auto">
                             <img
-                                src="BusinessOverview/ESGCore/Page-IMG-34.png"
+                                src="BusinessOverview/ESGCore/Page-IMG-34.webp"
                                 alt=""
                                 className='rounded-2xl w-full h-auto'
                             />
                         </div>
                     </div>
                     <div className='mt-10'>
-                        <img src="BusinessOverview/ESGCore/Page-IMG-34-1.png" alt="IMG-34-1.png" />
+                        <img src="BusinessOverview/ESGCore/Page-IMG-34-1.webp" alt="IMG-34-1.webp" />
                     </div>
                     <div className='mt-10'>
-                        <img src="BusinessOverview/ESGCore/Page-IMG-35.png" alt="" />
+                        <img src="BusinessOverview/ESGCore/Page-IMG-35.webp" alt="" />
                     </div>
                     <div className='mt-10'>
                         <h4 className='text-[#005b94] text-2xl sm:text-3xl font-bold'>
@@ -63,7 +63,7 @@ const PuttingESG = () => {
                         </h5>
                     </div>
                     <div className='mt-10'>
-                        <img src="BusinessOverview/ESGCore/Page-IMG-35-2.png" alt="" />
+                        <img src="BusinessOverview/ESGCore/Page-IMG-35-2.webp" alt="" />
                     </div>
                 </div>
             </div>

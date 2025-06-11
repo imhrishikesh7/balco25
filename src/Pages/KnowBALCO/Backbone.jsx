@@ -10,7 +10,7 @@ const Backbone = () => {
 
   const data = [
     {
-      img: '/StrentheningBackbone/Integrated.png',
+      img: '/StrentheningBackbone/Integrated.webp',
       title: 'Integrated Aluminium industry',
       subtitle: 'in India.',
     },
@@ -20,29 +20,29 @@ const Backbone = () => {
       after: 'Prebake pots..',
     },
     {
-      img: '/StrentheningBackbone/Captive.png',
+      img: '/StrentheningBackbone/Captive.webp',
       title: 'Captive Power Plant.',
       subtitle: 'to establish a',
     },
     {
-      img: '/StrentheningBackbone/To-roll.png',
+      img: '/StrentheningBackbone/To-roll.webp',
       title: 'to roll material',
       subtitle: 'for the aerospace sector in the country.',
     },
     {
-      img: '/StrentheningBackbone/Alloy.png',
+      img: '/StrentheningBackbone/Alloy.webp',
       title: 'alloy rods for conductors',
       subtitle: 'to produce',
       after: 'used in the power transmission industry..',
     },
     {
-      img: '/StrentheningBackbone/Largest.png',
+      img: '/StrentheningBackbone/Largest.webp',
       title: 'the largest billet',
       subtitle: 'to produce',
       after: 'with a diameter of 800 mm and length of 6 meters.',
     },
     {
-      img: '/StrentheningBackbone/Widest.png',
+      img: '/StrentheningBackbone/Widest.webp',
       title: 'widest Hot Rolling Mill.',
       subtitle: 'to set up the',
     },
@@ -139,7 +139,7 @@ const Backbone = () => {
                 onClick={() => openSection('coreValues')}
               >
                 <img
-                  src="/StrentheningBackbone/Core.png"
+                  src="/StrentheningBackbone/Core.webp"
                   alt="Core Values"
                   className='backbone1 mb-4'
                 />
@@ -220,7 +220,7 @@ const Backbone = () => {
                 onClick={() => openSection('vision')}
               >
                 <img
-                  src="/StrentheningBackbone/Vision.png"
+                  src="/StrentheningBackbone/Vision.webp"
                   alt="Vision"
                   className='backbone1 mb-4'
                 />
@@ -249,7 +249,7 @@ const Backbone = () => {
                 onClick={() => openSection('mission')}
               >
                 <img
-                  src="/StrentheningBackbone/Mission.png"
+                  src="/StrentheningBackbone/Mission.webp"
                   alt="Mission"
                   className='backbone1 mb-4'
                 />

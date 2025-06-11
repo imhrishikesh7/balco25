@@ -3,19 +3,19 @@ import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 
 const capitalButtons = [
-    { label: 'Financial Capital', path: '/financial_capital', img: '/BusinessOverview/CapitalAllocation/Financial-Circle.png' },
-    { label: 'Manufactured Capital', path: '/manufactured_capital', img: '/BusinessOverview/CapitalAllocation/Manufactured-Circle.png' },
-    { label: 'Intellectual Capital', path: '/intellectual_capital', img: '/BusinessOverview/CapitalAllocation/Intellectual-Circle.png' },
-    { label: 'Human Capital', path: '/human_capital', img: '/BusinessOverview/CapitalAllocation/Human-Circle.png' },
-    { label: 'Social & Relationship Capital', path: '/social_and_relationship_capital', img: '/BusinessOverview/CapitalAllocation/Social and relationship-Circle.png' },
-    { label: 'Natural Capital', path: '/natural_capital', img: '/BusinessOverview/CapitalAllocation/Natural-Circle.png' },
+    { label: 'Financial Capital', path: '/financial_capital', img: '/BusinessOverview/CapitalAllocation/Financial-Circle.webp' },
+    { label: 'Manufactured Capital', path: '/manufactured_capital', img: '/BusinessOverview/CapitalAllocation/Manufactured-Circle.webp' },
+    { label: 'Intellectual Capital', path: '/intellectual_capital', img: '/BusinessOverview/CapitalAllocation/Intellectual-Circle.webp' },
+    { label: 'Human Capital', path: '/human_capital', img: '/BusinessOverview/CapitalAllocation/Human-Circle.webp' },
+    { label: 'Social & Relationship Capital', path: '/social_and_relationship_capital', img: '/BusinessOverview/CapitalAllocation/Social and relationship-Circle.webp' },
+    { label: 'Natural Capital', path: '/natural_capital', img: '/BusinessOverview/CapitalAllocation/Natural-Circle.webp' },
 ];
 
 const CapitalAllocation = () => {
     const navigate = useNavigate();
 
     return (
-        <div className="bg-[url('/BusinessOverview/CapitalAllocation/Page-40-Img.png')] bg-no-repeat bg-cover bg-center h-screen w-full">
+        <div className="bg-[url('/BusinessOverview/CapitalAllocation/Page-40-Img.webp')] bg-no-repeat bg-cover bg-center h-screen w-full">
             <div className="marginal flex flex-col justify-end h-full px-6 pb-6 sm:pb-10">
                 {/* Heading */}
                 <div className="max-w-[650px] mb-6 sm:mb-10">

@@ -30,7 +30,7 @@ const RiskProofing = () => {
                     {/* Scrollable Image */}
                     <div className="overflow-x-auto mt-5">
                         <img
-                            src="BusinessOverview/RiskProofing/Page-32-IMG.png"
+                            src="BusinessOverview/RiskProofing/Page-32-IMG.webp"
                             alt=""
                             className='min-w-[900px] md:min-w-auto mt-8'
                         />
@@ -98,7 +98,7 @@ const RiskProofing = () => {
                         ))}
                     </div>
                     <div className='mt-20'>
-                        <img src="public/BusinessOverview/RiskProofing/Page-IMG-33.png" alt="" className='min-w-[900px] md:min-w-auto'/>
+                        <img src="public/BusinessOverview/RiskProofing/Page-IMG-33.webp" alt="" className='min-w-[900px] md:min-w-auto'/>
                     </div>
                 </div>
             </div>

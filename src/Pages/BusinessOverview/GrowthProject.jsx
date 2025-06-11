@@ -2,7 +2,7 @@ import React from 'react';
 
 const GrowthProject = () => {
     return (
-        <div className="bg-[url('BusinessOverview/GrowthProject/23-Page-IMG.png')] bg-no-repeat bg-cover h-screen w-full">
+        <div className="bg-[url('BusinessOverview/GrowthProject/23-Page-IMG.webp')] bg-no-repeat bg-cover h-screen w-full">
             <div className='marginal'>
                 <div className='pb-20'>
                     <div className=''>
@@ -25,13 +25,13 @@ const GrowthProject = () => {
 
                             {/* Did You Know Image */}
                             <div className=' w-full lg:w-[300px] flex items-center'>
-                                <img src="BusinessOverview/GrowthProject/Did-You-IMG.png" alt="Did You Know" className='w-full h-auto' />
+                                <img src="BusinessOverview/GrowthProject/Did-You-IMG.webp" alt="Did You Know" className='w-full h-auto' />
                             </div>
                         </div>
                         <div className='mt-10'>
                             <h1 className='text-3xl text-[#0064a8] font-extrabold'>USD 1.4 Billion</h1>
                             <h2>Estimated capex for expansion</h2>
-                            <img src="BusinessOverview/GrowthProject/Page-22-Infographic.png" alt="" className='w-[20vw] mt-5'/>
+                            <img src="BusinessOverview/GrowthProject/Page-22-Infographic.webp" alt="" className='w-[20vw] mt-5'/>
                         </div>
                     </div>
                 </div>

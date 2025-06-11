@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 const cards = [
     {
-        img: "ProgressYear/IMG1.png",
+        img: "ProgressYear/IMG1.webp",
         title: "Financial",
         description:
             "We consistently deliver robust earnings, maintain low operating costs and generate significant free cash flows, showing our resilience and efficiency.",
@@ -16,7 +16,7 @@ const cards = [
         ],
     },
     {
-        img: "ProgressYear/IMG2.png",
+        img: "ProgressYear/IMG2.webp",
         title: "Growth",
         description:
             "Our growth trajectory remains strong, fueled by investments in innovation, capacity expansion, and customer-centric strategies.",
@@ -27,7 +27,7 @@ const cards = [
         ],
     },
     {
-        img: "ProgressYear/IMG3.png",
+        img: "ProgressYear/IMG3.webp",
         title: "Sustainability",
         description:
             "We are committed to sustainability with green operations, reduced emissions, and eco-friendly initiatives across all units.",
@@ -38,7 +38,7 @@ const cards = [
         ],
     },
     {
-        img: "ProgressYear/IMG4.png",
+        img: "ProgressYear/IMG4.webp",
         title: "Innovation",
         description:
             "Driving the future with cutting-edge R&D, smart technologies, and digital transformation across all business segments.",
@@ -49,7 +49,7 @@ const cards = [
         ],
     },
     {
-        img: "ProgressYear/IMG5.png",
+        img: "ProgressYear/IMG5.webp",
         title: "Community",
         description:
             "Giving back to society through education, health, and livelihood programs that uplift communities and promote inclusion.",
@@ -78,7 +78,7 @@ const CardContent = ({ card }) => (
             <div className="flex items-center gap-2">
                 {/* Logo Circle */}
                 <div className="w-10 h-10 rounded-full bg-[#8adb3a] flex items-center justify-center">
-                    <img src="/icons/finance.png" alt="logo" className="w-4 h-4" />
+                    <img src="/icons/finance.webp" alt="logo" className="w-4 h-4" />
                 </div>
 
                 {/* Title Label */}

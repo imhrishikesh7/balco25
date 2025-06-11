@@ -6,14 +6,14 @@ const Border = () => {
 
     return (
         <div>
-            <div className="h-[100vh] bg-[url('BorderDemand/Page-11-Image-1.png')] bg-cover bg-center">
+            <div className="h-[100vh] bg-[url('BorderDemand/Page-11-Image-1.webp')] bg-cover bg-center">
                 <div className='marginal'>
                     <div className='pb-20'>
                         <div>
                             <h1 className='text-2xl sm:text-2xl lg:text-4xl font-medium pb-6 sm:pb-2'>
                                 Meeting demand across borders
                             </h1>
-                            <div className='w-[75vw]'>
+                            <div className='w-[70%]'>
                                 <h2 className='text-lg sm:text-xl text-[#a37b5b] pb-6 sm:pb-10'>
                                     Backed by innovation and powered by cutting-edge manufacturing and
                                     mining facilities in India, we are expanding our footprint and meet the

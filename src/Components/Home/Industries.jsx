@@ -4,35 +4,35 @@ import Marquee from 'react-fast-marquee'
 const Industries = () => {
   const capital = [
     {
-      img: "/DiverseProducts/Ship-Building.png",
+      img: "/DiverseProducts/Ship-Building.webp",
       text: "Ship Building"
     },
     {
-      img: "/DiverseProducts/Medical-Equipment.png",
+      img: "/DiverseProducts/Medical-Equipment.webp",
       text: "Medical equipment"
     },
     {
-      img: "/DiverseProducts/Food-Packaging.png",
+      img: "/DiverseProducts/Food-Packaging.webp",
       text: "Food packaging"
     },
     {
-      img: "/DiverseProducts/Automobile.png",
+      img: "/DiverseProducts/Automobile.webp",
       text: "Automobile"
     },
     {
-      img: "/DiverseProducts/Building-Construction.png",
+      img: "/DiverseProducts/Building-Construction.webp",
       text: "Building construction"
     },
     {
-      img: "/DiverseProducts/Power-Infrastructure.png",
+      img: "/DiverseProducts/Power-Infrastructure.webp",
       text: "Power infrastructure"
     },
     {
-      img: "/DiverseProducts/Defence.png",
+      img: "/DiverseProducts/Defence.webp",
       text: "Defence"
     },
     {
-      img: "/DiverseProducts/Electronic.png",
+      img: "/DiverseProducts/Electronic.webp",
       text: "Electronic appliances"
     }
   ]

@@ -5,14 +5,14 @@ const FinancialCapital = () => {
     return (
         <div>
             {/* Background Section */}
-            <div className="bg-[url('/BusinessOverview/FinancialCapital/Page-42-Img.png')] bg-cover bg-no-repeat bg-center w-full min-h-screen">
+            <div className="bg-[url('/BusinessOverview/FinancialCapital/Page-42-Img.webp')] bg-cover bg-no-repeat bg-center w-full min-h-screen">
                 <div className="marginal px-6 sm:px-12 py-10 flex items-center">
                     <div className="flex flex-col lg:flex-row justify-start items-end gap-10 w-full">
 
                         {/* Left Side - Icon + Description */}
                         <div className="max-w-md text-white space-y-4">
                             <img
-                                src="BusinessOverview/FinancialCapital/Financial-Circle.png"
+                                src="BusinessOverview/FinancialCapital/Financial-Circle.webp"
                                 alt="Financial Icon"
                                 className="w-[100px] h-[100px] sm:w-[120px] sm:h-[120px]"
                             />
@@ -40,7 +40,7 @@ const FinancialCapital = () => {
                                         whileHover={{ scale: 1.1 }}
                                         whileTap={{ scale: 0.95 }}
                                         transition={{ type: 'tween', duration: 0.2, ease: 'easeOut' }}
-                                        src="/BusinessOverview/FinancialCapital/8.png"
+                                        src="/BusinessOverview/FinancialCapital/8.webp"
                                         alt="SDG 8"
                                         className="w-[60px] h-[60px]"
                                     />
@@ -48,7 +48,7 @@ const FinancialCapital = () => {
                                         whileHover={{ scale: 1.1 }}
                                         whileTap={{ scale: 0.95 }}
                                         transition={{ type: 'tween', duration: 0.2, ease: 'easeOut' }}
-                                        src="/BusinessOverview/FinancialCapital/12.png"
+                                        src="/BusinessOverview/FinancialCapital/12.webp"
                                         alt="SDG 12"
                                         className="w-[60px] h-[60px]"
                                     />
@@ -66,7 +66,7 @@ const FinancialCapital = () => {
                     Financial highlights during FY 2024-25
                 </h1>
                 <div className="overflow-x-auto">
-                    <img src="BusinessOverview/FinancialCapital/Page-44-Img.png" alt="" className='min-w-[900px] md:min-w-[1200px] lg:min-w-[1400px] mt-2 p-10' />
+                    <img src="BusinessOverview/FinancialCapital/Page-44-Img.webp" alt="" className='min-w-[900px] md:min-w-[1200px] lg:min-w-[1400px] mt-2 p-10' />
                 </div>
                 <div>
                     <p className='text-xl'>During FY 2025, we have achieved credit rating of AA/Stable
@@ -118,7 +118,7 @@ const FinancialCapital = () => {
                 <div className='flex flex-col lg:flex-row gap-5'>
                     {/* Image comes first on mobile, text second */}
                     <div className='flex-1 order-1 lg:order-2'>
-                        <img src="BusinessOverview/FinancialCapital/Page-45-Img-2.png" alt="" className="w-full h-auto" />
+                        <img src="BusinessOverview/FinancialCapital/Page-45-Img-2.webp" alt="" className="w-full h-auto" />
                     </div>
                     <div className='flex-2 order-2 lg:order-1'>
                         <h1 className='text-[#005b94] text-2xl font-bold mt-8 lg:mt-8'>Building Financial Resilience Through Performance
@@ -149,7 +149,7 @@ const FinancialCapital = () => {
                     {/* Image comes first on mobile, text second */}
                     <div className='flex-1 order-1 lg:order-2'>
                         <h1 className='text-[#000000] text-lg font-bold mb-2 lg:mt-7'>Operational Highlights FY25</h1>
-                        <img src="BusinessOverview/FinancialCapital/Page-45-Img.png" alt="" className="w-full h-auto" />
+                        <img src="BusinessOverview/FinancialCapital/Page-45-Img.webp" alt="" className="w-full h-auto" />
                     </div>
                     <div className='flex-2 order-2 lg:order-1'>
                         <h1 className='text-[#005b94] text-2xl font-bold mt-12 lg:mt-12'>Barra Coal Block: Unlocking Cost Advantage</h1>
@@ -200,7 +200,7 @@ const FinancialCapital = () => {
                 <div className='flex flex-col lg:flex-row gap-5'>
                     {/* Image comes first on mobile, text second */}
                     <div className='flex-1 order-1 lg:order-2'>
-                        <img src="BusinessOverview/FinancialCapital/Page-45-Img-3.png" alt="" className="w-full h-auto mt-4 lg:mt-10" />
+                        <img src="BusinessOverview/FinancialCapital/Page-45-Img-3.webp" alt="" className="w-full h-auto mt-4 lg:mt-10" />
                     </div>
                     <div className='flex-2 order-2 lg:order-1'>
                         <h1 className='text-[#005b94] text-2xl font-bold mt-8'>Managing financial risk at BALCO</h1>

@@ -7,12 +7,12 @@ const icons = [
 ];
 
 const smallImages = [
-    { src: 'About/Financial-Circle.png', title: 'Financial Capital' },
-    { src: 'About/Manufactured-Circle.png', title: 'Manufactured Capital' },
-    { src: 'About/Intellectual-Circle.png', title: 'Intellectual Capital' },
-    { src: 'About/Human-Circle.png', title: 'Human Capital' },
-    { src: 'About/Social and relationship-Circle.png', title: 'Social and relationship Capital' },
-    { src: 'About/Natural-Circle.png', title: 'Natural Capital' },
+    { src: 'About/Financial-Circle.webp', title: 'Financial Capital' },
+    { src: 'About/Manufactured-Circle.webp', title: 'Manufactured Capital' },
+    { src: 'About/Intellectual-Circle.webp', title: 'Intellectual Capital' },
+    { src: 'About/Human-Circle.webp', title: 'Human Capital' },
+    { src: 'About/Social and relationship-Circle.webp', title: 'Social and relationship Capital' },
+    { src: 'About/Natural-Circle.webp', title: 'Natural Capital' },
 ];
 
 const AboutUs = () => {
@@ -119,7 +119,7 @@ const AboutUs = () => {
             </div>
 
             <div className='relative border border-amber-50 h-full w-full mb-20'>
-                <img src="About/Main-Circle.png" alt="main-circle" className='h-100' />
+                <img src="About/Main-Circle.webp" alt="main-circle" className='h-100' />
                 <div className='absolute top-[56%] left-[30%] -translate-y-1/2 flex gap-15 font-bold'>
                     {smallImages.map((img, index) => (
                         <motion.div
@@ -147,7 +147,7 @@ const AboutUs = () => {
                 </div>
             </div>
 
-            <div className="bg-[#f3eae3] bg-[url('/About/AboutBG.png')] bg-no-repeat bg-cover h-screen w-full">
+            <div className="bg-[#f3eae3] bg-[url('/About/AboutBG.webp')] bg-no-repeat bg-cover h-screen w-full">
                 <div className='marginal'>
                     <h1 className='font-bold text-2xl pb-2'>Sustainable Development Goals:</h1>
                     <div className="h-0.5 bg-black mr-10 sm:mr-20 md:mr-40 lg:mr-60 xl:mr-80 2xl:mr-[190px]"></div>
@@ -155,7 +155,7 @@ const AboutUs = () => {
                         {icons.map((num, idx) => (
                             <motion.img
                                 key={idx}
-                                src={`About/${num}.png`}
+                                src={`About/${num}.webp`}
                                 alt={`SDG_${num}`}
                                 className="h-20 w-20 object-contain cursor-pointer"
                                 whileHover={{ scale: 1.1 }}

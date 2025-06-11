@@ -28,7 +28,7 @@ const CreateValue = () => {
                     {/* Scrollable Image */}
                     <div className="overflow-x-auto mt-5">
                         <img
-                            src="BusinessOverview/CreateValues/Page-25-IMG.png"
+                            src="BusinessOverview/CreateValues/Page-25-IMG.webp"
                             alt=""
                             className='min-w-[900px] md:min-w-[1200px] lg:min-w-[1500px] rounded-2xl'
                         />

@@ -70,7 +70,7 @@ export default function BalancedMegaMenu() {
       {/* Top Navbar */}
       <div className="mx-auto max-w-[99%] mt-1 bg-white border border-gray-200 text-black rounded-xl px-6 py-6 flex justify-between items-center">
         <div className="text-xl font-bold tracking-tight w-70">
-          <Link to="/"><img src="/outlook.png" alt="" className="w-45" /></Link>
+          <Link to="/"><img src="/outlook.webp" alt="" className="w-45" /></Link>
         </div>
         <div className="relative w-6 h-6 cursor-pointer">
           <button

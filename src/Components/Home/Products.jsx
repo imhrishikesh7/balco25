@@ -62,24 +62,24 @@ const Products = () => {
 
     const cards = [
         {
-            image: "/DiverseProducts/Wire-rods.png",
+            image: "/DiverseProducts/Wire-rods.webp",
             name: "WIRE RODS"
         },
         {
-            image: "public/DiverseProducts/Ingots.png",
+            image: "public/DiverseProducts/Ingots.webp",
             name: "INGOTS",
 
         },
         {
-            image: "/DiverseProducts/Rolled-Products.png",
+            image: "/DiverseProducts/Rolled-Products.webp",
             name: "ROLLED PRODUCTS",
         },
         {
-            image: "/DiverseProducts/Promary Foundry.png",
+            image: "/DiverseProducts/Promary Foundry.webp",
             name: "PRIMARY FOUNDRY ALLOY",
         },
         {
-            image: "/DiverseProducts/AlSi_Ingot.png",
+            image: "/DiverseProducts/AlSi_Ingot.webp",
             name: "AlSi T-INGOT",
         },
     ];

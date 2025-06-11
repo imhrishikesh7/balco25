@@ -28,35 +28,35 @@ const EngagingStakeholders = () => {
                     {/* Scrollable Image */}
                     <div className="overflow-x-auto mt-5">
                         <img
-                            src="BusinessOverview/EngagingStakeholders/Page-IMG-28.png"
+                            src="BusinessOverview/EngagingStakeholders/Page-IMG-28.webp"
                             alt=""
                             className='min-w-[900px] md:min-w-auto rounded-2xl mt-8'
                         />
                     </div>
                     <div className="overflow-x-auto mt-5">
                         <img
-                            src="BusinessOverview/EngagingStakeholders/Page-28-IMG.png"
+                            src="BusinessOverview/EngagingStakeholders/Page-28-IMG.webp"
                             alt=""
                             className=' md:min-w-auto rounded-2xl mt-18'
                         />
                     </div>
                     <div className="overflow-x-auto mt-5">
                         <img
-                            src="BusinessOverview/EngagingStakeholders/Page-IMG-29.png"
+                            src="BusinessOverview/EngagingStakeholders/Page-IMG-29.webp"
                             alt=""
                             className='min-w-[900px] md:min-w-auto rounded-2xl mt-18'
                         />
                     </div>
                     <div className="overflow-x-auto mt-5">
                         <img
-                            src="BusinessOverview/EngagingStakeholders/Page-IMG-30.png"
+                            src="BusinessOverview/EngagingStakeholders/Page-IMG-30.webp"
                             alt=""
                             className='min-w-[900px] md:min-w-auto rounded-2xl mt-18'
                         />
                     </div>
                     <div className="overflow-x-auto mt-5">
                         <img
-                            src="BusinessOverview/EngagingStakeholders/Page-IMG-31.png"
+                            src="BusinessOverview/EngagingStakeholders/Page-IMG-31.webp"
                             alt=""
                             className='md:min-w-auto rounded-2xl mt-18'
                         />

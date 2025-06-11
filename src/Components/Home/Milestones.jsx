@@ -53,11 +53,11 @@ const Milestones = () => {
         >
             <div className='mt-45 flex justify-center gap-20 items-center'>
                 <div className='relative w-40'>
-                    <img src="/home/nehru.png" className='absolute bottom-1/2 transform translate-y-1/2' alt="" />
+                    <img src="/home/nehru.webp" className='absolute bottom-1/2 transform translate-y-1/2' alt="" />
                 </div>
                 <ReadingHeading text="BALCO Chronicles" className="text-white text-center t-30" />
                 <div className='relative w-80'>
-                    <img src="/home/factory.png" className='absolute bottom-1/2 transform translate-y-1/2' alt="" />
+                    <img src="/home/factory.webp" className='absolute bottom-1/2 transform translate-y-1/2' alt="" />
                 </div>
             </div>
 
@@ -81,7 +81,7 @@ const Milestones = () => {
                             {/* Connecting line to the next box */}
                             {index !== milestones.length - 1 && (
                                 <div className="absolute right-0 top-1/2 w-8 transform translate-x-[100%] translate-y-[-50%]" >
-                                    <img src="/home/arrow-right.svg" alt="" />
+                                    <img src="/home/arrow-right.webp" alt="" />
                                 </div>
                             )}
 
@@ -89,7 +89,7 @@ const Milestones = () => {
                             {/* <h4 className="text-xl font-semibold mb-3">{item.title}</h4> */}
                             {item.description.map((desc, index) => (
                                 <div key={index} className="flex borde mr-8 items-start gap-3 mb-3">
-                                    <img src="/home/pointer.svg" alt="" className="w-4 mt-1" />
+                                    <img src="/home/pointer.webp" alt="" className="w-4 mt-1" />
                                     <p className="text-lg md:text-[2.5vh] text-white/70">
                                         {desc}
                                     </p>

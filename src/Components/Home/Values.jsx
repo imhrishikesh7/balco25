@@ -80,9 +80,9 @@ const Bubble = ({ icon, link, rotation, index }) => {
 
 const Values = () => {
   const bubbles = [
-    { icon: '/home/vison.png', link: '#search', rotation: 8 },
-    { icon: '/home/mission.png', link: '#books', rotation: -6 },
-    { icon: '/home/values.png', link: '#ideas', rotation: 10 },
+    { icon: '/home/vison.webp', link: '#search', rotation: 8 },
+    { icon: '/home/mission.webp', link: '#books', rotation: -6 },
+    { icon: '/home/values.webp', link: '#ideas', rotation: 10 },
   ];
 
   return (

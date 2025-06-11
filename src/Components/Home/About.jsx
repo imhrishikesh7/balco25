@@ -31,12 +31,12 @@ const About = () => {
   }, []);
 
   const images = [
-    '/home/1.png',
-    '/home/2.png',
-    '/home/3.png',
-    '/home/4.png',
-    '/home/5.png',
-    '/home/6.png',
+    '/home/1.webp',
+    '/home/2.webp',
+    '/home/3.webp',
+    '/home/4.webp',
+    '/home/5.webp',
+    '/home/6.webp',
   ];
 
   const positions = [

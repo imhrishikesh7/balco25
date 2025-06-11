@@ -17,7 +17,7 @@ const ESGBlueprint = () => {
                         transition={{ duration: 2 }}
                         viewport={{ once: true }}
                     >
-                        <img src="BusinessOverview/ESGBlueprint/Page-36.png" alt="" className="w-full" />
+                        <img src="BusinessOverview/ESGBlueprint/Page-36.webp" alt="" className="w-full" />
                     </motion.div>
 
                     {/* Image 2: Right to Left */}
@@ -28,7 +28,7 @@ const ESGBlueprint = () => {
                         viewport={{ once: true }}
                         className='my-20'
                     >
-                        <img src="BusinessOverview/ESGBlueprint/Page-36-Img-1.png" alt="" className="w-full" />
+                        <img src="BusinessOverview/ESGBlueprint/Page-36-Img-1.webp" alt="" className="w-full" />
                     </motion.div>
 
                     {/* Image 3: Left to Right */}
@@ -38,7 +38,7 @@ const ESGBlueprint = () => {
                         transition={{ duration: 2 }}
                         viewport={{ once: true }}
                     >
-                        <img src="BusinessOverview/ESGBlueprint/Page-36-Img-2.png" alt="" className="w-full" />
+                        <img src="BusinessOverview/ESGBlueprint/Page-36-Img-2.webp" alt="" className="w-full" />
                     </motion.div>
                 </div>
             </div>
