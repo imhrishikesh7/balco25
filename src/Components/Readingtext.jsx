@@ -5,7 +5,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 gsap.registerPlugin(ScrollTrigger);
 
-const ReadingText = ({ text, className = '' }) => {
+const ReadingText = ({ text, color, className = '' }) => {
   const headingRef = useRef(null);
 
   useEffect(() => {
@@ -49,6 +49,7 @@ const ReadingText = ({ text, className = '' }) => {
     <h2
       ref={headingRef}
       className={` font-bold leading-tight whitespace-pre-line ${className}`}
+    //   style={{color:color}}
     >
       {text}
     </h2>
