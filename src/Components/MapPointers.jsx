@@ -78,7 +78,7 @@ const pointers = [
     name: "Tanzania",
     revenue: "Revenue",
     top: "49%",
-    left: "48%",
+    left: "48`%",
     flag: "public/BorderDemand/Tanzania.png",
     data: "₹120.90 crore",
   },

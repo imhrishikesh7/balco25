@@ -4,6 +4,8 @@ import Cover from '../Components/Home/Cover,'
 import Values from '../Components/Home/Values'
 import ReadingHeading from '../Components/ReadingHeading'
 import Milestones from '../Components/Home/Milestones'
+import Message from '../Components/Home/Message'
+import Products from '../Components/Home/Products'
 
 const Home = () => {
   return (
@@ -16,7 +18,9 @@ const Home = () => {
         <Values />
         </div>
       </div>
+      <Message/>
         <Milestones />
+        <Products/>
     </div>
   )
 }

@@ -43,7 +43,7 @@ function App() {
             <Route path='/empowering_progress_while_shaping_the_future' element={<EmpoweringProgress />} />
             <Route path='/about_us' element={<AboutUs />} />
             <Route path='/a_year_of_progress' element={<YearOfProgress />} />
-            <Route path='/strengthening_india’s_industrial_backbone' element={<Backbone />} />
+            <Route path="/strengthening_indias_industrial_backbone" element={<Backbone />} />
             <Route path='/meeting_demand_across_borders' element={<Border />} />
             <Route path='/our_diverse_product_range' element={<DiverseProducts />} />
             <Route path='/chairman’s_communique' element={<Chairman />} />
