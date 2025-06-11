@@ -66,7 +66,7 @@ const Products = () => {
             name: "WIRE RODS"
         },
         {
-            image: "public/DiverseProducts/Ingots.webp",
+            image: "/DiverseProducts/Ingots.webp",
             name: "INGOTS",
 
         },

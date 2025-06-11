@@ -38,7 +38,7 @@ const Industries = () => {
   ]
 
   return (
-    <div className="w-full bg-white rounded-3xl overflow-hidden">
+    <div className="w-full rounded-3xl overflow-hidden">
        {/* <div className='w-fit mx-auto py-6'>
         <Heading2 text="Our Six Capitals"/>
         </div> */}

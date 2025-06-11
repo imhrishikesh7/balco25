@@ -46,11 +46,11 @@ function App() {
             <Route path="/strengthening_indias_industrial_backbone" element={<Backbone />} />
             <Route path='/meeting_demand_across_borders' element={<Border />} />
             <Route path='/our_diverse_product_range' element={<DiverseProducts />} />
-            <Route path='/chairman’s_communique' element={<Chairman />} />
+            <Route path="/chairmans_communique" element={<Chairman />} />
             <Route path='/letter_from_ceo_' element={<CEO />} />
-            <Route path='/cfo’s_message' element={<CFO />} />
+            <Route path="/cfos_message" element={<CFO />} />
             {/* Business Overview */}
-            <Route path='/balco’s_growth_project_' element={<GrowthProject />} />
+            <Route path='/balcos_growth_project_' element={<GrowthProject />} />
             <Route path='/how_we_create_value' element={<CreateValue />} />
             <Route path='/materiality_matters' element={<MaterialityMatters />} />
             <Route path='/engaging_with_our_stakeholders_' element={<EngagingStakeholders />} />

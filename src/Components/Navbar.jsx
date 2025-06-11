@@ -110,7 +110,7 @@ export default function BalancedMegaMenu() {
                       }`}
                     >
                       <h5 className="font-medium text-base">{menu.title}</h5>
-                      <p className="text-xs text-gray-100">{menu.subtitle}</p>
+                      {/* <p className="text-xs text-gray-100">{menu.subtitle}</p> */}
                     </div>
                   ))}
                 </div>
