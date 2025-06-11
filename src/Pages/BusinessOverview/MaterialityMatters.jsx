@@ -32,7 +32,7 @@ const MaterialityMatters = () => {
                     {/* Scrollable Image */}
                     <div className="mt-20 mb-30">
                         <img
-                            src="public/BusinessOverview/MaterialityMatters/Page-26-IMG.webp"
+                            src="BusinessOverview/MaterialityMatters/Page-26-IMG.webp"
                             alt=""
                             className='min-w-[900px] md:min-w-auto rounded-2xl'
                         />

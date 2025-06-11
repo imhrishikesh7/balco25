@@ -98,7 +98,7 @@ const RiskProofing = () => {
                         ))}
                     </div>
                     <div className='mt-20'>
-                        <img src="public/BusinessOverview/RiskProofing/Page-IMG-33.webp" alt="" className='min-w-[900px] md:min-w-auto'/>
+                        <img src="BusinessOverview/RiskProofing/Page-IMG-33.webp" alt="" className='min-w-[900px] md:min-w-auto'/>
                     </div>
                 </div>
             </div>

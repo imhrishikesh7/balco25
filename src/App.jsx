@@ -27,6 +27,7 @@ import FinancialCapital from './Pages/BusinessOverview/FinancialCapital'
 import ManufacturedCapital from './Pages/BusinessOverview/ManufacturedCapital'
 import IntellectualCapital from './Pages/BusinessOverview/IntellectualCapital'
 import HumanCapital from './Pages/BusinessOverview/HumanCapital'
+import Social from './Pages/BusinessOverview/Social'
 import Awards from './Pages/BusinessOverview/Awards'
 import Certificates from './Pages/BusinessOverview/Certificates'
 import BOD from './Pages/BusinessOverview/BOD'
@@ -63,6 +64,7 @@ function App() {
             <Route path='/manufactured_capital' element={<ManufacturedCapital />} />
             <Route path='/intellectual_capital' element={<IntellectualCapital />} />
             <Route path='/human_capital' element={<HumanCapital />} />
+            <Route path='/social_and_relationship_capital' element={<Social />} />
             <Route path='/awards_and_accolades' element={<Awards />} />
             <Route path='/certifications' element={<Certificates />} />
             <Route path='/profiles_of_board_of_directors' element={<BOD />} />
