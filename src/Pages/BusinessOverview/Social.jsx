@@ -5,7 +5,7 @@ const Social = () => {
     return (
         <div>
             {/* Background Section */}
-            <div className="bg-[url('BusinessOverview/Social/Page-82-Image-1.png')] bg-cover bg-no-repeat bg-center w-full min-h-screen">
+            <div className="bg-[url('BusinessOverview/Social/Page-82-Image-1.webp')] bg-cover bg-no-repeat bg-center w-full min-h-screen">
                 <div className="marginal px-6 sm:px-12 py-10 flex items-center">
                     <div className="flex flex-col lg:flex-row justify-start items-end gap-10 w-full">
 
@@ -66,7 +66,7 @@ const Social = () => {
                     Our CSR footprint
                 </h1>
                 <div className="overflow-x-auto">
-                    <img src="BusinessOverview/Social/Page-84-Image.png" alt="" className='min-w-[900px] md:min-w-[1200px] lg:min-w-[1400px] mt-2' />
+                    <img src="BusinessOverview/Social/Page-84-Image.webp" alt="" className='min-w-[900px] md:min-w-[1200px] lg:min-w-[1400px] mt-2' />
                 </div>
                 <div>
                     <h1 className='text-[#a3238b] text-2xl font-bold mt-8'>Empowering communities</h1>
@@ -95,21 +95,21 @@ const Social = () => {
                         benefits the community we serve.
                     </p>
                     <br />
-                    <img src="BusinessOverview/Social/Page-84-Image-1.png" alt="" className='rounded-4xl' />
+                    <img src="BusinessOverview/Social/Page-84-Image-1.webp" alt="" className='rounded-4xl' />
                     <div className='flex flex-row mt-10 gap-10 '>
                         <div>
-                            <img src="BusinessOverview/Social/85-img-2.png" alt="" className='rounded-3xl' />
+                            <img src="BusinessOverview/Social/85-img-2.webp" alt="" className='rounded-3xl' />
                         </div>
                         <div>
-                            <img src="BusinessOverview/Social/Page-85-Image.png" alt="" />
+                            <img src="BusinessOverview/Social/Page-85-Image.webp" alt="" />
                         </div>
                     </div>
                     <div className='flex flex-row mt-10 gap-10 '>
                         <div className='order-2'>
-                            <img src="BusinessOverview/Social/85-img-1.png" alt="" className='rounded-3xl' />
+                            <img src="BusinessOverview/Social/85-img-1.webp" alt="" className='rounded-3xl' />
                         </div>
                         <div className='flex items-center'>
-                            <img src="BusinessOverview/Social/Page-85-Image-1.png" alt="" className='rounded-3xl' />
+                            <img src="BusinessOverview/Social/Page-85-Image-1.webp" alt="" className='rounded-3xl' />
                         </div>
                     </div>
                     <h1 className='text-[#7d4786] text-2xl font-bold mt-8'>CSR Policy</h1>
@@ -126,7 +126,7 @@ const Social = () => {
                 <div className='flex flex-col lg:flex-row gap-5'>
                     {/* Image comes first on mobile, text second */}
                     <div className='flex-1 order-1 lg:order-2 flex items-center'>
-                        <img src="public/BusinessOverview/Social/Page-85-Image-3.png" alt="" className="w-full h-auto" />
+                        <img src="public/BusinessOverview/Social/Page-85-Image-3.webp" alt="" className="w-full h-auto" />
                     </div>
                     <div className='flex-2 order-2 lg:order-1'>
                         <h1 className='text-[#7d4786] text-2xl font-bold mt-8 lg:mt-8'>Standard Operating Procedure (SOP)</h1>
