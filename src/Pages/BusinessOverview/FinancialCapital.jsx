@@ -6,7 +6,7 @@ const FinancialCapital = () => {
         <div>
             {/* Background Section */}
             <div className='bg-[#0080b6]'>
-                <div className="bg-[url('BusinessOverview/FinancialCapital/Page-42-Img-2.png')] bg-contain bg-no-repeat bg-left w-full min-h-[50vh] md:min-h-screen">
+                <div className="bg-[url('BusinessOverview/FinancialCapital/Page-42-Img-2.webp')] bg-contain bg-no-repeat bg-left w-full min-h-[50vh] md:min-h-screen">
                     <div className="px-4 sm:px-6 lg:px-12 py-10 flex items-center">
                         {/* Commented content remains as is */}
                     </div>

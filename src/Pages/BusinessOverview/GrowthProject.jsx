@@ -26,7 +26,7 @@ const GrowthProject = () => {
                             {/* Did You Know Image */}
                             <div className='w-full lg:w-1/2 xl:w-2/5 flex items-center justify-center lg:justify-end mt-6 lg:mt-0'>
                                 <img 
-                                    src="BusinessOverview/GrowthProject/Page-23-Img.png" 
+                                    src="BusinessOverview/GrowthProject/Page-23-Img.webp" 
                                     alt="Did You Know" 
                                     className='w-full max-w-sm lg:max-w-full h-auto object-contain' 
                                 />

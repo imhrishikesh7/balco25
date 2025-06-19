@@ -5,7 +5,7 @@ const Natural = () => {
         <div>
             {/* Background Section */}
             <div className='bg-[#348e6f]'>
-                <div className="bg-[url('BusinessOverview/Natural/Page-100-Image.png')] bg-contain bg-no-repeat bg-left w-full min-h-[50vh] md:min-h-screen">
+                <div className="bg-[url('BusinessOverview/Natural/Page-100-Image.webp')] bg-contain bg-no-repeat bg-left w-full min-h-[50vh] md:min-h-screen">
                     <div className="px-4 sm:px-6 lg:px-12 py-10 flex items-center">
                         {/* Commented content remains as is */}
                     </div>
@@ -16,7 +16,7 @@ const Natural = () => {
                 {/* Financial Highlights Image */}
                 <div className="overflow-x-auto">
                     <img
-                        src="BusinessOverview/Natural/Page-102-Image.png"
+                        src="BusinessOverview/Natural/Page-102-Image.webp"
                         alt="Financial Highlights"
                         className='min-w-[800px] sm:min-w-[900px] md:min-w-[1000px] lg:min-w-[1200px] xl:min-w-[1400px] p-4 sm:p-6 lg:p-10 w-full'
                     />
@@ -25,14 +25,14 @@ const Natural = () => {
                 {/* Focus Area - Planet */}
                 <div>
                     <h1 className='text-[#3f7e59] text-xl sm:text-2xl font-bold mt-6 sm:mt-8 mb-6 sm:mb-10'>Focus Area- Planet</h1>
-                    <img src="BusinessOverview/Natural/Page-102-Image-1.png" alt="Planet Focus" className='w-full h-auto' />
-                    <img src="BusinessOverview/Natural/Page-102-Image-2.png" alt="Planet Focus 2" className='mt-6 sm:mt-10 w-full h-auto' />
+                    <img src="BusinessOverview/Natural/Page-102-Image-1.webp" alt="Planet Focus" className='w-full h-auto' />
+                    <img src="BusinessOverview/Natural/Page-102-Image-2.webp" alt="Planet Focus 2" className='mt-6 sm:mt-10 w-full h-auto' />
                 </div>
 
                 {/* Climate Change Section */}
                 <div className='flex flex-col lg:flex-row gap-4 sm:gap-5 mt-6 sm:mt-8'>
                     <div className='w-full lg:w-1/2 lg:order-2'>
-                        <img src="BusinessOverview/Natural/Page-103-Image.png" alt="Climate Change" className="w-full h-auto mt-4 lg:mt-10" />
+                        <img src="BusinessOverview/Natural/Page-103-Image.webp" alt="Climate Change" className="w-full h-auto mt-4 lg:mt-10" />
                     </div>
                     <div className='w-full lg:w-1/2 lg:order-1'>
                         <h1 className='text-[#3f7e59] text-xl sm:text-2xl font-bold mt-4 sm:mt-8'>Climate change and decarbonisation</h1>
@@ -59,10 +59,10 @@ const Natural = () => {
                     <h1 className='text-[#3f7e59] text-xl sm:text-2xl font-bold mb-4 sm:mb-6'>Emission reduction</h1>
                     <div className='flex flex-col sm:flex-row gap-4'>
                         <div className='w-full sm:w-1/2'>
-                            <img src="BusinessOverview/Natural/63068618-8b90-4008-b8e1-8dfa7f1596a0.png" alt="Emission Chart 1" className='w-full h-auto' />
+                            <img src="BusinessOverview/Natural/63068618-8b90-4008-b8e1-8dfa7f1596a0.webp" alt="Emission Chart 1" className='w-full h-auto' />
                         </div>
                         <div className='w-full sm:w-1/2'>
-                            <img src="BusinessOverview/Natural/5e0944fb-96e4-44e1-9182-fcc4c078e469.png" alt="Emission Chart 2" className='w-full h-auto' />
+                            <img src="BusinessOverview/Natural/5e0944fb-96e4-44e1-9182-fcc4c078e469.webp" alt="Emission Chart 2" className='w-full h-auto' />
                         </div>
                     </div>
                 </div>
@@ -143,7 +143,7 @@ const Natural = () => {
                             </h2>
                             <div className='w-full'>
                                 <img
-                                    src="BusinessOverview/Natural/Page-104-Image-1.png"
+                                    src="BusinessOverview/Natural/Page-104-Image-1.webp"
                                     alt="Key achievements in water management"
                                     className='w-full h-auto object-contain rounded-lg'
                                 />
@@ -154,7 +154,7 @@ const Natural = () => {
                     <div className='w-full lg:w-1/3 lg:pl-4'>
                         <div className='lg:sticky lg:top-8'>
                             <img
-                                src="BusinessOverview/Natural/Page-104-Image.png"
+                                src="BusinessOverview/Natural/Page-104-Image.webp"
                                 alt="Water management illustration"
                                 className='w-full h-auto object-contain rounded-lg shadow-sm'
                             />
@@ -167,7 +167,7 @@ const Natural = () => {
                     <h2 className='text-lg sm:text-xl lg:text-2xl font-bold mb-4 sm:mb-6'>
                         Water Conservation Measures
                     </h2>
-                    <img src="BusinessOverview/Natural/Page-105-Image.png" alt="Water Conservation" className='w-full h-auto' />
+                    <img src="BusinessOverview/Natural/Page-105-Image.webp" alt="Water Conservation" className='w-full h-auto' />
                 </div>
 
                 {/* Waste Management */}
@@ -190,7 +190,7 @@ const Natural = () => {
                             </div>
                             <div className='flex justify-center'>
                                 <img
-                                    src="BusinessOverview/Natural/Page-105-Image-1.png"
+                                    src="BusinessOverview/Natural/Page-105-Image-1.webp"
                                     alt="Waste Management Hierarchy"
                                     className='h-auto max-h-96 w-full object-contain'
                                 />
@@ -236,11 +236,11 @@ const Natural = () => {
 
                 {/* Biodiversity Section */}
                 <div className='mt-12 sm:mt-20 bg-[#f4f9f1] p-4 sm:p-5 rounded-lg'>
-                    <img src="BusinessOverview/Natural/Page-106-Image.png" alt="Biodiversity Header" className='border-b border-gray-200 pb-8 sm:pb-10 w-full h-auto' />
+                    <img src="BusinessOverview/Natural/Page-106-Image.webp" alt="Biodiversity Header" className='border-b border-gray-200 pb-8 sm:pb-10 w-full h-auto' />
 
                     <div className='flex flex-col lg:flex-row gap-4 sm:gap-5 mt-6 sm:mt-8'>
                         <div className='w-full lg:w-1/2 lg:order-2'>
-                            <img src="BusinessOverview/Natural/Page-106-Image-1.png" alt="Biodiversity" className="w-full h-auto mt-4 lg:mt-10" />
+                            <img src="BusinessOverview/Natural/Page-106-Image-1.webp" alt="Biodiversity" className="w-full h-auto mt-4 lg:mt-10" />
                         </div>
                         <div className='w-full lg:w-1/2 lg:order-1'>
                             <h1 className='text-lg sm:text-xl lg:text-2xl font-bold mt-4 sm:mt-8'>Biodiversity</h1>
@@ -280,7 +280,7 @@ const Natural = () => {
 
                 {/* Final Image */}
                 <div className='mt-8 sm:mt-10'>
-                    <img src="BusinessOverview/Natural/Page-107-Image.png" alt="Final Report" className='w-full h-auto' />
+                    <img src="BusinessOverview/Natural/Page-107-Image.webp" alt="Final Report" className='w-full h-auto' />
                 </div>
             </div>
         </div>

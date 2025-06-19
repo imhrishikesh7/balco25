@@ -148,7 +148,7 @@ const MapPointers = () => {
         {/* Left Bottom Image */}
         <div className="absolute bottom-4 left-4 z-5">
           <img
-            src="BorderDemand/Page-10-Image.png"
+            src="BorderDemand/Page-10-Image.webp"
             alt="Left decoration"
             className="h-[40vh] object-contain "
           />
@@ -157,7 +157,7 @@ const MapPointers = () => {
         {/* Right Bottom Image */}
         <div className="absolute bottom-4 right-4 z-5">
           <img
-            src="BorderDemand/Page-11-Image.png"
+            src="BorderDemand/Page-11-Image.webp"
             alt="Right decoration"
             className="object-contain h-[30vh]"
           />

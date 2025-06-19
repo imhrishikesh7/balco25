@@ -64,11 +64,11 @@ const cards = [
 // Dynamic icon mapping based on title
 const getIconPath = (title) => {
     const iconMap = {
-        "Financial": "ProgressYear/Financial.png",
-        "Growth": "ProgressYear/Operational-Growth.png",
-        "Sustainability": "ProgressYear/HealthSafety.png",
-        "Innovation": "ProgressYear/Environment.png",
-        "Community": "ProgressYear/Social.png"
+        "Financial": "ProgressYear/Financial.webp",
+        "Growth": "ProgressYear/Operational-Growth.webp",
+        "Sustainability": "ProgressYear/HealthSafety.webp",
+        "Innovation": "ProgressYear/Environment.webp",
+        "Community": "ProgressYear/Social.webp"
     };
     
     return iconMap[title] || "/icons/default.webp"; // fallback icon
