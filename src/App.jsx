@@ -31,6 +31,7 @@ import Social from './Pages/BusinessOverview/Social'
 import Awards from './Pages/BusinessOverview/Awards'
 import Certificates from './Pages/BusinessOverview/Certificates'
 import BOD from './Pages/BusinessOverview/BOD'
+import Natural from './Pages/BusinessOverview/Natural'
 
 function App() {
   return (
@@ -55,7 +56,7 @@ function App() {
             <Route path='/how_we_create_value' element={<CreateValue />} />
             <Route path='/materiality_matters' element={<MaterialityMatters />} />
             <Route path='/engaging_with_our_stakeholders_' element={<EngagingStakeholders />} />
-            <Route path='/risk-proofing_our_journey' element={<RiskProofing />} />
+            <Route path='/riskproofing_our_journey' element={<RiskProofing />} />
             <Route path='/putting_ecg_at_the_core' element={<PuttingECG />} />
             <Route path='/our_ecg_blueprint' element={<ESGBlueprint />} />
             <Route path='/vsf_and_vsap' element={<VSF />} />
@@ -65,6 +66,7 @@ function App() {
             <Route path='/intellectual_capital' element={<IntellectualCapital />} />
             <Route path='/human_capital' element={<HumanCapital />} />
             <Route path='/social_and_relationship_capital' element={<Social />} />
+            <Route path='/natural_capital' element={<Natural />} />
             <Route path='/awards_and_accolades' element={<Awards />} />
             <Route path='/certifications' element={<Certificates />} />
             <Route path='/profiles_of_board_of_directors' element={<BOD />} />

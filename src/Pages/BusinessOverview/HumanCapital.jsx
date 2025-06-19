@@ -5,77 +5,10 @@ const FinancialCapital = () => {
     return (
         <div>
             {/* Background Section */}
-            <div className="bg-[url('BusinessOverview/HumanCapital/Page-70-img-1.webp')] bg-cover bg-no-repeat bg-center w-full min-h-screen">
-                <div className="marginal px-6 sm:px-12 py-10 flex items-center">
-                    <div className="flex flex-col lg:flex-row justify-start items-end gap-6 lg:gap-10 w-full">
-
-                        {/* Left Side - Icon + Description */}
-                        <div className="max-w-md text-white space-y-4">
-                            <img
-                                src="BusinessOverview/HumanCapital/Human-Circle.webp"
-                                alt="Financial Icon"
-                                className="w-[100px] h-[100px] sm:w-[120px] sm:h-[120px]"
-                            />
-                            <p className="text-base sm:text-xl font-bold leading-relaxed">
-                                Our human capital, which
-                                represents the collective
-                                talent, expertise and
-                                innovation of our people,
-                                is the key to BALCO’s
-                                success. We strive to
-                                provide a conducive work
-                                environment, encourage
-                                diversity, ensure continuous
-                                learning opportunities
-                                and enable a culture of
-                                collaboration and respect,
-                                ensuring our team is
-                                well-equipped to meet
-                                challenges and drive our
-                                strategic goals.
-                            </p>
-                        </div>
-
-                        {/* Right Side - Material Topics & SDGs */}
-                        <div className="bg-white text-black lg:bg-transparent lg:text-white space-y-6 p-4 lg:p-0 rounded-md lg:rounded-none">
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">Material Topic</h3>
-                                <ul className="space-y-1 text-sm border-l-1 border-current pl-4 w-fit">
-                                    <li className='border-b-1 border-current'>Health, Safety and Well-being</li>
-                                    <li className='border-b-1 border-current'>Labour Practices</li>
-                                    <li className='border-b-1 border-current'>Talent Attraction and Retention</li>
-                                    <li className='border-b-1 border-current'>Diversity, Equal Opportunity, and Inclusion</li>
-                                    <li className='border-b-1 border-current'>Learning and Development</li>
-                                    <li className='border-b-1 border-current'>Pandemic Response and Preparedness</li>
-                                </ul>
-                            </div>
-
-                            <div>
-                                <h3 className="text-lg font-bold mb-2">SDGs covered</h3>
-
-                                {/* Responsive Grid: 3 columns on mobile, auto layout on lg screens */}
-                                <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:flex lg:gap-4">
-                                    {[
-                                        "BusinessOverview/HumanCapital/3.webp",
-                                        "BusinessOverview/HumanCapital/5.webp",
-                                        "/BusinessOverview/FinancialCapital/8.webp",
-                                        "BusinessOverview/HumanCapital/10.webp",
-                                        "BusinessOverview/HumanCapital/15.webp",
-                                        "BusinessOverview/HumanCapital/16.webp",
-                                    ].map((src, idx) => (
-                                        <motion.img
-                                            key={idx}
-                                            whileHover={{ scale: 1.1 }}
-                                            whileTap={{ scale: 0.95 }}
-                                            transition={{ type: 'tween', duration: 0.2, ease: 'easeOut' }}
-                                            src={src}
-                                            alt={`SDG ${idx}`}
-                                            className="w-[60px] h-[60px] mx-auto my-2"
-                                        />
-                                    ))}
-                                </div>
-                            </div>
-                        </div>
+            <div className='bg-[#01a7e1]'>
+                <div className="bg-[url('BusinessOverview/HumanCapital/Page-70-img.png')] bg-contain bg-no-repeat bg-left w-full min-h-[50vh] md:min-h-screen">
+                    <div className="px-4 sm:px-6 lg:px-12 py-10 flex items-center">
+                        {/* Commented content remains as is */}
                     </div>
                 </div>
             </div>

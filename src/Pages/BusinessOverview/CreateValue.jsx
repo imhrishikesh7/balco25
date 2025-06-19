@@ -10,10 +10,10 @@ const CreateValue = () => {
                     </h1>
 
                     {/* Content Row */}
-                    <div className='w-full lg:w-[80vw] flex flex-col lg:flex-row gap-6'>
+                    <div className='w-full flex flex-col lg:flex-row gap-6'>
                         {/* Text Block */}
                         <div className='flex-1'>
-                            <h2 className='text-lg sm:text-2xl text-[#a37b5b] pb-6 sm:pb-10'>
+                            <h2 className='text-lg sm:text-2xl text-[#a37b5b] pb-6 sm:pb-6'>
                                 With a strong emphasis on encouraging domestic production and driving
                                 aluminium use in India, we want to reduce our dependency on imports while
                                 driving economic growth.

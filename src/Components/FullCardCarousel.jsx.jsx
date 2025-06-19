@@ -61,6 +61,18 @@ const cards = [
     },
 ];
 
+// Dynamic icon mapping based on title
+const getIconPath = (title) => {
+    const iconMap = {
+        "Financial": "ProgressYear/Financial.png",
+        "Growth": "ProgressYear/Operational-Growth.png",
+        "Sustainability": "ProgressYear/HealthSafety.png",
+        "Innovation": "ProgressYear/Environment.png",
+        "Community": "ProgressYear/Social.png"
+    };
+    
+    return iconMap[title] || "/icons/default.webp"; // fallback icon
+};
 
 const CardContent = ({ card }) => (
     <div className="bg-[#1a3866] text-white gap-6 rounded-xl p-3 sm:p-6 flex flex-col sm:flex-row items-stretch justify-center shadow-2xl mx-2 my-4">
@@ -76,9 +88,13 @@ const CardContent = ({ card }) => (
         {/* Text Content */}
         <div className="w-full sm:w-1/2 space-y-4">
             <div className="flex items-center gap-2">
-                {/* Logo Circle */}
+                {/* Logo Circle with Dynamic Icon */}
                 <div className="w-10 h-10 rounded-full bg-[#8adb3a] flex items-center justify-center">
-                    <img src="/icons/finance.webp" alt="logo" className="w-4 h-4" />
+                    <img 
+                        src={getIconPath(card.title)} 
+                        alt={`${card.title} icon`} 
+                        className="w-4 h-4" 
+                    />
                 </div>
 
                 {/* Title Label */}
@@ -110,29 +126,70 @@ const CardContent = ({ card }) => (
 );
 
 const FullCardCarousel = () => {
+    const sliderRef = React.useRef(null);
+    
     const settings = {
-        dots: true,
+        dots: false, // Disable default dots
         infinite: true,
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
         centerMode: true,
         centerPadding: "10%",
-        arrows: true,
+        arrows: false, // Disable default arrows
         adaptiveHeight: true,
+    };
+
+    const goToPrev = () => {
+        sliderRef.current?.slickPrev();
+    };
+
+    const goToNext = () => {
+        sliderRef.current?.slickNext();
     };
 
     return (
         <div className="w-full py-10">
             {/* Carousel for large screens */}
             <div className="hidden lg:block">
-                <Slider {...settings}>
+                <Slider {...settings} ref={sliderRef}>
                     {cards.map((card, index) => (
                         <div key={index}>
                             <CardContent card={card} />
                         </div>
                     ))}
                 </Slider>
+                
+                {/* Custom Navigation Buttons */}
+                <div className="flex justify-center items-center gap-6 mt-8">
+                    <button
+                        onClick={goToPrev}
+                        className="w-12 h-12 rounded-full bg-[#8adb3a] hover:bg-[#7bc934] flex items-center justify-center transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
+                    >
+                        <svg 
+                            className="w-6 h-6 text-[#012231]" 
+                            fill="none" 
+                            stroke="currentColor" 
+                            viewBox="0 0 24 24"
+                        >
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M15 19l-7-7 7-7" />
+                        </svg>
+                    </button>
+                    
+                    <button
+                        onClick={goToNext}
+                        className="w-12 h-12 rounded-full bg-[#8adb3a] hover:bg-[#7bc934] flex items-center justify-center transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
+                    >
+                        <svg 
+                            className="w-6 h-6 text-[#012231]" 
+                            fill="none" 
+                            stroke="currentColor" 
+                            viewBox="0 0 24 24"
+                        >
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M9 5l7 7-7 7" />
+                        </svg>
+                    </button>
+                </div>
             </div>
 
             {/* Static vertical cards for small/medium screens */}

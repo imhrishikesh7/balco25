@@ -24,8 +24,7 @@ const Border = () => {
                         </div>
                     </div>
                     <div className="absolute bottom-8 right-6 z-20">
-                    
-                </div>
+                    </div>
                 </div>
                 <PointerMarkers />
             </div>

@@ -5,57 +5,10 @@ const FinancialCapital = () => {
     return (
         <div>
             {/* Background Section */}
-            <div className="bg-[url('/BusinessOverview/FinancialCapital/Page-42-Img.webp')] bg-cover bg-no-repeat bg-center w-full min-h-screen">
-                <div className="marginal px-6 sm:px-12 py-10 flex items-center">
-                    <div className="flex flex-col lg:flex-row justify-start items-end gap-10 w-full">
-
-                        {/* Left Side - Icon + Description */}
-                        <div className="max-w-md text-white space-y-4">
-                            <img
-                                src="BusinessOverview/FinancialCapital/Financial-Circle.webp"
-                                alt="Financial Icon"
-                                className="w-[100px] h-[100px] sm:w-[120px] sm:h-[120px]"
-                            />
-                            <p className="text-base sm:text-xl font-bold leading-relaxed">
-                                We strive to maximise the efficiency of our financial resources to drive long-term returns on investments. Our focus remains on benchmarking financial performance, mitigating risks and creating greater value for stakeholders. This strategic approach has led to well-planned investments while ensuring prudent fund to support our growth aspirations.
-                            </p>
-                        </div>
-
-                        {/* Right Side - Material Topics & SDGs */}
-                        <div className="bg-white text-black lg:bg-transparent lg:text-white space-y-6 p-4 lg:p-0 rounded-md lg:rounded-none">
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">Material Topic</h3>
-                                <ul className="space-y-1 text-sm border-l-1 border-current pl-4">
-                                    <li className='border-b-1 border-current'>Long-term growth and profitability</li>
-                                    <li className='border-b-1 border-current'>Responsible advocacy</li>
-                                    <li className='border-b-1 border-current'>Macro economical and geopolitical context</li>
-                                    <li className='border-b-1 border-current'>Risk management and controls</li>
-                                </ul>
-                            </div>
-
-                            <div>
-                                <h3 className="text-lg font-bold mb-2">SDGs covered</h3>
-                                <div className="flex gap-4">
-                                    <motion.img
-                                        whileHover={{ scale: 1.1 }}
-                                        whileTap={{ scale: 0.95 }}
-                                        transition={{ type: 'tween', duration: 0.2, ease: 'easeOut' }}
-                                        src="/BusinessOverview/FinancialCapital/8.webp"
-                                        alt="SDG 8"
-                                        className="w-[60px] h-[60px]"
-                                    />
-                                    <motion.img
-                                        whileHover={{ scale: 1.1 }}
-                                        whileTap={{ scale: 0.95 }}
-                                        transition={{ type: 'tween', duration: 0.2, ease: 'easeOut' }}
-                                        src="/BusinessOverview/FinancialCapital/12.webp"
-                                        alt="SDG 12"
-                                        className="w-[60px] h-[60px]"
-                                    />
-                                </div>
-                            </div>
-                        </div>
-
+            <div className='bg-[#0080b6]'>
+                <div className="bg-[url('BusinessOverview/FinancialCapital/Page-42-Img-2.png')] bg-contain bg-no-repeat bg-left w-full min-h-[50vh] md:min-h-screen">
+                    <div className="px-4 sm:px-6 lg:px-12 py-10 flex items-center">
+                        {/* Commented content remains as is */}
                     </div>
                 </div>
             </div>

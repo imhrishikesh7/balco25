@@ -19,7 +19,7 @@ const RiskProofing = () => {
                                 performance volatility.
                             </h2>
                             <h3 className='text-base sm:text-3xl text-[#333] pb-5 font-light'>
-                                Our ability to comply with regulatory requirements empowers us to develop efficient risk mitigation strategies, thus protecting our business’s reputation and resilience.
+                                Our ability to comply with regulatory requirements empowers us to develop efficient risk mitigation strategies, thus protecting our business's reputation and resilience.
                             </h3>
                             <h4 className='text-[#005b94] text-2xl sm:text-3xl font-bold mt-10'>
                                 Risk Management Matrix
@@ -32,14 +32,14 @@ const RiskProofing = () => {
                         <img
                             src="BusinessOverview/RiskProofing/Page-32-IMG.webp"
                             alt=""
-                            className='min-w-[900px] md:min-w-auto mt-8'
+                            className='min-w-[900px] md:min-w-auto mt-8 w-full'
                         />
                     </div>
                     <div className='mt-10'>
                         <h1 className='text-2xl text-[#005b94] font-bold mb-3'>Risk identification and assessment</h1>
                         {[
-                            'Assessment of risk is based on ‘Risk Matrix’ which is prepared after considering various quantitative as well as qualitative parameters. Risks are documented in ‘Risk Register’ after evaluation of risk statements and its contributing factors.',
-                            'Risk are categorized basis 6 factors i.e., ‘Financial, Health, Safety, Environment, Legal and Regulatory, Brand and Reputational’.',
+                            'Assessment of risk is based on "Risk Matrix" which is prepared after considering various quantitative as well as qualitative parameters. Risks are documented in "Risk Register" after evaluation of risk statements and its contributing factors.',
+                            'Risk are categorized basis 6 factors i.e., "Financial, Health, Safety, Environment, Legal and Regulatory, Brand and Reputational".',
 
                         ].map((item, index) => (
                             <li
@@ -54,8 +54,8 @@ const RiskProofing = () => {
                     <div className='mt-10'>
                         <h1 className='text-2xl text-[#005b94] font-bold mb-3'>Risk evaluation scales and scores</h1>
                         {[
-                            'Risk assessment scale is a 5 X 5 matrix (Impact X Likelihood and occurrence in the scale of 1 to 5) which defines the various risk as ‘Critical’, ‘Significant’, ‘Moderate’ and ‘Acceptable’ (risk appetite) levels.',
-                            'Overall risk rating is arrived basis matrix followed across groups ‘Risk Score < 5 – Acceptable, Risk Score between 6 to 14 – Moderate, Risk Score between 15 to 24 – Significant, Risk Score between = 25 - Critical’.',
+                            'Risk assessment scale is a 5 X 5 matrix (Impact X Likelihood and occurrence in the scale of 1 to 5) which defines the various risk as "Critical", "Significant", "Moderate" and "Acceptable" (risk appetite) levels.',
+                            'Overall risk rating is arrived basis matrix followed across groups "Risk Score < 5 – Acceptable, Risk Score between 6 to 14 – Moderate, Risk Score between 15 to 24 – Significant, Risk Score between = 25 - Critical".',
 
                         ].map((item, index) => (
                             <li
@@ -98,7 +98,9 @@ const RiskProofing = () => {
                         ))}
                     </div>
                     <div className='mt-20'>
-                        <img src="BusinessOverview/RiskProofing/Page-IMG-33.webp" alt="" className='min-w-[900px] md:min-w-auto'/>
+                        <div className="overflow-x-auto">
+                            <img src="BusinessOverview/RiskProofing/Page-IMG-33.webp" alt="" className='min-w-[900px] md:min-w-auto w-full'/>
+                        </div>
                     </div>
                 </div>
             </div>

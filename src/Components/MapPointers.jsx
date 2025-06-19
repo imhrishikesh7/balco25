@@ -5,7 +5,7 @@ const pointers = [
   {
     name: "Croatia",
     revenue: "Revenue",
-    top: "20%",
+    top: "48%",
     left: "40%",
     flag: "BorderDemand/Croatia.webp",
     data: "₹370.20 crore",
@@ -13,7 +13,7 @@ const pointers = [
   {
     name: "India",
     revenue: "Revenue",
-    top: "33%",
+    top: "55%",
     left: "58%",
     flag: "BorderDemand/India.webp",
     data: "₹14,835.30 crore",
@@ -21,15 +21,15 @@ const pointers = [
   {
     name: "Turkey",
     revenue: "Revenue",
-    top: "25%",
-    left: "46%",
+    top: "51%",
+    left: "47%",
     flag: "BorderDemand/Turkey.webp",
     data: "₹210.75 crore",
   },
   {
     name: "Nepal",
     revenue: "Revenue",
-    top: "30%",
+    top: "52%",
     left: "60%",
     flag: "BorderDemand/Nepal.webp",
     data: "₹95.10 crore",
@@ -37,7 +37,7 @@ const pointers = [
   {
     name: "Japan",
     revenue: "Revenue",
-    top: "26%",
+    top: "50%",
     left: "72%",
     flag: "BorderDemand/Japan.webp",
     data: "₹600.00 crore",
@@ -45,7 +45,7 @@ const pointers = [
   {
     name: "South Korea",
     revenue: "Revenue",
-    top: "23%",
+    top: "51%",
     left: "70%",
     flag: "BorderDemand/Korea.webp",
     data: "₹480.60 crore",
@@ -53,15 +53,15 @@ const pointers = [
   {
     name: "Bangladesh",
     revenue: "Revenue",
-    top: "33%",
-    left: "60%",
+    top: "54%",
+    left: "61%",
     flag: "BorderDemand/Bangladesh.webp",
     data: "₹310.20 crore",
   },
   {
     name: "Montenegro",
     revenue: "Revenue",
-    top: "25%",
+    top: "52%",
     left: "40%",
     flag: "BorderDemand/Montenogro.webp",
     data: "₹180.00 crore",
@@ -69,7 +69,7 @@ const pointers = [
   {
     name: "Italy",
     revenue: "Revenue",
-    top: "22%",
+    top: "48%",
     left: "42%",
     flag: "BorderDemand/Italy.webp",
     data: "₹500.40 crore",
@@ -77,7 +77,7 @@ const pointers = [
   {
     name: "Tanzania",
     revenue: "Revenue",
-    top: "49%",
+    top: "69%",
     left: "48%",
     flag: "BorderDemand/Tanzania.webp",
     data: "₹120.90 crore",
@@ -85,7 +85,7 @@ const pointers = [
   {
     name: "Mexico",
     revenue: "Revenue",
-    top: "36%",
+    top: "58%",
     left: "18%",
     flag: "BorderDemand/Mexico.webp",
     data: "₹240.00 crore",
@@ -145,6 +145,23 @@ const MapPointers = () => {
             </div>
           );
         })}
+        {/* Left Bottom Image */}
+        <div className="absolute bottom-4 left-4 z-5">
+          <img
+            src="BorderDemand/Page-10-Image.png"
+            alt="Left decoration"
+            className="h-[40vh] object-contain "
+          />
+        </div>
+
+        {/* Right Bottom Image */}
+        <div className="absolute bottom-4 right-4 z-5">
+          <img
+            src="BorderDemand/Page-11-Image.png"
+            alt="Right decoration"
+            className="object-contain h-[30vh]"
+          />
+        </div>
       </div>
 
       {/* Mobile View: Horizontal Scrollable Row */}
