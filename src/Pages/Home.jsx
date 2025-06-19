@@ -7,6 +7,7 @@ import Milestones from '../Components/Home/Milestones'
 import Message from '../Components/Home/Message'
 import Products from '../Components/Home/Products'
 import CapitalsSlider from '../Components/Home/CapitalsSlider'
+import BOD from '../Components/Home/BOD'
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
         </div>
       </div>
       <Message />
+      <BOD/>
       <Milestones />
       <Products />
       <CapitalsSlider/>

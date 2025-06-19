@@ -88,8 +88,8 @@ const Products = () => {
             <ReadingHeading text="Our diverse product range" className="text-black text-center font-[500] !text-4xl" />
             <Slider {...settings} className="outline-none">
                 {cards.map((card, index) => (
-                    <div key={index} className="px-2 pb-12"> {/* pb-12 for arrow space */}
-                        <ReadingHeading text={card.title} className="text-[#2263a7] font-[500] mb-10 text-3xl" />
+                    <div key={index} className="px-2 py-12"> {/* pb-12 for arrow space */}
+                        {/* <ReadingHeading text={card.title} className="text-[#2263a7] font-[500] mb-10 text-3xl" /> */}
                         <div className=''>
                             {/* Image */}
                             <div className={` w-full h-70 rounded-3xl bg-[#66cc33] pb-4 overflow-hidde`}>

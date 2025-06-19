@@ -91,7 +91,7 @@ const Message = () => {
               <div className="flex gap-2">
                 <button
                   onClick={goToPrev}
-                  className="bg-white/50 hover:bg-white/70 cursor-pointer border-[#2263a7] border rounded-full w-10 h-10 flex items-center justify-center"
+                  className="bg-white/50 hover:bg-white/70 cursor-pointer border-[#2263a7] border  rounded-full w-10 h-10 flex items-center justify-center"
                   aria-label="Previous"
                 >
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -110,7 +110,7 @@ const Message = () => {
               </div>
             </div>
 
-            <div className={`flex flex-col lg:flex-row rounded-2xl bg-white border p-4 overflow-hidden`}>
+            <div className={`flex flex-col lg:flex-row rounded-2xl bg-white border border-gray-300 shadow-lg p-4 overflow-hidden`}>
               {/* Image */}
               <div className={`bg-gradient-to-tr from-gray-500 to-gray-200 w-full overflow-hidden rounded-2xl lg:w-[40%] flex items-center justify-center max-h-[400px] lg:max-h-[60vh]`}>
                 <img

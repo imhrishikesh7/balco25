@@ -11,43 +11,43 @@ const CapitalsSlider = () => {
 
     const capitals = [
         {
-            icon: "/home/caps/i1.png",
-            img: "/home/caps/1.png",
+            icon: <Building2 className="w-8 h-8 text-blue-500" />,
+            img: "/home/caps/1.webp",
             title: "Financial Capital",
             text: "We strive to maximise the efficiency of our financial resources to drive long-term returns on investments. Our focus remains on benchmarking financial performance, mitigating risks and creating greater value for stakeholders. This strategic approach has led to well- planned investments while ensuring prudent fund allocation to support our growth aspirations.",
             link: "/financial_capital_"
         },
         {
-            icon: "/home/caps/i2.png",
-            img: "/home/caps/2.png",
+            icon: <MapPin className="w-8 h-8 text-red-500" />,
+            img: "/home/caps/2.webp",
             title: "Manufactured Capital",
             text: "As a leading aluminium producer, robust manufacturing capabilities enable us to deliver products of the highest quality. We operate state-of-the-art, multi- location facilities and utilise advanced processes to develop a range of offerings—from mining to production. Our products meet the evolving needs of customers worldwide, ensuring reliability and innovation in every product we create.",
             link: "/manufactured_capital"
         },
         {
-            icon: "/home/caps/i3.png",
-            img: "/home/caps/3.png",
+            icon: <Users className="w-8 h-8 text-green-500" />,
+            img: "/home/caps/3.webp",
             title: "Intellectual Capital",
             text: "We recognise the importance of innovation and adaptability in keeping pace with evolving industry demands. This drives us to enhance our R&D capabilities, integrate advanced technologies and implement state-of-the-art solutions. By continuously developing new products, we not only strengthen our sustainability initiatives but also elevate product quality and optimise production processes for greater efficiency.",
             link: "/intellectual_capital"
         },
         {
-            icon: "/home/caps/i4.png",
-            img: "/home/caps/4.png",
+            icon: <Calendar className="w-8 h-8 text-purple-500" />,
+            img: "/home/caps/4.webp",
             title: "Human Capital",
             text: "Our human capital, which represents the collective talent, expertise and innovation of our people, is the key to BALCO’s success. We strive to provide a conducive work environment, encourage diversity, ensure continuous learning opportunities and enable a culture of collaboration and respect, ensuring our team is well-equipped to meet challenges and drive our strategic goals.",
             link: "/human_capital"
         },
         {
-            icon: "/home/caps/i5.png",
-            img: "/home/caps/5.png",
+            icon: <Building2 className="w-8 h-8 text-orange-500" />,
+            img: "/home/caps/5.webp",
             title: "Social and Relationship Capital",
             text: "At BALCO, our social and relationship capital is anchored in creating long-term, positive value for our communities, value chain partners, and customers. We believe sustained progress is achieved through a synergy of trust, transparency, and shared growth. Our CSR approach goes beyond compliance, driving inclusive development and integrating environmental and social responsibility into our business strategy. Guided by accountability, collaboration, and excellence, we aim to make a positive impact on society and ensure a sustainable, responsible future for all.",
             link: "/social_and_relationship_capital"
         },
         {
-            icon: "/home/caps/i6.png",
-            img: "/home/caps/6.png",
+            icon: <Building2 className="w-8 h-8 text-orange-500" />,
+            img: "/home/caps/6.webp",
             title: "Natural Capital",
             text: "At BALCO, we are committed to making a real difference in environmental sustainability. Guided by our dedication to environmental stewardship, we implement a comprehensive approach to minimise our environmental footprint. To achieve this, we prioritise responsible operations, carbon footprint reduction, energy efficiency optimisation, water resource conservation and biodiversity protection. Through continuous efforts and the adoption of sustainable manufacturing practices, we strive to safeguard the environment and preserve its valuable resources for future generations.",
             link: "/natural_capital"
