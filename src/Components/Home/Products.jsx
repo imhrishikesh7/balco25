@@ -85,14 +85,14 @@ const Products = () => {
     ];
     return (
         <div className="marginal relative">
-            <ReadingHeading text="Our diverse product range" className="text-[#3c9b8a] text-center " />
+            <ReadingHeading text="Our diverse product range" className="text-black text-center font-[500] !text-4xl" />
             <Slider {...settings} className="outline-none">
                 {cards.map((card, index) => (
                     <div key={index} className="px-2 pb-12"> {/* pb-12 for arrow space */}
                         <ReadingHeading text={card.title} className="text-[#2263a7] font-[500] mb-10 text-3xl" />
                         <div className=''>
                             {/* Image */}
-                            <div className={` w-full h-70 rounded-3xl bg-gradient-to-br from-[#2d82b2] to-[#70bf44] pb-4 overflow-hidde`}>
+                            <div className={` w-full h-70 rounded-3xl bg-[#66cc33] pb-4 overflow-hidde`}>
                                 <img
                                     src={card.image}
                                     alt=""
@@ -107,7 +107,7 @@ const Products = () => {
                 ))}
             </Slider>
             <div className='mt-16'>
-                <ReadingText text={"INDUSTRIES WE SERVE"} className='bg-gradient-to-r text-white  mx-auto rounded-2xl rounded-b from-[#2d82b2] to-[#70bf44] py-2 w-fit px-4' />
+                <ReadingText text={"INDUSTRIES WE SERVE"} className='bg-gradient-to-r text-white font-bold  mx-auto rounded-2xl rounded-b bg-[#66cc33] py-2 w-fit px-4' />
 
                 <div className='border border-[#0db14b] p-6 rounded-3xl '>
                     <Industries />

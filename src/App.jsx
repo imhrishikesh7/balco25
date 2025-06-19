@@ -31,10 +31,12 @@ import Social from './Pages/BusinessOverview/Social'
 import Awards from './Pages/BusinessOverview/Awards'
 import Certificates from './Pages/BusinessOverview/Certificates'
 import BOD from './Pages/BusinessOverview/BOD'
+import LenisScroll from './Components/LenisScroll'
 import Natural from './Pages/BusinessOverview/Natural'
 
 function App() {
   return (
+    <LenisScroll>
     <div className="min-h-screen flex flex-col">
       <BrowserRouter>
         <Navbar />
@@ -76,6 +78,7 @@ function App() {
         <Footer />
       </BrowserRouter>
     </div>
+    </LenisScroll>
   )
 }
 

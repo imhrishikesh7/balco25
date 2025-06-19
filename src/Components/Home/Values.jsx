@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import ReadingHeading from '../ReadingHeading';
+import ReadMore from '../ReadMore';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -73,7 +74,7 @@ const Bubble = ({ icon, link, rotation, index }) => {
       onMouseEnter={() => gsap.to(bubbleRef.current, { scale: 1.1, duration: 0.3 })}
       onMouseLeave={() => gsap.to(bubbleRef.current, { scale: 1.0, duration: 0.3 })}
     >
-      <img src={icon} className='w-30 '/>
+      <img src={icon} className='w-30 ' />
     </a>
   );
 };
@@ -86,25 +87,30 @@ const Values = () => {
   ];
 
   return (
-    <div
-    className=''
-      style={{
-        display: 'flex',
-        justifyContent: 'center',
-        flexWrap: 'wrap',
-        padding: '60px 20px',
-        gap: '30px',
-      }}
-    >
-      {bubbles.map((bubble, index) => (
-        <Bubble
-          key={index}
-          icon={bubble.icon}
-          link={bubble.link}
-          rotation={bubble.rotation}
-          index={index}
-        />
-      ))}
+    <div>
+      <div
+        className=''
+        style={{
+          display: 'flex',
+          justifyContent: 'center',
+          flexWrap: 'wrap',
+          padding: '60px 20px',
+          gap: '30px',
+        }}
+      >
+        {bubbles.map((bubble, index) => (
+          <Bubble
+            key={index}
+            icon={bubble.icon}
+            link={bubble.link}
+            rotation={bubble.rotation}
+            index={index}
+          />
+        ))}
+      </div>
+      <div className='mx-auto my-10 w-fit z-10'>
+        <ReadMore theme='white' />
+      </div>
     </div>
   );
 };
