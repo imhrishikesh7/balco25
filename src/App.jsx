@@ -9,6 +9,7 @@ import AboutUs from './Pages/KnowBALCO/AboutUs';
 import YearOfProgress from './Pages/KnowBALCO/YearOfProgress'
 import Backbone from './Pages/KnowBALCO/Backbone'
 import Border from './Pages/KnowBALCO/Border'
+import BALCOChronicles from './Pages/KnowBALCO/BALCOChronicles'
 import DiverseProducts from './Pages/KnowBALCO/DiverseProducts'
 import Chairman from './Pages/KnowBALCO/Chairman'
 import CEO from './Pages/KnowBALCO/CEO'
@@ -49,12 +50,13 @@ function App() {
             <Route path='/a_year_of_progress' element={<YearOfProgress />} />
             <Route path="/strengthening_indias_industrial_backbone" element={<Backbone />} />
             <Route path='/meeting_demand_across_borders' element={<Border />} />
+            <Route path='/balco_chronicles' element={<BALCOChronicles />} />
             <Route path='/our_diverse_product_range' element={<DiverseProducts />} />
             <Route path="/chairmans_communique" element={<Chairman />} />
             <Route path='/letter_from_ceo_' element={<CEO />} />
             <Route path="/cfos_message" element={<CFO />} />
             {/* Business Overview */}
-            <Route path='/balcos_growth_project_' element={<GrowthProject />} />
+            <Route path='/balcos_growth_project' element={<GrowthProject />} />
             <Route path='/how_we_create_value' element={<CreateValue />} />
             <Route path='/materiality_matters' element={<MaterialityMatters />} />
             <Route path='/engaging_with_our_stakeholders_' element={<EngagingStakeholders />} />
