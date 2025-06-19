@@ -55,7 +55,7 @@ const Milestones = () => {
                 <div className='relative w-40'>
                     <img src="/home/nehru.webp" className='absolute bottom-1/2 transform translate-y-1/2' alt="" />
                 </div>
-                <ReadingHeading text="BALCO Chronicles" className="text-white text-center t-30" />
+                <ReadingHeading text="BALCO Chronicles" className="text-white text-center t-30 !text-4xl" />
                 <div className='relative w-80'>
                     <img src="/home/factory.webp" className='absolute bottom-1/2 transform translate-y-1/2' alt="" />
                 </div>
@@ -90,7 +90,7 @@ const Milestones = () => {
                             {item.description.map((desc, index) => (
                                 <div key={index} className="flex borde mr-8 items-start gap-3 mb-3">
                                     <img src="/home/pointer.webp" alt="" className="w-4 mt-1" />
-                                    <p className="text-lg md:text-[2.5vh] text-white/70">
+                                    <p className="text-lg md:text-[2vh] text-white/70">
                                         {desc}
                                     </p>
                                 </div>

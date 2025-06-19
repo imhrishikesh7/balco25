@@ -1,8 +1,24 @@
-
-*{
-  font-family: 'Avenir', sans-serif;                                   
+* {
+  font-family: 'inter', sans-serif;
 }
 
+@font-face {
+  font-family: 'inter_light';
+  src: url('/Inter/static/Inter_18pt-Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'inter';
+  src: url('/Inter/static/Inter_18pt-Regular.ttf') format('truetype');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'inter_semibold';
+  src: url('/Inter/static/Inter_18pt-SemiBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'inter_bold';
+  src: url('/Inter/static/Inter_18pt-Bold.ttf') format('truetype');
+}
 /* index.css or global */
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
@@ -116,5 +132,77 @@
   overflow: hidden;
   display: inline-block;
   vertical-align: bottom;
+}
+
+/* From Uiverse.io by CashOnlySeb */ 
+.custom-learn-more-btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1.4rem;
+  /* border: 1px solid #282936; */
+  background: transparent;
+  /* color: #282936; */
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  overflow: hidden;
+  transition:
+    color 0.3s ease-in-out,
+    border-color 0.3s ease-in-out;
+}
+
+.custom-learn-more-btn .circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 3rem;
+  height: 3rem;
+  /* background: #282936; */
+  background: #66cc33;
+  border-radius: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: transform 0.5s ease-in-out;
+  z-index: 1;
+}
+
+.custom-learn-more-btn .button-text {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.custom-learn-more-btn .arrow {
+  z-index: 2;
+  
+  transition:
+    transform 0.3s ease-in-out,
+    background 0.3s ease-in-out;
+}
+
+
+.custom-learn-more-btn:hover {
+  color: #fff;
+  border-color: transparent;
+}
+
+.custom-learn-more-btn:hover .circle {
+  transform: translate(-50%, -50%) scale(4);
+}
+
+.custom-learn-more-btn:hover .arrow {
+  color: #fff;
+  transform: translateX(5px);
+}
+
+.custom-learn-more-btn:hover .arrow::after {
+  border-color: #fff;
+}
+
+.custom-learn-more-btn:active {
+  transform: scale(0.98);
 }
 

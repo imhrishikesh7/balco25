@@ -7,7 +7,7 @@ const Footer = () => {
         
         {/* Left: Company Logo */}
         <div className="flex items-center gap-2 bg-white p-2 rounded">
-          <a href="https://www.tataconsumer.com/"> <img
+          <a href="https://www.balcoindia.com/"> <img
             src="/outlook.webp" // Replace with your path
             alt="Company Logo"
             className="w-60  object-contain"

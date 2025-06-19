@@ -48,7 +48,7 @@ const ReadingText = ({ text, color, className = '' }) => {
   return (
     <h2
       ref={headingRef}
-      className={` font-bold leading-tight whitespace-pre-line ${className}`}
+      className={` font-regular leading-tight whitespace-pre-line ${className}`}
     //   style={{color:color}}
     >
       {text}
