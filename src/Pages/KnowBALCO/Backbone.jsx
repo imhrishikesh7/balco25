@@ -190,7 +190,8 @@ const Backbone = () => {
         </div>
 
         <div className="text-container w-full flex flex-col justify-en items-start mb-">
-          <h1 className="textstartgey " data-fill-text="FIRST">FIRST</h1>
+          <h1 className="textstartgey first" data-fill-text="FIRST"
+          >FIRST</h1>
         </div>
 
         <div className='flex flex-wrap'>

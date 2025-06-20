@@ -70,8 +70,8 @@ the nation’s industrial evolution. Capitalising on this opportunity, we are fo
                 className="my-custom-class"
               />
             </div>
-            <div className='mt-6'>
-            <ReadMore/>
+            <div classxName='mt-6'>
+              <ReadMore to={"/empowering_progress_while_shaping_the_future"}/>
             </div>
           </div>
           {/* Right Side Hex Layout */}

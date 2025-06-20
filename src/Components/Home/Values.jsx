@@ -47,8 +47,7 @@ const Bubble = ({ icon, link, rotation, index }) => {
 
   return (
     <a
-      href={link}
-      target="_blank"
+      href={"/strengthening_indias_industrial_backbone"}
       rel="noopener noreferrer"
       ref={bubbleRef}
       style={{
@@ -109,7 +108,7 @@ const Values = () => {
         ))}
       </div>
       <div className='mx-auto my-10 w-fit z-10'>
-        <ReadMore theme='white' />
+        <ReadMore theme='white' to={"/strengthening_indias_industrial_backbone"} />
       </div>
     </div>
   );

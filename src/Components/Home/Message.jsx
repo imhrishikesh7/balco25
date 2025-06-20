@@ -46,7 +46,8 @@ const Message = () => {
       name: "S.K. Roongta",
       desg: "Chairman & Independent Director",
       textColor: "text-[#0064a8]",
-      title: "Chairman's communique"
+      title: "Chairman's communique",
+      link: "/chairmans_communique"
     },
     {
       image: "/CEO/Rajesh-Kumar.webp",
@@ -57,7 +58,8 @@ const Message = () => {
       name: "Rajesh Kumar",
       desg: "Chief Executive Officer",
       textColor: "text-[#acd4f1]",
-      title: "Letter from CEO"
+      title: "Letter from CEO",
+      link: "/letter_from_ceo_"
     },
     {
       image: "KnowBALCO/CFO/Amit-Gupta.webp",
@@ -68,7 +70,8 @@ const Message = () => {
       name: "Amit Gupta",
       desg: "Chief Financial Officer",
       textColor: "text-[#ffffff]",
-      title: "CFO's message"
+      title: "CFO's message",
+      link: "/cfos_message"
     },
   ];
 
@@ -131,7 +134,7 @@ const Message = () => {
 
                 <div className='flex mt-8 w-full items-center justify-between'>
                   <div>
-                    <ReadMore/>
+                    <ReadMore to={card.link}/>
                   </div>
                   <div className='w-fit'>
                     <h1 className={`text-xl sm:text-xl font-semibold text-[#0063a7]`}>{card.name}</h1>

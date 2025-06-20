@@ -203,7 +203,7 @@ const BOD = () => {
                     ))}
                 </Slider>
                 <div className='w-fit mx-auto'>
-                    <ReadMore to={"/bod"}/>
+                    <ReadMore to={"/profiles_of_board_of_directors"}/>
                 </div>
 
                 {/* Committee Legend */}
