@@ -36,7 +36,7 @@ import HumanCapital from './Pages/BusinessOverview/HumanCapital';
 import Social from './Pages/BusinessOverview/Social';
 import Awards from './Pages/BusinessOverview/Awards';
 import Certificates from './Pages/BusinessOverview/Certificates';
-import BOD from './Pages/BusinessOverview/BOD';
+import BOD from './Pages/BusinessOverview/BoardMembers';
 import Natural from './Pages/BusinessOverview/Natural';
 
 function MainContent() {

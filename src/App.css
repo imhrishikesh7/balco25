@@ -7,21 +7,24 @@
 }
 
 @font-face {
-  font-family: 'inter_light';
+  font-family: 'Inter';
   src: url('/Inter/static/Inter_18pt-Light.ttf') format('truetype');
+  font-weight: 300;
 }
 @font-face {
-  font-family: 'inter';
+  font-family: 'Inter';
   src: url('/Inter/static/Inter_18pt-Regular.ttf') format('truetype');
-  font-style: normal;
+  font-weight: 400;
 }
 @font-face {
-  font-family: 'inter_semibold';
+  font-family: 'Inter';
   src: url('/Inter/static/Inter_18pt-SemiBold.ttf') format('truetype');
+  font-weight: 600;
 }
 @font-face {
-  font-family: 'inter_bold';
+  font-family: 'Inter';
   src: url('/Inter/static/Inter_18pt-Bold.ttf') format('truetype');
+  font-weight: 700;
 }
 /* index.css or global */
 .scrollbar-hide::-webkit-scrollbar {
