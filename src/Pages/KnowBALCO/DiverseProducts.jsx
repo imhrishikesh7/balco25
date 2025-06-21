@@ -12,51 +12,56 @@ const cards = [
         title: "WIRE RODS",
         description:
             "BALCO is one of the leading wire rod manufacturers in the world. Our mills are fully equipped with in-line degassing and filtration systems to ensure good internal metal quality and cleanliness.",
+        description1:"Other aligned products in the same segment includes:",
+        description2:"ALLOY WIRE RODS",
         stats: [
-
-            { value: "2,16,997Mt", label: "FY 2025 Production" },
+            { value: "2,16,997", unit: "Mt", label: "FY 2025 Production" },
         ],
     },
     {
         img: "DiverseProducts/Ingots.webp",
         title: "INGOTS ",
         description:
-            "Our growth trajectory is fueled by innovation, capacity expansion, and customer-centric strategies.",
+            "BALCO produces primary aluminium ingots that are re-melted to produce a variety of end products covering the entire spectrum of aluminium applications using state- of-the-art technology.",
         stats: [
-            { value: "2,50,004 Mt", label: "FY 2025 Production" },
+            { value: "2,50,004", unit: "Mt", label: "FY 2025 Production" },
         ],
     },
     {
         img: "DiverseProducts/Rolled-Products.webp",
         title: "ROLLED PRODUCTS ",
         description:
-            "Committed to green operations, reduced emissions, and eco-friendly initiatives.",
+            "BALCO is equipped to deliver high quality rolled products with application in automobiles, insulations, bus bars, power projects, electrical, packaging etc.",
+        description1:"Other aligned products in the same segment includes:",
+        description2:"ALLOY ROLLING PRODUCTS",
+        description3:"COLD ROLLED COILS AND STRIPS",
+        description4:"HOT ROLLED PLATES",
+        description5:"COLD ROLLED SHEETS",
         stats: [
-            { value: "29,643 Mt", unit: "", label: "FY 2025 Production" },
+            { value: "29,643", unit: "Mt", label: "FY 2025 Production" },
         ],
     },
     {
         img: "DiverseProducts/Promary Foundry.webp",
         title: "PRIMARY FOUNDRY ALLOY ",
         description:
-            "Driving with cutting-edge R&D, smart tech, and digital transformation.",
+            "BALCO supplies primary foundry alloys in many industry segments. The casting facility has metal treatment facilities of Degassing & Metal Filtration Unit.",
         stats: [
-            { value: "77,501 Mt", unit: "", label: "FY 2025 Production" },
+            { value: "77,501", unit: "Mt", label: "FY 2025 Production" },
         ],
     },
     {
         img: "DiverseProducts/AlSi_Ingot.webp",
         title: "AlSi T-INGOT",
         description:
-            "Supporting education, health, and livelihood programs across the nation.",
+            "BALCO supplies AlSi T-INGOT for application in the steel industry.",
         stats: [
-            { value: "12,059 Mt", unit: "", label: "FY 2025 Production" },
+            { value: "12,059", unit: "Mt", label: "FY 2025 Production" },
         ],
     },
-   
-
 ];
 
+// Updated settings with better autoplay configuration
 const settings = {
     dots: true,
     infinite: true,
@@ -65,6 +70,29 @@ const settings = {
     slidesToScroll: 1,
     centerMode: true,
     centerPadding: '20px',
+    autoplay: true,
+    autoplaySpeed: 3000, // Increased from 2000 to 3000ms
+    pauseOnHover: false,
+    pauseOnFocus: false,
+    pauseOnDotsHover: false,
+    swipeToSlide: true,
+    touchMove: true,
+    useCSS: true,
+    useTransform: true,
+    accessibility: true,
+    // Add arrows for better UX
+    arrows: false, // Keep false for mobile clean look
+    responsive: [
+        {
+            breakpoint: 768,
+            settings: {
+                centerMode: true,
+                centerPadding: '10px',
+                autoplay: true,
+                autoplaySpeed: 3000,
+            }
+        }
+    ]
 };
 
 const DiverseProducts = () => {
@@ -86,7 +114,7 @@ const DiverseProducts = () => {
               </div>
   
               {/* Desktop Grid */}
-              <div className="hidden sm:flex flex-wrp gap-5 justify-center">
+              <div className="hidden sm:flex flex-wrap gap-5 justify-center">
                 {Array.isArray(cards) && cards.map((card, i) => (
                   <motion.div
                     key={i}
@@ -94,24 +122,31 @@ const DiverseProducts = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 2, delay: i * 0.1 }}
                     viewport={{ once: true }}
-                    className="bg-[#1a3866] text-white w-[20%] h-[680px] rounded-xl shadow-lg overflow-hidden flex flex-col hover:shadow-2xl transition-shadow"
+                    className="bg-[#1a3866] text-white w-[20%] rounded-xl shadow-lg overflow-hidden flex flex-col hover:shadow-2xl transition-shadow"
                   >
                     <img
                       src={card.img}
                       alt={card.title}
                       className="w-full h-80 object-cover"
+                      loading="lazy"
                     />
-                    <div className="bg-[#8adb3a] text-[#012231] text-center font-bold text-sm py-2 uppercase tracking-widest rounded-xl transform -translate-y-5 mx-4">
+                    <div className="bg-[#8adb3a] pl-3 text-[#012231] font-bold text-sm py-1 uppercase tracking-widest rounded-xl transform -translate-y-4 mx-4">
                       {card.title}
                     </div>
-                    <div className="p-4 space-y-3 flex-1 flex flex-col justify-between">
+                    <div className="p-4 space-y-4 flex-1 flex flex-col justify-between">
                       <p className="text-sm text-gray-100">{card.description}</p>
+                      {card.description1 && <p className="text-sm text-gray-100">{card.description1}</p>}
+                      {card.description2 && <p className="text-sm text-[#73bf43]">{card.description2}</p>}
+                      {card.description3 && <p className="text-sm text-[#73bf43]">{card.description3}</p>}
+                      {card.description4 && <p className="text-sm text-[#73bf43]">{card.description4}</p>}
+                      {card.description5 && <p className="text-sm text-[#73bf43]">{card.description5}</p>}
+
                       <div className="space-y-2">
                         {Array.isArray(card.stats) && card.stats.map((s, j) => (
                           <div key={j}>
-                            <p className="text-[#01a7e1] text-lg font-bold">
+                            <p className="text-[#01a7e1] text-2xl font-bold">
                               {s.value}{" "}
-                              <span className="text-[#a6ecfc] font-medium text-base">
+                              <span className="text-[#01a7e1] font-bold text-base">
                                 {s.unit || ""}
                               </span>
                             </p>
@@ -125,41 +160,51 @@ const DiverseProducts = () => {
                 ))}
               </div>
   
-              {/* Mobile Carousel */}
+              {/* Mobile Carousel with Fixed Autoplay */}
               <div className="block sm:hidden">
-                <Slider {...settings}>
-                  {Array.isArray(cards) && cards.map((card, i) => (
-                    <div key={i}>
-                      <div className="bg-[#0e2a40] text-white w-[90%] mx-auto h-[680px] rounded-xl shadow-lg overflow-hidden flex flex-col">
-                        <img
-                          src={card.img}
-                          alt={card.title}
-                          className="w-full h-80 object-cover"
-                        />
-                        <div className="bg-[#8adb3a] text-[#012231] text-center font-bold text-sm py-2 uppercase tracking-widest">
-                          {card.title}
-                        </div>
-                        <div className="p-4 space-y-3 flex-1 flex flex-col justify-between">
-                          <p className="text-sm text-gray-100">{card.description}</p>
-                          <div className="space-y-2">
-                            {Array.isArray(card.stats) && card.stats.map((s, j) => (
-                              <div key={j}>
-                                <p className="text-[#01a7e1] text-lg font-bold">
-                                  {s.value}{" "}
-                                  <span className="text-[#a6ecfc] font-medium text-base">
-                                    {s.unit || ""}
-                                  </span>
-                                </p>
-                                <p className="text-white text-sm">{s.label}</p>
-                                <div className="w-[40px] h-[1px] bg-gradient-to-r from-[#ee8846] to-transparent my-1"></div>
-                              </div>
-                            ))}
+                <div style={{ overflow: 'hidden' }}>
+                  <Slider {...settings}>
+                    {Array.isArray(cards) && cards.map((card, i) => (
+                      <div key={i} className="px-2">
+                        <div className="bg-[#0e2a40] text-white w-full mx-auto h-[680px] rounded-xl shadow-lg overflow-hidden flex flex-col">
+                          <img
+                            src={card.img}
+                            alt={card.title}
+                            className="w-full h-80 object-cover"
+                            loading="lazy"
+                          />
+                          <div className="bg-[#8adb3a] text-[#012231] text-center font-bold text-sm py-2 uppercase tracking-widest">
+                            {card.title}
+                          </div>
+                          <div className="p-4 space-y-3 flex-1 flex flex-col justify-between">
+                            <div className="space-y-2">
+                              <p className="text-sm text-gray-100">{card.description}</p>
+                              {card.description1 && <p className="text-sm text-gray-100">{card.description1}</p>}
+                              {card.description2 && <p className="text-sm text-[#73bf43]">{card.description2}</p>}
+                              {card.description3 && <p className="text-sm text-[#73bf43]">{card.description3}</p>}
+                              {card.description4 && <p className="text-sm text-[#73bf43]">{card.description4}</p>}
+                              {card.description5 && <p className="text-sm text-[#73bf43]">{card.description5}</p>}
+                            </div>
+                            <div className="space-y-2">
+                              {Array.isArray(card.stats) && card.stats.map((s, j) => (
+                                <div key={j}>
+                                  <p className="text-[#01a7e1] text-lg font-bold">
+                                    {s.value}{" "}
+                                    <span className="text-[#a6ecfc] font-medium text-base">
+                                      {s.unit || ""}
+                                    </span>
+                                  </p>
+                                  <p className="text-white text-sm">{s.label}</p>
+                                  <div className="w-[40px] h-[1px] bg-gradient-to-r from-[#ee8846] to-transparent my-1"></div>
+                                </div>
+                              ))}
+                            </div>
                           </div>
                         </div>
                       </div>
-                    </div>
-                  ))}
-                </Slider>
+                    ))}
+                  </Slider>
+                </div>
               </div>
 
               <div className='mt-16'>

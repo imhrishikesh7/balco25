@@ -42,7 +42,7 @@ const Message = () => {
       alt: "chairman",
       bgImage: "bg-[#a27b5b]",
       bgText: "bg-[#e3d1c2]/30",
-      quote: '"We believe in enhancing long-term value creation through adaptation, innovation and sustainability. Our customer-centric approach, coupled with our expertise in understanding their evolving needs, enables us to maintain a competitive edge in this dynamic environment."',
+      quote: '"We are committed to enhancing long- term value creation through adaption, innovation and sustainability. Our customer-centric approach, coupled with our expertise in understanding their evolving needs, enables us to maintain a competitive edge in this dynamic environment."',
       name: "S.K. Roongta",
       desg: "Chairman & Independent Director",
       textColor: "text-[#0064a8]",

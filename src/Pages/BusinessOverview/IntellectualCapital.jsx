@@ -50,14 +50,14 @@ const FinancialCapital = () => {
                         />
                     </div>
                     <div className='w-full lg:w-2/5 order-2'>
-                        <h1 className='text-[#9b92c6] text-2xl lg:text-3xl font-bold mb-4 lg:mb-6'>Research and Development</h1>
-                        <p className='text-lg lg:text-xl'>
+                        <h1 className='text-[#9b92c6] text-xl lg:text-2xl font-bold mb-4 lg:mb-6'>Research and Development</h1>
+                        <p className='text-base lg:text-xl'>
                             We shape possibilities. We are dedicated to capitalising on emerging opportunities through focused R&D initiatives. With
                             the growing demand for aluminium in India, we recognise the importance of developing innovative, high-quality products
                             tailored to industry needs. Our efforts are aligned with the ‘Make in India’ initiative, aiming to reduce import dependence
                             and promote indigenous aluminium alloy manufacturing.
                             This strategic focus enables us to cater to diverse sectors such as defence, aerospace, marine, railways and electric vehicles,
-                            enabling self-reliance and technological advancement across the country
+                            enabling self-reliance and technological advancement across the country.
                         </p>
                     </div>
                 </div>
@@ -71,8 +71,8 @@ const FinancialCapital = () => {
                         />
                     </div>
                     <div className='w-full lg:w-2/5 order-1'>
-                        <h1 className='text-[#9b92c6] text-2xl lg:text-3xl font-bold mb-4 lg:mb-6'>Data analytics and advance data driven decision making</h1>
-                        <p className='text-lg lg:text-xl'>
+                        <h1 className='text-[#9b92c6] text-xl lg:text-2xl font-bold mb-4 lg:mb-6'>Data analytics and advance data driven decision making</h1>
+                        <p className='text-base lg:text-xl'>
                             We leverage cutting-edge digital technologies to enhance operational efficiency, drive innovation and strengthen safety
                             measures. By integrating advanced data analytics, automation and AI-driven solutions, we are transforming our processes to
                             achieve greater precision, reliability and sustainability to redefine excellence at every step of the way.
@@ -91,10 +91,10 @@ const FinancialCapital = () => {
                         />
                     </div>
                     <div className='w-full lg:w-3/5'>
-                        <h1 className='text-[#9b92c6] text-2xl lg:text-3xl font-bold mb-4'>
+                        <h1 className='text-[#9b92c6] text-xl lg:text-2xl font-bold mb-4'>
                             AI & Emerging Technologies Driving Smart Transformation
                         </h1>
-                        <p className='text-lg lg:text-xl'>
+                        <p className='text-base lg:text-xl'>
                             We continue to integrate cutting-edge technologies
                             to improve process efficiency, enhance workforce
                             capability, and strengthen asset reliability. The focus
@@ -103,6 +103,9 @@ const FinancialCapital = () => {
                             analytics, and immersive training technologies forming
                             the backbone of BALCO's digital transformation
                             roadmap.
+                            <br />
+                            <br />
+                            These advanced solutions are addressing complex operational challenges, reducing human intervention, improving safety, and generating real-time insights for faster decision-making. The initiatives showcased below reflect this forward-looking approach.
                         </p>
                     </div>
                 </div>
@@ -142,8 +145,8 @@ const FinancialCapital = () => {
                     </div>
                     <div className='mt-10 px-4 lg:px-0'>
                         {/* Heading and intro paragraph */}
-                        <h1 className='text-[#9b92c6] text-2xl lg:text-3xl font-bold mb-4 lg:mb-6'>Digitalisation</h1>
-                        <p className='text-lg lg:text-xl mb-8 lg:mb-10'>
+                        <h1 className='text-[#9b92c6] text-xl lg:text-2xl font-bold mb-4 lg:mb-6'>Digitalisation</h1>
+                        <p className='text-base lg:text-xl mb-8 lg:mb-10'>
                             Digitalisation has become a driving force enabling our business to
                             optimise operations, improve productivity, and gain a competitive
                             edge. By embracing digital technologies and integrating them into
@@ -158,8 +161,8 @@ const FinancialCapital = () => {
                         <div className='flex flex-col lg:flex-row gap-8 lg:gap-12'>
                             {/* Text content - comes first on mobile */}
                             <div className='w-full lg:w-3/5'>
-                                <h2 className='text-black text-xl lg:text-2xl font-bold mb-4 lg:mb-6'>Building Digital Capability</h2>
-                                <p className='text-lg lg:text-xl mb-6 lg:mb-8'>
+                                <h2 className='text-black text-lg lg:text-xl font-bold mb-4 lg:mb-6'>Building Digital Capability</h2>
+                                <p className='text-base lg:text-lg mb-6 lg:mb-8'>
                                     As part of its ongoing digital transformation journey, we
                                     have focused on strengthening internal capabilities through
                                     structured training programmes. Over 200 employees across
@@ -168,8 +171,8 @@ const FinancialCapital = () => {
                                     maintenance
                                 </p>
 
-                                <h2 className='text-black text-xl lg:text-2xl font-bold mb-4 lg:mb-6'>Collaborations to enhance digitalisation efforts</h2>
-                                <p className='text-lg lg:text-xl'>
+                                <h2 className='text-black text-lg lg:text-xl font-bold mb-4 lg:mb-6'>Collaborations to enhance digitalisation efforts</h2>
+                                <p className='text-base lg:text-lg'>
                                     Collaborations with leading technology providers such as
                                     Microsoft and Google have supported these efforts, including
                                     sessions on generative AI tools like Microsoft Copilot. The
@@ -191,7 +194,7 @@ const FinancialCapital = () => {
                     </div>
                     <div className="mt-10">
                         <p className='text-lg lg:text-xl mb-3'>We have initiated digitalisation projects for new product development focusing on the following areas:</p>
-                        <h1 className='text-[#9b92c6] text-2xl lg:text-3xl font-bold mb-4 lg:mb-6'>Key Projects</h1>
+                        <h1 className='text-[#9b92c6] text-xl lg:text-2xl font-bold mb-4 lg:mb-6'>Key Projects</h1>
                         <div className="">
                             {/* Main grid container */}
                             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -273,7 +276,7 @@ const FinancialCapital = () => {
                                         <li>2.Enhanced safety compliance with automated
                                             approvals and audit-ready logs.</li>
                                         <li>3.Centralized platform reduced human error and
-                                            improved process transparency</li>
+                                            improved process transparency.</li>
                                     </ul>
                                 </div>
                                 <div className="bg-[#f3f2f7] p-6 rounded-lg">
@@ -329,8 +332,8 @@ const FinancialCapital = () => {
                         </div>
 
                         <div className='w-full lg:w-2/5 order-1'>
-                            <h1 className='text-[#9b92c6] text-2xl lg:text-3xl font-bold mb-4 lg:mb-6'>Optimising legal activities with Roznama tool </h1>
-                            <p className='text-lg lg:text-xl'>
+                            <h1 className='text-[#9b92c6] text-xl lg:text-2xl font-bold mb-4 lg:mb-6'>Optimising legal activities with Roznama tool </h1>
+                            <p className='text-base lg:text-xl'>
                                 BALCO has enhanced its legal management capabilities by implementing the Roznama Legal Management Tool, ensuring real-time
                                 updates, comprehensive oversight and risk mitigation. The tool enables efficient case management, secures legal data and provides
                                 access to an extensive network of legal experts.
@@ -342,14 +345,14 @@ const FinancialCapital = () => {
                         <img src="BusinessOverview/IntellectualCapital/Page-66-Img-2.webp" alt="" />
                     </div>
                     <div className='mt-10'>
-                        <h1 className='text-[#9b92c6] text-2xl lg:text-3xl font-bold mb-4 lg:mb-6'>Optimising legal activities with Roznama tool </h1>
+                        <h1 className='text-[#9b92c6] text-xl lg:text-2xl font-bold mb-4 lg:mb-6'>Optimising legal activities with Roznama tool </h1>
                         <img src="BusinessOverview/IntellectualCapital/Page-67-img.webp" alt="" />
 
                         <div className='flex flex-col lg:flex-row gap-6 lg:gap-8 items-start py-6 border-b mt-10'>
                             {/* Text Content - Always comes first in DOM */}
                             <div className='w-full lg:w-2/5'>
-                                <h1 className='text-[#9b92c6] text-2xl lg:text-3xl font-bold mb-4'>Information technology</h1>
-                                <p className='text-lg lg:text-xl'>
+                                <h1 className='text-[#9b92c6] text-xl lg:text-2xl font-bold mb-4'>Information technology</h1>
+                                <p className='text-base lg:text-xl'>
                                     We believe that progress is powered by collaboration and
                                     innovation. We seamlessly integrate new initiatives into our
                                     business plan through collaborative discussions with senior
@@ -436,8 +439,8 @@ const FinancialCapital = () => {
                             </div>
                         </div>
                         <div>
-                            <h1 className='text-[#9b92c6] text-2xl lg:text-3xl font-bold mb-4'>Customer development </h1>
-                            <p className='text-lg lg:text-xl'>
+                            <h1 className='text-[#9b92c6] text-xl lg:text-2xl font-bold mb-4'>Customer development </h1>
+                            <p className='text-base lg:text-xl'>
                                 BALCO continued to strengthen its customer-centric development approach by expanding its product portfolio, penetrating new
                                 markets, and supporting key domestic and international clients with specialized aluminium solutions
                             </p>
@@ -457,7 +460,7 @@ const FinancialCapital = () => {
                                     />
                                 </div>
                             </div>
-                            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6 text-xl">
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6 text-lg">
                                 <ul className="space-y-3 list-disc pl-5">
                                     <li>Successfully completed the homologation of AlSi with M/s. Tata Steel, Khopoli.</li>
                                     <li>Produced Cu-doped primary foundry alloys for cylinder head applications for M/s. Craftsman Automation for the first time.</li>

@@ -6,57 +6,61 @@ import "slick-carousel/slick/slick-theme.css";
 const cards = [
     {
         img: "ProgressYear/IMG1.webp",
-        title: "Financial",
+        title: "FINANCIAL",
         description:
             "We consistently deliver robust earnings, maintain low operating costs and generate significant free cash flows, showing our resilience and efficiency.",
         stats: [
-            { value: "₹ 12,156", unit: "crore", label: "Net Worth" },
-            { value: "₹ 2,969", unit: "crore", label: "PAT" },
-            { value: "₹ 11,935", unit: "crore", label: "Reserves and Surplus" },
+            { value: "₹ 12,156 crore", unit: "", label: "Net Worth" },
+            { value: "₹ 2,969 crore", unit: "", label: "PAT" },
+            { value: "₹ 11,935 crore", unit: "", label: "Reserves and Surplus" },
         ],
     },
     {
         img: "ProgressYear/IMG2.webp",
-        title: "Growth",
+        title: "OPERATIONAL GROWTH",
         description:
-            "Our growth trajectory remains strong, fueled by investments in innovation, capacity expansion, and customer-centric strategies.",
+            "We are constantly motivated on improving our costs and our quality of production in each of our business through a culture of best practice benchmarking, thereby, delivering value of the highest standard to our stakeholders.",
+        description2:
+            "(Through increased pot life and reduction of pot turn-around-time)",
         stats: [
-            { value: "25%", unit: "", label: "Revenue Growth" },
-            { value: "18%", unit: "", label: "EBITDA Margin" },
-            { value: "₹ 3,200", unit: "crore", label: "Capex" },
+            { value: "587 KT", unit: "", label: "Aluminium production" },
+            // { value: "", unit: "", label: "(Through increased pot life and reduction of pot turn-around-time)" },
+            { value: "99.4%", unit: "", label: "Pot Availability" },
+        
         ],
     },
     {
         img: "ProgressYear/IMG3.webp",
-        title: "Sustainability",
+        title: "HEALTH & SAFETY",
         description:
-            "We are committed to sustainability with green operations, reduced emissions, and eco-friendly initiatives across all units.",
+            "We have established stringent safety protocols and continuous training programmes to ensure a safe working environment, aiming for zero fatalities and minimal injury rates.",
         stats: [
-            { value: "30%", unit: "", label: "Emission Reduction" },
-            { value: "50 MW", unit: "", label: "Renewable Energy" },
-            { value: "100%", unit: "", label: "Green Certifications" },
+            { value: "70", unit: "", label: "Safety drills conducted" },
+            { value: "0", unit: "", label: "Fatalities" },
+            { value: "0", unit: "", label: "Fatal injury frequency rate" },
         ],
     },
     {
         img: "ProgressYear/IMG4.webp",
-        title: "Innovation",
+        title: "ENVIRONMENT",
         description:
-            "Driving the future with cutting-edge R&D, smart technologies, and digital transformation across all business segments.",
+            "We aim to reduce CO2 emissions at the source and integrate environmental stewardship practices throughout our operations.",
         stats: [
-            { value: "₹ 500", unit: "crore", label: "R&D Investment" },
-            { value: "120+", unit: "", label: "Patents Filed" },
-            { value: "15%", unit: "", label: "Automation Increase" },
+            { value: "1.5%", unit: "", label: "Reduction in CO2e from FY-2024" },
+            { value: "40,653", unit: "", label: "Amount of energy generated from Renewables" },
+            { value: "5.2 Mn m³", unit: "", label: "AWater Recycled" },
         ],
     },
     {
         img: "ProgressYear/IMG5.webp",
-        title: "Community",
+        title: "SOCIAL",
         description:
-            "Giving back to society through education, health, and livelihood programs that uplift communities and promote inclusion.",
+            "We showcase our social responsibility philosophy by investing in training programmes, promoting gender diversity and supporting local communities.",
         stats: [
-            { value: "₹ 150", unit: "crore", label: "CSR Spent" },
-            { value: "500+", unit: "", label: "Villages Impacted" },
-            { value: "2L+", unit: "", label: "Beneficiaries" },
+            { value: "2.03", unit: "Lac", label: "CSR Beneficiaries" },
+            { value: "₹ 17.95 crore", unit: "", label: "Spent on CSR initiatives" },
+            { value: "7,457", unit: "", label: "Student benefitted" },
+            { value: "5,810", unit: "", label: "Women benefitted" },
         ],
     },
 ];
@@ -64,11 +68,11 @@ const cards = [
 // Dynamic icon mapping based on title
 const getIconPath = (title) => {
     const iconMap = {
-        "Financial": "ProgressYear/Financial.webp",
-        "Growth": "ProgressYear/Operational-Growth.webp",
-        "Sustainability": "ProgressYear/HealthSafety.webp",
-        "Innovation": "ProgressYear/Environment.webp",
-        "Community": "ProgressYear/Social.webp"
+        "FINANCIAL": "ProgressYear/Financial.webp",
+        "OPERATIONAL GROWTH": "ProgressYear/Operational-Growth.webp",
+        "HEALTH & SAFETY": "ProgressYear/HealthSafety.webp",
+        "ENVIRONMENT": "ProgressYear/Environment.webp",
+        "SOCIAL": "ProgressYear/Social.webp"
     };
     
     return iconMap[title] || "/icons/default.webp"; // fallback icon
@@ -106,21 +110,24 @@ const CardContent = ({ card }) => (
             <p className="text-sm sm:text-base leading-relaxed text-white">
                 {card.description}
             </p>
-
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 text-[#01a7e1] font-extrabold text-2xl md:text-[4vh]">
                 {card.stats.map((stat, i) => (
                     <div key={i} className="bg-[#1a3866] p-1 rounded-xl">
                         {stat.value}{" "}
-                        <span className="text-[#a6ecfc] text-2xl md:text-[3vh] font-semibold">
+                        <span className="text-[#01a7e1] text-2xl md:text-[3vh] font-semibold">
                             {stat.unit}
                         </span>
                         <p className="text-lg md:text-[2vh] text-white font-medium">
                             {stat.label}
                         </p>
+                        
                         <div className="w-[50px] bg-gradient-to-r from-[#ee8846] to-transparent my-3 h-[1.5px]"></div>
                     </div>
                 ))}
             </div>
+            <p className="text-sm sm:text-base leading-relaxed text-white">
+                {card.description2}
+            </p>
         </div>
     </div>
 );

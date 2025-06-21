@@ -20,32 +20,32 @@ const AboutUs = () => {
         <div className='bg-[#f3eae3]'>
             <div className='marginal'>
                 {/* Hero Section */}
-                <div className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-light pb-6 sm:pb-8 lg:pb-10'>
+                <div className='text-3xl sm:text-4xl md:text-5xl lg:text-[3xl] font-light pb-6 sm:pb-8 lg:pb-5'>
                     <h1>About our integrated annual report</h1>
                 </div>
                 
                 {/* Subtitle */}
-                <div className='text-lg sm:text-xl md:text-2xl lg:text-3xl text-[#a37b5b] font-medium pb-6 sm:pb-8 lg:pb-10 pr-0 sm:pr-5 lg:pr-10'>
+                <div className='text-lg md:text-xl lg:text-2xl text-[#a37b5b] font-medium pb-6 sm:pb-8 lg:pb-5 pr-0 sm:pr-5 lg:pr-10'>
                     <h2>We are pleased to present our third Integrated Annual Report (IAR), which includes voluntary information to the extent possible in accordance with the reporting framework developed and designed by the International Integrated Reporting Council (IIRC).</h2>
                 </div>
                 
                 {/* Main Content */}
                 <div className="">
-                    <div className='text-base sm:text-lg md:text-xl lg:text-2xl pb-6 sm:pb-8 lg:pb-10 pr-0 sm:pr-5 lg:pr-10'>
-                        This report is intended to address the information needs of our stakeholders while maintaining transparency and relevance to all key audiences. This report communicates information about Bharat Aluminium Company Limited's governance framework, value creation plan, opportunity evaluation, material risks, operational highlights and financial performance for financial year 2024-25
+                    <div className='text-base sm:text-lg md:text-lg lg:text-xl pb-6 sm:pb-8 lg:pb-10 pr-0 sm:pr-5 lg:pr-10'>
+                        This report is intended to address the information needs of our stakeholders while maintaining transparency and relevance to all key audiences. This report communicates information about Bharat Aluminium Company Limited's governance framework, value creation plan, opportunity evaluation, material risks, operational highlights and financial performance for financial year 2024-25.
                     </div>
                     
                     {/* Cards Grid */}
                     <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 sm:gap-6">
                         <div className="rounded-xl p-4 sm:p-6">
-                            <h1 className="font-bold text-lg sm:text-xl lg:text-2xl mb-2">Reporting period and framework</h1>
+                            <h1 className="font-semibold text-lg sm:text-xl lg:text-2xl mb-2">Reporting period and framework</h1>
                             <p className="text-sm sm:text-base text-gray-800 leading-relaxed">
                                 The reporting period for the IAR is from 1st April 2024 to 31st March 2025. It provides an overview of the operations and business development activities of the Company for the financial year 2024-25.
                             </p>
                         </div>
                         
                         <div className="rounded-xl p-4 sm:p-6">
-                            <h1 className="font-bold text-lg sm:text-xl lg:text-2xl mb-2">Alignment with regulatory standards includes:</h1>
+                            <h1 className="font-semibold text-lg sm:text-xl lg:text-2xl mb-2">Alignment with regulatory standards includes:</h1>
                             <ul className="list-none text-sm sm:text-base text-gray-800 space-y-1 sm:space-y-2 mt-2">
                                 <li>1. The Companies Act, 2013</li>
                                 <li>2. Indian Accounting standards</li>
@@ -57,30 +57,30 @@ const AboutUs = () => {
                         </div>
                         
                         <div className="rounded-xl p-4 sm:p-6">
-                            <h1 className="font-bold text-lg sm:text-xl lg:text-2xl mb-2">Approach to materiality</h1>
+                            <h1 className="font-semibold text-lg sm:text-xl lg:text-2xl mb-2">Approach to materiality</h1>
                             <p className="text-sm sm:text-base text-gray-800 leading-relaxed">
                                 We embrace the concept of materiality to identify information that is most relevant to our stakeholders, including it in our Integrated Report. This report focuses on addressing key issues, opportunities and challenges that significantly impact our business operations and our ability to create lasting value for our shareholders and key stakeholders.
                             </p>
                         </div>
                         
                         <div className="rounded-xl p-4 sm:p-6">
-                            <h1 className="font-bold text-lg sm:text-xl lg:text-2xl mb-2">Reporting Scope and Boundary</h1>
+                            <h1 className="font-semibold text-lg sm:text-xl lg:text-2xl mb-2">Reporting Scope and Boundary</h1>
                             <p className="text-sm sm:text-base text-gray-800 leading-relaxed">
-                                This report outlines BALCO's strategic framework for value creation across the short, medium and long term. It offers a concise assessment of the company's performance and governance over the past year, highlighting how these efforts have contributed to executing our strategy
+                                This report outlines BALCO's strategic framework for value creation across the short, medium and long term. It offers a concise assessment of the company's performance and governance over the past year, highlighting how these efforts have contributed to executing our strategy.
                             </p>
                         </div>
                         
                         <div className="rounded-xl p-4 sm:p-6">
-                            <h1 className="font-bold text-lg sm:text-xl lg:text-2xl mb-2">Forward looking statement</h1>
+                            <h1 className="font-semibold text-lg sm:text-xl lg:text-2xl mb-2">Forward looking statement</h1>
                             <p className="text-sm sm:text-base text-gray-800 leading-relaxed">
-                                Some information in this report may contain forward-looking statements which include statements regarding Company's expected financial position and results of operations, business plans and prospects etc. and are generally identified by forward-looking words such as 'believe,' 'plan,' 'anticipate,' 'continue,' 'estimate,' 'expect,' 'may,' 'will' or other similar words. Forward looking statements are dependent on assumptions or basis underlying such statements. We have chosen these assumptions or basis in good faith, and we believe that they are reasonable in all material respects. However, we caution that actual results, performances or achievements could differ materially from those expressed or implied in such forward-looking statements. We undertake no obligation to update or revise any forward-looking statement, whether as a result of new information, future events, or otherwise
+                                Some information in this report may contain forward-looking statements which include statements regarding Company's expected financial position and results of operations, business plans and prospects etc. and are generally identified by forward-looking words such as 'believe,' 'plan,' 'anticipate,' 'continue,' 'estimate,' 'expect,' 'may,' 'will' or other similar words. Forward looking statements are dependent on assumptions or basis underlying such statements. We have chosen these assumptions or basis in good faith, and we believe that they are reasonable in all material respects. However, we caution that actual results, performances or achievements could differ materially from those expressed or implied in such forward-looking statements. We undertake no obligation to update or revise any forward-looking statement, whether as a result of new information, future events, or otherwise.
                             </p>
                         </div>
                         
                         <div className="rounded-xl p-4 sm:p-6">
-                            <h1 className="font-bold text-lg sm:text-xl lg:text-2xl mb-2">Auditor's report</h1>
+                            <h1 className="font-semibold text-lg sm:text-xl lg:text-2xl mb-2">Auditor's report</h1>
                             <p className="text-sm sm:text-base text-gray-800 leading-relaxed">
-                                To ensure the integrity of facts and information, the financial statements are audited by M/s. S. R. Batliboi, Chartered Accountants, and the 'Independent Auditor's Report' has been duly incorporated as part of this report
+                                To ensure the integrity of facts and information, the financial statements are audited by M/s. S. R. Batliboi, Chartered Accountants, and the 'Independent Auditor's Report' has been duly incorporated as part of this report.
                             </p>
                         </div>
                     </div>
@@ -92,7 +92,7 @@ const AboutUs = () => {
                 {/* Desktop Layout - Original */}
                 <div className='hidden lg:block'>
                     <img src="About/Main-Circle.webp" alt="main-circle" className='h-100' />
-                    <div className='absolute top-[56%] left-[30%] -translate-y-1/2 flex gap-15 font-bold'>
+                    <div className='absolute top-[56%] left-[30%] -translate-y-1/2 flex gap-15 font-semibold'>
                         {smallImages.map((img, index) => (
                             <motion.div
                                 key={index}
@@ -121,7 +121,7 @@ const AboutUs = () => {
                 
                 {/* Mobile Layout - Clean Grid */}  
                 <div className='lg:hidden py-8 px-4'>
-                    <h2 className='text-xl sm:text-2xl font-bold text-center mb-6 text-gray-800'>Our Capital Framework</h2>
+                    <h2 className='text-xl sm:text-2xl font-semibold text-center mb-6 text-gray-800'>Our Capital Framework</h2>
                     <div className='grid grid-cols-2 sm:grid-cols-3 gap-6 max-w-4xl mx-auto'>
                         {smallImages.map((img, index) => (
                             <motion.div
@@ -153,7 +153,7 @@ const AboutUs = () => {
             {/* SDG Section */}
             <div className="bg-[#f3eae3] bg-[url('/About/AboutBG.webp')] bg-no-repeat bg-cover bg-center min-h-[60vh] sm:min-h-[80vh] lg:h-screen w-full">
                 <div className='marginal py-8 sm:py-12 lg:py-0'>
-                    <h1 className='font-bold text-xl sm:text-2xl pb-2'>Sustainable Development Goals:</h1>
+                    <h1 className='font-semibold text-xl sm:text-2xl pb-2'>Sustainable Development Goals:</h1>
                     <div className="h-0.5 bg-black w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl 2xl:max-w-2xl"></div>
                     
                     <div className="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 lg:grid-cols-10 xl:grid-cols-12 gap-2 sm:gap-3 pt-6 sm:pt-8 lg:pt-10">

@@ -55,7 +55,7 @@ const Social = () => {
     return (
         <div className="">
             <div className='bg-[#b382ba]'>
-            <div className="bg-[url('BusinessOverview/Social/Page-82-Image.png')] bg-cover bg-no-repeat bg-center w-full min-h-screen">
+            <div className="bg-[url('BusinessOverview/Social/Page-82-Image.png')] bg-contain bg-no-repeat bg-left w-full min-h-screen">
             </div>
                 {/* <div className="px-4 sm:px-6 lg:px-12 py-6 sm:py-10 flex items-center">
                     <div className="flex flex-col lg:flex-row justify-start items-start lg:items-end gap-6 lg:gap-10 w-full">
@@ -109,7 +109,7 @@ const Social = () => {
 
             {/* Financial Highlights Section */}
             <div className=' marginal px-4 sm:px-6 lg:px-12 py-6 lg:py-10'>
-                <h1 className='text-[#a3238b] text-2xl sm:text-3xl font-extrabold'>
+                <h1 className='text-[#a3238b] text-xl sm:text-3xl font-extrabold'>
                     Our CSR footprint
                 </h1>
                 <div className="overflow-x-auto mt-4">

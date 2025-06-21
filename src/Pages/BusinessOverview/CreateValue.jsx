@@ -5,7 +5,7 @@ const CreateValue = () => {
         <div>
             <div className='marginal'>
                 <div className='pb-20'>
-                    <h1 className='text-2xl sm:text-2xl lg:text-5xl font-medium pb-6 sm:pb-2'>
+                    <h1 className='text-2xl sm:text-2xl lg:text-5xl font-medium pb-6 sm:pb-5'>
                         How we create value
                     </h1>
 

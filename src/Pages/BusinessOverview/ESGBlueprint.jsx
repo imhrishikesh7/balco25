@@ -6,7 +6,7 @@ const ESGBlueprint = () => {
         <div className='bg-[#f7f3f4]'>
             <div className='marginal'>
                 <div>
-                    <h1 className='text-4xl sm:text-5xl lg:text-6xl font-light mb-10'>
+                    <h1 className='text-2xl sm:text-4xl lg:text-5xl font-light mb-10'>
                         Our ESG blueprint
                     </h1>
 

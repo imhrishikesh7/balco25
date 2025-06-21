@@ -11,6 +11,7 @@ const Backbone = () => {
       subtitle: 'in India.',
     },
     {
+      img: '/StrentheningBackbone/300.webp',
       title: '+300 kA',
       subtitle: 'to venture into',
       after: 'Prebake pots..',
@@ -65,7 +66,7 @@ const Backbone = () => {
       title: 'Core Values',
       image: '/StrentheningBackbone/Core.webp',
       content: (
-        <div className='grid grid-cols-1 gap-4'>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
           {[
             {
               title: 'TRUST',
@@ -109,11 +110,11 @@ const Backbone = () => {
               whileHover={{ scale: 1.03 }}
             >
               <h1
-                className={`${bgColor} text-white text-xl font-bold px-2 py-1 inline-block mb-2 hover:bg-opacity-100 bg-opacity-70 transition duration-300 cursor-pointer`}
+                className={`${bgColor} text-white text-lg font-bold px-3 py-2 inline-block mb-3 hover:bg-opacity-100 bg-opacity-80 transition duration-300 cursor-pointer rounded`}
               >
                 {title}:
               </h1>
-              <p>{text}</p>
+              <p className="text-sm leading-relaxed">{text}</p>
             </motion.div>
           ))}
         </div>
@@ -160,22 +161,22 @@ const Backbone = () => {
       <div className=''>
         <div className='mb-4'>
           <div>
-            <h1 className='text-4xl sm:text-5xl lg:text-6xl mb-2 md:mb-6'>
+            <h1 className='text-4xl sm:text-3xl lg:text-5xl mb-2 md:mb-6'>
               Strengthening India's industrial backbone
             </h1>
-            <h2 className='text-lg sm:text-2xl text-[#a37b5b] mb-2 md:mb-6'>
+            <h2 className='text-lg sm:text-xl text-[#a37b5b] mb-2 md:mb-6'>
               Founded in 1965 with the foundation stone laid by Mr. Jawaharlal Nehru, BALCO has played a vital role in shaping the Indian aluminium industry. Originally a public sector undertaking (PSU), BALCO's journey took a significant turn in 2001, when the Government of India disinvested 51% of its shares to Sterlite Industries (India) Limited, now Vedanta Limited.
             </h2>
           </div>
 
           <div className='flex flex-col lg:flex-row'>
-            <div className='border-b lg:border-b-0 lg:border-r text-lg border-black-500 pb-6 lg:pb-0 pr-0 lg:pr-16'>
+            <div className='border-b lg:border-b-0 lg:border-r text-md border-black-500 pb-6 lg:pb-0 pr-0 lg:pr-16'>
               <p>
                 BALCO is part of Vedanta's Aluminium Business, a division of Vedanta Limited, which is India's largest producer of aluminium, manufacturing more than half of India's aluminium. BALCO is a leader in value-added aluminium products that find critical applications in core industries. Major operations are based in the town of Korba, Chhattisgarh, where a 1740 MW power generation facility supports both BALCO's operations and contributes to Chhattisgarh state's energy needs. The company is playing a crucial role in introducing aluminium as a potential alternative to other metals like steel in construction and copper in the power transmission industry. Its finishing lines are capable of producing high-quality ingots, wire rods, busbars, and rolled products, which are integral to several key sectors.
               </p>
             </div>
             <div className='flex flex-col justify-end pl-0 lg:pl-10 pt-6 lg:pt-0'>
-              <h1 className='font-extrabold text-3xl sm:text-4xl text-[#0064a8] pb-2'>580 KTPA</h1>
+              <h1 className='font-extrabold text-xl sm:text-2xl text-[#0064a8] pb-2'>580 KTPA</h1>
               <h2 className='text-base sm:text-lg'>Production capacity</h2>
               <div className='h-0.5 bg-[#f9a556] w-[40%] sm:w-[20%]'></div>
             </div>
@@ -186,70 +187,43 @@ const Backbone = () => {
       {/* Our Triumphs */}
       <div className=''>
         <div>
-          <h1 className='font-extrabold text-xl sm:text-2xl pl- text-[#005b94] '>Our Triumphs</h1>
+          <h1 className='font-extrabold text-xl sm:text-2xl text-[#005b94] mb-6'>Our Triumphs</h1>
         </div>
 
-        <div className="text-container w-full flex flex-col justify-en items-start mb-">
-          <h1 className="textstartgey first" data-fill-text="FIRST"
-          >FIRST</h1>
-        </div>
-
-        <div className='flex flex-wrap'>
-          {data.map((item, index) => (
-            <div
-              key={index}
-              className='pl-5 pr-5 w-full sm:w-1/2 lg:w-1/4 pb-10 flex flex-col justify-end'
-            >
-              <HoverShakeImage
-                src={item.img}
-                className={`backbone${(index % 3) + 1}`}
-                onClick={() => alert(`Clicked on: ${item.title}`)}
-              />
-              {item.subtitle && (
-                <h2 className='text-xl sm:text-2xl lg:text-3xl font-medium'>{item.subtitle}</h2>
-              )}
-              <h1 className='text-xl sm:text-2xl lg:text-3xl font-extrabold bg-gradient-to-r from-[#0080b6] to-[#70bc48] text-transparent bg-clip-text leading-tight w-fit'>
-                {item.title}
-              </h1>
-              {item.after && (
-                <h2 className='text-xl sm:text-2xl lg:text-3xl font-medium'>{item.after}</h2>
-              )}
-            </div>
-          ))}
-        </div>
+        <img src="StrentheningBackbone/640df81c-2323-454b-a6b3-0a3a4d5c372a.png" alt="" />
       </div>
 
       {/* Core Values, Vision, Mission Section */}
       <section className='bg-[#f7f3f4] py-12'>
         <div className='marginal'>
-          <div className='flex flex-col lg:flex-row gap-8'>
-            
-            {/* Left Side - Navigation */}
-            <div className='lg:w-1/4 flex flex-col space-y-8'>
-              {Object.entries(sectionData).map(([key, section]) => (
-                <div key={key} className='flex flex-col items-center'>
-                  <img
-                    src={section.image}
-                    alt={section.title}
-                    className={`backbone1 w-full cursor-pointer transition-all duration-300 ${
-                      selectedSection === key 
-                        ? 'transform scale-110' 
-                        : 'hover:scale-105'
-                    }`}
-                    onClick={() => setSelectedSection(key)}
-                  />
-                  <h2 className='text-2xl font-medium mt-4 text-center'>{section.title}</h2>
-                </div>
-              ))}
-            </div>
 
-            {/* Right Side - Content Box */}
-            <div className='lg:w-3/4'>
-              <div className='bg-white rounded-lg shadow-lg p-6 min-h-[600px]'>
-                <h1 className='text-3xl font-bold mb-6 text-center text-[#005b94]'>
-                  {sectionData[selectedSection].title}
-                </h1>
-                
+          {/* Top Navigation - Horizontal */}
+          <div className='flex flex-row justify-center gap-8 mb-8'>
+            {Object.entries(sectionData).map(([key, section]) => (
+              <div key={key} className='flex flex-col items-center cursor-pointer' onClick={() => setSelectedSection(key)}>
+                <img
+                  src={section.image}
+                  alt={section.title}
+                  className={`backbone1 w-24 h-24 transition-all duration-300 ${selectedSection === key
+                      ? 'transform scale-110'
+                      : 'hover:scale-105'
+                    }`}
+                />
+                <h2 className='text-xl font-medium mt-2 text-center'>{section.title}</h2>
+              </div>
+            ))}
+          </div>
+
+          {/* Content Box - Increased height for Core Values */}
+          <div className='w-full'>
+            <div className={`bg-white rounded-lg shadow-lg p-6 flex flex-col ${
+              selectedSection === 'coreValues' ? 'h-auto' : 'h-[600px]'
+            }`}>
+              <h1 className='text-3xl font-bold mb-6 text-center text-[#005b94] flex-shrink-0'>
+                {sectionData[selectedSection].title}
+              </h1>
+
+              <div className='flex-1 overflow-hidden'>
                 <AnimatePresence mode="wait">
                   <motion.div
                     key={selectedSection}
@@ -257,16 +231,21 @@ const Backbone = () => {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -20 }}
                     transition={{ duration: 0.4 }}
-                    className='h-full overflow-y-auto'
-                    style={{ maxHeight: '500px' }}
+                    className='h-full overflow-y-auto pr-2 custom-scrollbar'
+                    style={{
+                      scrollbarWidth: 'thin',
+                      scrollbarColor: '#d1d5db #f3f4f6'
+                    }}
                   >
-                    {sectionData[selectedSection].content}
+                    <div className='space-y-4'>
+                      {sectionData[selectedSection].content}
+                    </div>
                   </motion.div>
                 </AnimatePresence>
               </div>
             </div>
-
           </div>
+
         </div>
       </section>
 

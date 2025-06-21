@@ -15,22 +15,22 @@ const FinancialCapital = () => {
 
             {/* Financial Highlights Section */}
             <div className='marginal'>
-                <h1 className='text-[#005b94] text-3xl font-extrabold'>
+                <h1 className='text-[#005b94] text-xl sm:text-2xl font-extrabold'>
                     Financial highlights during FY 2024-25
                 </h1>
                 <div className="overflow-x-auto">
                     <img src="BusinessOverview/FinancialCapital/Page-44-Img.webp" alt="" className='min-w-[900px] md:min-w-[1200px] lg:min-w-[1400px] mt-2 p-10' />
                 </div>
                 <div>
-                    <p className='text-xl'>During FY 2025, we have achieved credit rating of AA/Stable
+                    <p className='text-base sm:text-xl'>During FY 2025, we have achieved credit rating of AA/Stable
                         (pronounced as Crisil Double A Stable) for the long-term
                         borrowing, as rated by CRISIL Ratings Limited. This progression
                         marks a noteworthy achievement in BALCO's commitment
                         to enhancing its financial health, governance standards, and
                         compliance practices. </p>
 
-                    <h1 className='text-[#005b94] text-2xl font-bold mt-8'>Committed to strategic capital investment</h1>
-                    <p className='text-xl mt-2'>
+                    <h1 className='text-[#005b94] text-xl sm:text-2xl font-bold mt-8'>Committed to strategic capital investment</h1>
+                    <p className='text-base sm:text-xl mt-2'>
                         BALCO remains aligned to strategic capital investment to
                         expand operational capacity and drive long-term growth. With
                         an estimated CAPEX of approximately H11,816 crores, the
@@ -42,10 +42,10 @@ const FinancialCapital = () => {
                     </p>
 
                     <h1 className='text-3xl text-[#005b94] font-[900] mt-6'>₹11,816 crores</h1>
-                    <p className='text-xl'>Capital investment</p>
+                    <p className='text-base sm:text-xl'>Capital investment</p>
 
-                    <h1 className='text-[#005b94] text-2xl font-bold mt-8'>Creating holistic value</h1>
-                    <p className='text-xl mt-2'>
+                    <h1 className='text-[#005b94] text-xl sm:text-2xl font-bold mt-8'>Creating holistic value</h1>
+                    <p className='text-base sm:text-xl mt-2'>
                         Our investment strategy is designed to enhance long-term value
                         creation while optimising profitability. A key initiative driving this
                         effort is our increased focus on Value-Added Products (VAP).
@@ -58,8 +58,8 @@ const FinancialCapital = () => {
                         gains with sustainable value creation for all stakeholders.
                     </p>
 
-                    <h1 className='text-[#005b94] text-2xl font-bold mt-8'>Driving Stability Amid Input Cost Pressures</h1>
-                    <p className='text-xl mt-2'>
+                    <h1 className='text-[#005b94] text-xl sm:text-2xl font-bold mt-8'>Driving Stability Amid Input Cost Pressures</h1>
+                    <p className='text-base sm:text-xl mt-2'>
                         BALCO sustained strong operational and financial performance.
                         Strategic focus on domestic sales, value-added product
                         contribution, and the commencement of rolled product output
@@ -74,9 +74,9 @@ const FinancialCapital = () => {
                         <img src="BusinessOverview/FinancialCapital/Page-45-Img-2.webp" alt="" className="w-full h-auto" />
                     </div>
                     <div className='flex-2 order-2 lg:order-1'>
-                        <h1 className='text-[#005b94] text-2xl font-bold mt-8 lg:mt-8'>Building Financial Resilience Through Performance
+                        <h1 className='text-[#005b94] text-xl sm:text-2xl font-bold mt-8 lg:mt-8'>Building Financial Resilience Through Performance
                             & Investment Discipline</h1>
-                        <p className='text-xl mt-2'>
+                        <p className='text-base sm:text-xl mt-2'>
                             A year marked by expansion, BALCO's strategy focused on
                             scaling responsibly, managing costs, and improving operational
                             productivity. While aluminium demand continues to grow,
@@ -88,12 +88,12 @@ const FinancialCapital = () => {
                 </div>
 
                 <div className='mt-5'>
-                    <h1 className='text-[#000000] text-xl font-bold mt-8'>Strategic Efficiency Gains</h1>
-                    <p className='text-xl mt-2'>Through targeted initiatives in production efficiency, supply
+                    <h1 className='text-[#000000] text-base sm:text-xl font-bold mt-8'>Strategic Efficiency Gains</h1>
+                    <p className='text-base sm:text-xl mt-2'>Through targeted initiatives in production efficiency, supply
                         chain optimisation, and benchmarking, BALCO made significant
                         progress in aligning cost structures with long-term growth.</p>
-                    <h1 className='text-[#000000] text-xl font-bold mt-8'>Key Outcome</h1>
-                    <p className='text-xl mt-2'>We successfully mitigated input cost volatility and maintained
+                    <h1 className='text-[#000000] text-base sm:text-xl font-bold mt-8'>Key Outcome</h1>
+                    <p className='text-base sm:text-xl mt-2'>We successfully mitigated input cost volatility and maintained
                         profitability, with a consistent focus on domestic sales and valueadded output.</p>
                 </div>
 
@@ -106,7 +106,7 @@ const FinancialCapital = () => {
                     </div>
                     <div className='flex-2 order-2 lg:order-1'>
                         <h1 className='text-[#005b94] text-2xl font-bold mt-12 lg:mt-12'>Barra Coal Block: Unlocking Cost Advantage</h1>
-                        <p className='text-xl mt-2'>
+                        <p className='text-base sm:text-xl mt-2'>
                             BALCO is advancing development of the Barra Coal Block,
                             a long-term strategic move to ensure fuel security and lower
                             power generation costs. Once operational, it is expected to
@@ -118,7 +118,7 @@ const FinancialCapital = () => {
 
                 <div className=''>
                     <h1 className='text-[#005b94] text-2xl font-bold mt-8'>Free cash flow</h1>
-                    <p className='text-xl mt-2'>
+                    <p className='text-base sm:text-xl mt-2'>
                         BALCO demonstrated strong internal funding capability in FY25
                         by generating a positive Free Cash Flow (FCF) of H106 crore,
                         despite a growth capex outlay of H3,258 crore This showcases
@@ -131,7 +131,7 @@ const FinancialCapital = () => {
 
                 <div className=''>
                     <h1 className='text-[#005b94] text-2xl font-bold mt-8'>Strategic Financial Architecture for De-risked growth</h1>
-                    <p className='text-xl mt-2'>
+                    <p className='text-base sm:text-xl mt-2'>
                         BBALCO's growth is anchored in a well-planned financial and
                         operational architecture that emphasises self-sufficiency, risk
                         insulation, and long-term capital efficiency. As the Company
@@ -157,7 +157,7 @@ const FinancialCapital = () => {
                     </div>
                     <div className='flex-2 order-2 lg:order-1'>
                         <h1 className='text-[#005b94] text-2xl font-bold mt-8'>Managing financial risk at BALCO</h1>
-                        <p className='text-xl mt-2'>
+                        <p className='text-base sm:text-xl mt-2'>
                             Financial resilience is at the core of our strategy. We implement
                             a structured risk management framework to safeguard our
                             financial health, ensuring stability amid market fluctuations.

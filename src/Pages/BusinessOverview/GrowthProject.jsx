@@ -11,13 +11,13 @@ const GrowthProject = () => {
                         </h1>
 
                         {/* Content Row */}
-                        <div className='w-full flex flex-col lg:flex-row gap-6 lg:gap-8 xl:gap-12'>
+                        <div className='w-full flex flex-col lg:flex-row gap-6 lg:gap-8 xl:gap-8'>
                             {/* Text Block */}
                             <div className='flex-1 lg:flex-[1.2]'>
-                                <h2 className='text-base sm:text-lg lg:text-3xl text-[#a37b5b] pb-4 sm:pb-6 mt-4 lg:mt-6 leading-relaxed'>
+                                <h2 className='text-base sm:text-lg lg:text-2xl text-[#a37b5b] pb-4 sm:pb-6 mt-4 lg:mt-6'>
                                     With a clear vision of reaching 1 million tonne per annum aluminium production, we are shaping a sustainable future, driving progress and empowering the nation's growth.
                                 </h2>
-                                <h3 className='text-sm sm:text-base lg:text-2xl text-[#333] leading-relaxed'>
+                                <h3 className='text-sm sm:text-base lg:text-xl text-[#333]'>
                                     With an emphasis on encouraging indigenous production and the usage of aluminium within the country, we
                                     aim to meet the increasing demand for aluminium across industries and support the country's goal of self-sufficiency in important sectors such as infrastructure, energy and manufacturing.
                                 </h3>
@@ -35,10 +35,10 @@ const GrowthProject = () => {
                         
                         {/* Bottom Section */}
                         <div className='mt-8 lg:mt-10'>
-                            <h1 className='text-xl sm:text-2xl lg:text-3xl text-white sm:text-[#0064a8] font-extrabold mb-2'>
+                            <h1 className='text-xl sm:text-xl lg:text-2xl text-white sm:text-[#0064a8] font-extrabold mb-2'>
                                 USD 1.4 Billion
                             </h1>
-                            <h2 className='text-sm sm:text-base lg:text-xl text-white sm:text-black mb-4 lg:mb-6'>
+                            <h2 className='text-sm sm:text-base lg:text-lg text-white sm:text-black mb-4 lg:mb-6'>
                                 Estimated capex for expansion
                             </h2>
                             <img 

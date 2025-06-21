@@ -5,23 +5,23 @@ const RiskProofing = () => {
         <div className='bg-[#f7f3f4]'>
             <div className='marginal'>
                 <div className='pb-20'>
-                    <h1 className='text-4xl sm:text-5xl lg:text-6xl font-light pb-6 sm:pb-10'>
+                    <h1 className='text-2xl sm:text-3xl lg:text-5xl font-light pb-6 sm:pb-10'>
                         Risk-proofing our journey
                     </h1>
                     {/* Content Row */}
                     <div className='w-full lg:w-[80vw] flex flex-col lg:flex-row gap-6'>
                         {/* Text Block */}
                         <div className='flex-1'>
-                            <h2 className='text-2xl sm:text-4xl text-[#a37b5b] pb-6 sm:pb-8'>
+                            <h2 className='text-2xl sm:text-2xl text-[#a37b5b] pb-6 sm:pb-8'>
                                 We have implemented a robust risk management framework
                                 that seamlessly aligns with our operational strategies,
                                 allowing us to effectively address potential risks and reduce
                                 performance volatility.
                             </h2>
-                            <h3 className='text-base sm:text-3xl text-[#333] pb-5 font-light'>
+                            <h3 className='text-base sm:text-lg text-[#333] pb-5 font-light'>
                                 Our ability to comply with regulatory requirements empowers us to develop efficient risk mitigation strategies, thus protecting our business's reputation and resilience.
                             </h3>
-                            <h4 className='text-[#005b94] text-2xl sm:text-3xl font-bold mt-10'>
+                            <h4 className='text-[#005b94] text-xl sm:text-2xl font-bold mt-10'>
                                 Risk Management Matrix
                             </h4>
                         </div>
@@ -44,7 +44,7 @@ const RiskProofing = () => {
                         ].map((item, index) => (
                             <li
                                 key={index}
-                                className="relative pl-6 text-base font-light sm:text-2xl mb-2"
+                                className="relative pl-6 text-base font-light sm:text-xl mb-2"
                             >
                                 <span className=""></span>
                                 {item}
@@ -60,7 +60,7 @@ const RiskProofing = () => {
                         ].map((item, index) => (
                             <li
                                 key={index}
-                                className="relative pl-6 text-base font-light sm:text-2xl mb-2"
+                                className="relative pl-6 text-base font-light sm:text-xl mb-2"
                             >
                                 <span className=""></span>
                                 {item}
@@ -76,7 +76,7 @@ const RiskProofing = () => {
                         ].map((item, index) => (
                             <li
                                 key={index}
-                                className="relative pl-6 text-base font-light sm:text-2xl mb-2"
+                                className="relative pl-6 text-base font-light sm:text-xl mb-2"
                             >
                                 <span className=""></span>
                                 {item}
@@ -90,7 +90,7 @@ const RiskProofing = () => {
                         ].map((item, index) => (
                             <li
                                 key={index}
-                                className="relative pl-6 text-base font-light sm:text-2xl mb-2"
+                                className="relative pl-6 text-base font-light sm:text-xl mb-2"
                             >
                                 <span className=""></span>
                                 {item}

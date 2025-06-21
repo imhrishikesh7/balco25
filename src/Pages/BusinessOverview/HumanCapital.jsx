@@ -16,7 +16,7 @@ const FinancialCapital = () => {
             {/* Financial Highlights Section */}
             <div className='marginal px-6 sm:px-12'>
                 <div>
-                    <h1 className='text-[#01a7e1] text-2xl lg:text-3xl font-bold mb-4 lg:mb-6'>Our people</h1>
+                    <h1 className='text-[#01a7e1] text-xl lg:text-2xl font-bold mb-4 lg:mb-6'>Our people</h1>
                     <img src="BusinessOverview/HumanCapital/Page-72.webp" alt="" />
                 </div>
                 <div className='flex flex-col lg:flex-row gap-8 lg:gap-12 items-center py-8'>
@@ -28,8 +28,8 @@ const FinancialCapital = () => {
                         />
                     </div>
                     <div className='w-full lg:w-3/5 order-1'>
-                        <h1 className='text-[#01a7e1] text-2xl lg:text-3xl font-bold mb-4 lg:mb-6'>Building a resilient and empowered team</h1>
-                        <p className='text-lg lg:text-xl'>
+                        <h1 className='text-[#01a7e1] text-xl lg:text-2xl font-bold mb-4 lg:mb-6'>Building a resilient and empowered team</h1>
+                        <p className='text-base lg:text-xl'>
                             We believe that a strong workforce is the foundation of a thriving organisation. Our People Strategy is designed to attract, engage,
                             develop and empower employees, ensuring that BALCO remains an employer of choice in the industry. Rooted in operational
                             excellence, innovation and inclusivity, our approach is aligned with both evolving business needs and employee aspirations.
@@ -41,8 +41,8 @@ const FinancialCapital = () => {
                     <div className='mt-10 px-4 lg:px-0'>
                         <div className='flex flex-col lg:flex-row gap-8 lg:gap-12'>
                             <div className='w-full lg:w-3/5 order-2'>
-                                <h2 className='text-black text-xl lg:text-2xl font-bold mb-4 lg:mb-6'>Talent Hiring and Onboarding: Building a Future-Ready Workforce</h2>
-                                <p className='text-lg lg:text-xl mb-6 lg:mb-8'>
+                                <h2 className='text-black text-base lg:text-xl font-bold mb-4 lg:mb-6'>Talent Hiring and Onboarding: Building a Future-Ready Workforce</h2>
+                                <p className='text-base lg:text-xl mb-6 lg:mb-8'>
                                     We are believe to strengthening our talent pipeline by maintaining relationships with leading academic institutions and enhancing
                                     our employer value proposition. Our early engagement with campuses allows us to recruit top-tier graduate and postgraduate
                                     trainees, equipping them with structured onboarding experiences and skill-building programmes.
@@ -119,8 +119,8 @@ const FinancialCapital = () => {
                         </div>
 
                         <div className='w-full lg:w-3/5 order-1'>
-                            <h1 className='text-[#01a7e1] text-2xl lg:text-3xl font-bold mb-4 lg:mb-6'>Enabling a culture of learning</h1>
-                            <p className='text-lg lg:text-xl'>
+                            <h1 className='text-[#01a7e1] text-xl lg:text-2xl font-bold mb-4 lg:mb-6'>Enabling a culture of learning</h1>
+                            <p className='text-base lg:text-xl'>
                                 We believe that learning is the spark that fuels innovation and drives success. To enable a culture of perpetual learning, we have instituted a
                                 range of training and development programmes for our people. Our Learning and Development (L&D) framework is more than just training —
                                 it is a journey of transformation. With programmes designed to sharpen functional, technical, safety, statutory and behavioural competencies,
@@ -281,12 +281,12 @@ const FinancialCapital = () => {
                     </div>
 
                     <div className='mt-10'>
-                        <h1 className='text-[#01a7e1] text-2xl lg:text-3xl font-bold mb-4 lg:mb-6'>Driving a culture of collaboration and community</h1>
+                        <h1 className='text-[#01a7e1] text-xl lg:text-2xl font-bold mb-4 lg:mb-6'>Driving a culture of collaboration and community</h1>
                         <p className='text-lg lg:text-xl'>
                             Employee engagement remains a strategic pillar of our HR philosophy. Our annual engagement calendar includes a diverse range of
                             initiatives, from sports tournaments to cultural celebrations, maintaining a deep sense of community across our workforce.
                         </p>
-                        <h2 className='text-[#000000] text-xl lg:text-2xl font-bold mt-6'>In FY 2025, our engagement efforts saw record participation.</h2>
+                        <h2 className='text-[#000000] text-lg lg:text-xl font-bold mt-6'>In FY 2025, our engagement efforts saw record participation.</h2>
                         <div className="flex flex-col md:flex-row gap-8 md:gap-10 w-full">
                             <div className="flex-1 flex flex-col bg-white  overflow-hidden">
                                 <div className="p-4 md:p-5 pb-0">
@@ -373,7 +373,7 @@ const FinancialCapital = () => {
 
                         {/* Employee Well Being */}
                         <div className='mt-10'>
-                            <h1 className='text-[#01a7e1] text-2xl lg:text-3xl font-bold mb-4 lg:mb-6'>Employee well being</h1>
+                            <h1 className='text-[#01a7e1] text-xl lg:text-2xl font-bold mb-4 lg:mb-6'>Employee well being</h1>
 
                             {/* Mobile scrollable */}
                             <div className='block lg:hidden overflow-x-auto'>
@@ -388,7 +388,7 @@ const FinancialCapital = () => {
                             </div>
                         </div>
                         <div className='mt-10 border-b pb-10'>
-                            <h2 className='text-black text-xl lg:text-2xl font-bold mb-4 lg:mb-6'>
+                            <h2 className='text-black text-lg lg:text-xl font-bold mb-4 lg:mb-6'>
                                 Initiatives for employee personal and professional challenges
                             </h2>
                             <div className='block lg:hidden overflow-x-auto'>
@@ -409,7 +409,7 @@ const FinancialCapital = () => {
                                 />
                             </div>
                             <div className='w-full lg:w-3/5 order-1'>
-                                <h1 className='text-[#01a7e1] text-2xl lg:text-3xl font-bold mb-4 lg:mb-6'>Prioritising Employee Well-being</h1>
+                                <h1 className='text-[#01a7e1] text-xl lg:text-2xl font-bold mb-4 lg:mb-6'>Prioritising Employee Well-being</h1>
                                 <p className='text-lg lg:text-xl'>
                                     We believe that a thriving workforce is built on holistic wellbeing. To support this, we have introduced a range of initiatives
                                     designed to nurture the physical, mental and social health of our
@@ -444,7 +444,7 @@ const FinancialCapital = () => {
                             </div>
 
                             <div className='w-full lg:w-3/5 order-1'>
-                                <h1 className='text-[#01a7e1] text-2xl lg:text-3xl font-bold mb-4 lg:mb-6'>Ensuring a diverse and inclusive workplace</h1>
+                                <h1 className='text-[#01a7e1] text-xl lg:text-2xl font-bold mb-4 lg:mb-6'>Ensuring a diverse and inclusive workplace</h1>
                                 <p className='text-lg lg:text-xl'>
                                     At BALCO, we recognise that diversity and inclusion are key
                                     drivers of innovation and progress. By embracing a wide range
@@ -458,13 +458,13 @@ const FinancialCapital = () => {
                                     which are highlighted in our Integrated Report for FY 2025.
                                 </p>
                                 <div className='bg-[#005b94] rounded-4xl mt-10'>
-                                    <h1 className='text-white text-2xl p-10 font-[600]'>At BALCO, our diverse and
+                                    <h1 className='text-white text-xl lg:text-2xl p-10 font-[600]'>At BALCO, our diverse and
                                         inclusive workforce is not just a
                                         strength—it’s the foundation of our
                                         innovation and growth</h1>
                                 </div>
-                                <h1 className='text-[#01a7e1] text-2xl lg:text-3xl font-bold mb-4 lg:mb-6 mt-10'>Ensuring a diverse and inclusive workplace</h1>
-                                <ol className='text-xl'>
+                                <h1 className='text-[#01a7e1] text-xl lg:text-2xl font-bold mb-4 lg:mb-6 mt-10'>Ensuring a diverse and inclusive workplace</h1>
+                                <ol className='text-lg lg:text-xl'>
                                     <li className='mb-2'>1. Inclusive recruitment (seeking qualified female candidates).</li>
                                     <li className='mb-2'>2. Policy framework (Implementing supportive policies like
                                         flexible working arrangements and mentorship programmes).</li>
@@ -479,10 +479,10 @@ const FinancialCapital = () => {
                             <img src="BusinessOverview/HumanCapital/Page-80-Image-2.webp" alt="" />
                         </div>
                         <div className='mt-10'>
-                            <h2 className='text-black text-xl lg:text-2xl font-bold mb-4 lg:mb-6'>
+                            <h2 className='text-black text-lg lg:text-xl font-bold mb-4 lg:mb-6'>
                                 Transgender hiring
                             </h2>
-                            <p className='text-lg lg:text-xl mb-6 lg:mb-8'>
+                            <p className='text-base lg:text-lg mb-6 lg:mb-8'>
                                 We are one of the few manufacturing companies in India that welcomes members of the LGBTQIA+ community. Our commitment to
                                 encouraging workplace diversity and inclusion drives initiatives that create opportunities and empower the transgender community.
                                 BALCO marked ‘Pride Month’ with a series of impactful initiatives, reinforcing its commitment to diversity and inclusion. A firstof-its-kind LGBTQ+ awareness workshop was conducted at the plant, fostering a culture of understanding and acceptance. The
@@ -504,27 +504,27 @@ const FinancialCapital = () => {
                         </div>
 
                         <div className='w-full lg:w-3/5 order-1 flex-row items-start'>
-                            <h2 className='text-black text-xl lg:text-2xl font-bold mb-4 lg:mb-6'>
+                            <h2 className='text-black text-lg lg:text-xl font-bold mb-4 lg:mb-6'>
                                 Gender Reaffirmation policy
                             </h2>
-                            <p className='text-lg lg:text-xl'>
+                            <p className='text-base lg:text-lg'>
                                 We have introduced a Gender Reaffirmation Policy, offering
                                 a unique initiative to support transgender employees.
                                 BALCO offers a 30-day leave post-surgery and provides
                                 medical reimbursement of up to H2 lakh for successful gender
                                 reaffirmation surgery
                             </p>
-                            <h2 className='text-black text-xl lg:text-2xl font-bold mb-4 lg:mb-6 mt-10'>
+                            <h2 className='text-black text-lg lg:text-xl font-bold mb-4 lg:mb-6 mt-10'>
                                 Gender neutral infrastructure set-up
                             </h2>
-                            <p className='text-lg lg:text-xl'>
+                            <p className='text-base lg:text-lg'>
                                 BALCO has upgraded its infrastructure to create a welcoming
                                 and inclusive environment for new hires. As part of this initiative,
                                 gender-neutral washrooms have been introduced, ensuring a
                                 more supportive workplace for transgender employees.
                             </p>
                             <div className='flex flex-col justify-center'>
-                                <h2 className='text-black text-xl lg:text-2xl font-bold mb-4 lg:mb-6 mt-10'>
+                                <h2 className='text-black text-lg lg:text-xl font-bold mb-4 lg:mb-6 mt-10'>
                                     Certifications
                                 </h2>
                                 <img
@@ -544,8 +544,8 @@ const FinancialCapital = () => {
                             />
                         </div>
                         <div className='w-full lg:w-3/5 order-1'>
-                            <h1 className='text-[#01a7e1] text-2xl lg:text-3xl font-bold mb-4 lg:mb-6'>Workforce enhancement</h1>
-                            <p className='text-lg lg:text-xl'>
+                            <h1 className='text-[#01a7e1] text-lg lg:text-xl font-bold mb-4 lg:mb-6'>Workforce enhancement</h1>
+                            <p className='text-base lg:text-lg'>
                                 BALCO’s determination to <span className='font-bold'>continuous workforce
                                 enhancement</span>is reinforced through strategic HR interventions.
                                 <br />

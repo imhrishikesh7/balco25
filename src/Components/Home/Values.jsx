@@ -4,7 +4,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import ReadingHeading from '../ReadingHeading';
 import ReadMore from '../ReadMore';
 
-gsap.registerPlugin(ScrollTrigger);
+
 
 const BubbleIcon = ({ icon }) => (
   <div style={{ fontSize: '2.5rem', margin: 'auto' }}>{icon}</div>
@@ -13,37 +13,6 @@ const BubbleIcon = ({ icon }) => (
 const Bubble = ({ icon, link, rotation, index }) => {
   const bubbleRef = useRef(null);
 
-  useEffect(() => {
-    const el = bubbleRef.current;
-
-    // Animate in when entering viewport
-    gsap.fromTo(
-      el,
-      { scale: 0.6, opacity: 0, y: 50 },
-      {
-        scale: 1,
-        opacity: 1,
-        y: 0,
-        delay: index * 0.2,
-        duration: 1,
-        ease: 'power3.out',
-        scrollTrigger: {
-          trigger: el,
-          start: 'top 85%',
-        },
-      }
-    );
-
-    // Floating animation
-    gsap.to(el, {
-      rotation,
-      y: 20,
-      duration: 6 + Math.random() * 3,
-      repeat: -1,
-      yoyo: true,
-      ease: 'sine.inOut',
-    });
-  }, [rotation, index]);
 
   return (
     <a
@@ -67,7 +36,7 @@ const Bubble = ({ icon, link, rotation, index }) => {
         WebkitBackdropFilter: 'blur(8px)',
         color: '#e8fff2',
         margin: '0 16px',
-        transition: 'transform 0.3s ease, box-shadow 0.3s ease',
+        transition: 'box-shadow 0.3s ease',
         cursor: 'pointer',
       }}
       onMouseEnter={() => gsap.to(bubbleRef.current, { scale: 1.1, duration: 0.3 })}
@@ -107,7 +76,7 @@ const Values = () => {
           />
         ))}
       </div>
-      <div className='mx-auto my-10 w-fit z-10'>
+      <div className='mx-auto mb-10 0 w-fit z-10'>
         <ReadMore theme='white' to={"/strengthening_indias_industrial_backbone"} />
       </div>
     </div>

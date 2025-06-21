@@ -1,9 +1,6 @@
-import React, { useEffect, useRef } from 'react';
-import gsap from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import React from 'react';
+import Marquee from 'react-fast-marquee';
 import ReadingHeading from '../ReadingHeading';
-
-gsap.registerPlugin(ScrollTrigger);
 
 const milestones = [
     { year: '1965', title: 'Foundation', description: ['Pandit Nehru, then Prime Minister of India signing an agreement with the USSR, formally starting Korba Aluminium Project (former name of BALCO)'] },
@@ -19,39 +16,9 @@ const milestones = [
 ];
 
 const Milestones = () => {
-    const containerRef = useRef(null);
-    const trackRef = useRef(null);
-
-    useEffect(() => {
-        const ctx = gsap.context(() => {
-            const container = containerRef.current;
-            const track = trackRef.current;
-
-            const totalScroll = track.scrollWidth - container.offsetWidth;
-
-            gsap.to(track, {
-                x: () => -totalScroll,
-                ease: 'none',
-                scrollTrigger: {
-                    trigger: container,
-                    start: 'top top',
-                    end: () => `+=${totalScroll}`,
-                    scrub: 1,
-                    pin: true,
-                    anticipatePin: 1,
-                },
-            });
-        }, containerRef);
-
-        return () => ctx.revert();
-    }, []);
-
     return (
-        <section
-            ref={containerRef}
-            className="relative w-full h-screen bg-gradient-to-r from-[#174364] to-[#26718a] overflow-hidden"
-        >
-            <div className='mt-45 flex justify-center gap-20 items-center'>
+        <section className="relative w-full h-screen bg-gradient-to-r from-[#174364] to-[#26718a] overflow-hidden">
+            <div className='mt-45 flex justify-center gap-10 items-center'>
                 <div className='relative w-40'>
                     <img src="/home/nehru.webp" className='absolute bottom-1/2 transform translate-y-1/2' alt="" />
                 </div>
@@ -61,44 +28,38 @@ const Milestones = () => {
                 </div>
             </div>
 
-            <div
-                ref={trackRef}
-                className="flex h-[80%] items-center px-20 gap-8"
-                style={{ width: `${milestones.length * 32}vw` }}
-            >
-                {milestones.map((item, index) => {
-                    const isEven = index % 2 === 0;
-                    return (
+            <div className="relative h-[70%] flex items-center overflow-hidden">
+                <Marquee 
+                    gradient={false} 
+                    speed={30} 
+                    loop={0}
+                    pauseOnHover={true}
+                    className="h-full flex items-center"
+                >
+                    {milestones.map((item, index) => (
                         <div
                             key={index}
-                            className={`
-                relative border border-gray-300 rounded-3xl md:rounded-[40px]
-                p-8 w-[50vh] max-w-[500px] min-w-[380px] h-[40vh]
-                text-white bg-transparent shrink-0 flex flex-col justify-start items-start text-left
-                `}
-                        // ${isEven ? 'mt-0 mb-10' : 'mt-10 mb-0'}
+                            className="relative border border-gray-300 rounded-3xl md:rounded-[40px]
+                                p-8 w-[50vh] max-w-[500px] min-w-[380px] h-[40vh] mx-4
+                                text-white bg-transparent shrink-0 flex flex-col justify-start items-start text-left"
                         >
-                            {/* Connecting line to the next box */}
-                            {index !== milestones.length - 1 && (
-                                <div className="absolute right-0 top-1/2 w-8 transform translate-x-[100%] translate-y-[-50%]" >
-                                    <img src="/home/arrow-right.webp" alt="" />
-                                </div>
-                            )}
+                            {/* Connecting arrow */}
+                            <div className="absolute right-0 top-1/2 w-8 transform translate-x-[100%] translate-y-[-50%] z-10">
+                                <img src="/home/arrow-right.webp" alt="" />
+                            </div>
 
                             <h3 className="text-5xl font-bold text-left text-[#74bf44] mb-4">{item.year}</h3>
-                            {/* <h4 className="text-xl font-semibold mb-3">{item.title}</h4> */}
-                            {item.description.map((desc, index) => (
-                                <div key={index} className="flex borde mr-8 items-start gap-3 mb-3">
-                                    <img src="/home/pointer.webp" alt="" className="w-4 mt-1" />
+                            {item.description.map((desc, descIndex) => (
+                                <div key={descIndex} className="flex items-start gap-3 mb-3">
+                                    <img src="/home/pointer.webp" alt="" className="w-4 mt-1 flex-shrink-0" />
                                     <p className="text-lg md:text-[2vh] text-white/70">
                                         {desc}
                                     </p>
                                 </div>
                             ))}
-
                         </div>
-                    );
-                })}
+                    ))}
+                </Marquee>
             </div>
         </section>
     );
