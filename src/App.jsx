@@ -25,7 +25,7 @@ import CreateValue from './Pages/BusinessOverview/CreateValue';
 import MaterialityMatters from './Pages/BusinessOverview/MaterialityMatters';
 import EngagingStakeholders from './Pages/BusinessOverview/EngagingStakeholders';
 import RiskProofing from './Pages/BusinessOverview/RiskProofing';
-import PuttingECG from './Pages/BusinessOverview/PuttingESG';
+import PuttingESG from './Pages/BusinessOverview/PuttingESG';
 import ESGBlueprint from './Pages/BusinessOverview/ESGBlueprint';
 import VSF from './Pages/BusinessOverview/VSF';
 import CapitalAllocation from './Pages/BusinessOverview/CapitalAllocation';
@@ -60,8 +60,8 @@ function MainContent() {
         <Route path='/materiality_matters' element={<MaterialityMatters />} />
         <Route path='/engaging_with_our_stakeholders_' element={<EngagingStakeholders />} />
         <Route path='/riskproofing_our_journey' element={<RiskProofing />} />
-        <Route path='/putting_ecg_at_the_core' element={<PuttingECG />} />
-        <Route path='/our_ecg_blueprint' element={<ESGBlueprint />} />
+        <Route path='/putting_esg_at_the_core' element={<PuttingESG />} />
+        <Route path='/our_esg_blueprint' element={<ESGBlueprint />} />
         <Route path='/vsf_and_vsap' element={<VSF />} />
         <Route path='/our_vision' element={<CapitalAllocation />} />
         <Route path='/financial_capital_' element={<FinancialCapital />} />
